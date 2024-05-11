@@ -89,3 +89,35 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: define_codesmell
+  examples: |
+    - What is a codesmell?
+    - What do you mean with codesmell?
+    - Can you explain codesmell?
+    - Tell me about codesmells
+    - Define the term codesmell
+    - Give me a definition of codesmell
+    - Explain codesmells
+    - Give me more information about codesmells
+
+- intent: ask_codesmell_problems
+  examples: |
+        - What problems are caused by codesmells?
+        - Can you explain the issues with codesmells?
+        - What are the consequences of ignoring codesmells?
+        - Why should I fix codesmells?
+        - What negative effects do codesmells have?
+        - Explain the drawbacks of codesmells
+        - What impact can codesmells have on a project?
+        - Tell me about the risks associated with codesmells
+        - Are there any downsides to ignoring codesmells?
+
+- intent: ask_technical_debt
+  examples: |
+        - What do you mean by technical debt?
+        - Can you explain technical debt?
+        - How would you define technical debt?
+        - What are the consequences of accumulating technical debt?
+        - Why is it important to address technical debt?
+        - What is a techinical debt?

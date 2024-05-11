@@ -8,10 +8,13 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - define_codesmell
+  - ask_codesmell_problems
+  - ask_technical_debt
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey! I am Camille."
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -28,6 +31,20 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_define_codesmell:
+  - text: "A code smell refers to any characteristic in the source code of a program that indicates there might be a deeper problem. 
+          It's often a sign that the code could be structured or written in a better way. Just like a foul odor indicates there might 
+          be something wrong in the physical world, a code smell indicates there might be something wrong with the code."
+
+  utter_codesmell_problems:
+  - text: "Codesmells can lead to various issues such as decreased code maintainability, increased complexity, and higher chances of 
+          introducing bugs. Ignoring codesmells can result in technical debt and make future development more difficult and costly."
+
+  utter_technical_debt:
+  - text: "Technical debt is a concept in software development that refers to the extra work that arises when code that is easy to 
+          implement in the short run is used instead of applying the best overall solution. Accumulating technical debt can result in increased 
+          development time, reduced code quality, and higher maintenance costs."
 
 session_config:
   session_expiration_time: 60
