@@ -11,3 +11,18 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Reply to asking about code smells
+  steps:
+    - intent: define_codesmell
+    - action: utter_define_codesmell
+
+- rule: Reply to asking about code smell problems
+  steps:
+    - intent: ask_codesmell_problems
+    - action: utter_codesmell_problems
+
+- rule: Reply to asking about technical debt
+  steps:
+    - intent: ask_technical_debt
+    - action: utter_technical_debt
