@@ -2,7 +2,36 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmp05k8hip5" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmp1swthpd9" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmp2zj64q48" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmp4e487ffy" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmp4kubd28i" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmp618nr8q9" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmp6xxdijiz" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmp8grw6pbc" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmp8zaxxg58" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmp9jrdy98i" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmp9rt78e56" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmp_1jxw1if" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmp_80dybb4" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmpcd0fkldi" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmpd49avoaa" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmpd57ljdr_" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmpemfzhr1q" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmpgcgr2ylz" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmpgm_akgun" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmphw2hl8_w" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmpji854uuj" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmppdx1cllb" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmpq6e__nlt" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmprc3mrrz4" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmps4l_dxtv" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmpsql2dlhq" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmpv3j1jzt5" />
+      <excludeFolder url="file://$MODULE_DIR$/.rasa/cache/tmpy_4ff2eu" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/models" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (CAMILLE) (2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
