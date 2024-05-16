@@ -121,3 +121,14 @@ nlu:
         - What are the consequences of accumulating technical debt?
         - Why is it important to address technical debt?
         - What is a techinical debt?
+
+- intent: ask_code_smells_list
+  examples: |
+        - Show me the list of code smells
+        - What code smells do you detect?
+        - List the detectable code smells
+        - Can you provide the types of code smells you detect?
+        - I'd like to know about the code smells you can detect
+        - What are the common code smells identified by you?
+        - Give me an overview of the detectable code smells
+        - What kinds of code issues can your system identify?

@@ -26,3 +26,8 @@ rules:
   steps:
     - intent: ask_technical_debt
     - action: utter_technical_debt
+
+- rule: Lists the detectable code smells
+  steps:
+    - intent: ask_code_smells_list
+    - action: action_get_code_smells_list

@@ -11,10 +11,11 @@ intents:
   - define_codesmell
   - ask_codesmell_problems
   - ask_technical_debt
+  - ask_code_smells_list
 
 responses:
   utter_greet:
-  - text: "Hey! I am Camille."
+  - text: "Hey! I am Camille. How can I help you?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -45,6 +46,10 @@ responses:
   - text: "Technical debt is a concept in software development that refers to the extra work that arises when code that is easy to 
           implement in the short run is used instead of applying the best overall solution. Accumulating technical debt can result in increased 
           development time, reduced code quality, and higher maintenance costs."
+
+actions:
+  - action_get_code_smells_list
+
 
 session_config:
   session_expiration_time: 60
