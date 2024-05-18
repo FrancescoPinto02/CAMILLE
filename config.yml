@@ -4,7 +4,7 @@ recipe: default.v1
 
 # The assistant project unique identifier
 # This default value must be replaced with a unique assistant name within your deployment
-assistant_id: 20240511-223938-adiabatic-circle
+assistant_id: Camille
 
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
