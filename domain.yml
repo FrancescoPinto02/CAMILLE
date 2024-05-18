@@ -33,6 +33,9 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+  utter_default:
+  - text: "I`m sorry, I don`t know how to help you. Can I do anything else for you?"
+
   utter_define_codesmell:
   - text: "A code smell refers to any characteristic in the source code of a program that indicates there might be a deeper problem. 
           It's often a sign that the code could be structured or written in a better way. Just like a foul odor indicates there might 

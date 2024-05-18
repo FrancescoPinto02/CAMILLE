@@ -12,22 +12,27 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
+- rule: Reply to fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_default
+
 - rule: Reply to asking about code smells
   steps:
-    - intent: define_codesmell
-    - action: utter_define_codesmell
+  - intent: define_codesmell
+  - action: utter_define_codesmell
 
 - rule: Reply to asking about code smell problems
   steps:
-    - intent: ask_codesmell_problems
-    - action: utter_codesmell_problems
+  - intent: ask_codesmell_problems
+  - action: utter_codesmell_problems
 
 - rule: Reply to asking about technical debt
   steps:
-    - intent: ask_technical_debt
-    - action: utter_technical_debt
+  - intent: ask_technical_debt
+  - action: utter_technical_debt
 
 - rule: Lists the detectable code smells
   steps:
-    - intent: ask_code_smells_list
-    - action: action_get_code_smells_list
+  - intent: ask_code_smells_list
+  - action: action_get_code_smells_list
