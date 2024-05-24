@@ -36,3 +36,8 @@ rules:
   steps:
   - intent: ask_code_smells_list
   - action: action_get_code_smells_list
+
+- rule: Provide code smell details
+  steps:
+  - intent: ask_code_smell_details
+  - action: action_provide_code_smell_details

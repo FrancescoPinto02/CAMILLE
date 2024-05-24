@@ -92,26 +92,26 @@ nlu:
 
 - intent: define_codesmell
   examples: |
-    - What is a codesmell?
-    - What do you mean with codesmell?
-    - Can you explain codesmell?
-    - Tell me about codesmells
-    - Define the term codesmell
-    - Give me a definition of codesmell
-    - Explain codesmells
-    - Give me more information about codesmells
+    - What is a code smell?
+    - What do you mean with code smells?
+    - Can you explain me what a code smell is?
+    - Tell me about code smells
+    - Define the term code smell
+    - Give me a definition of code smell
+    - Explain code smells
+    - Give me more information about code smells
 
 - intent: ask_codesmell_problems
   examples: |
-        - What problems are caused by codesmells?
-        - Can you explain the issues with codesmells?
-        - What are the consequences of ignoring codesmells?
-        - Why should I fix codesmells?
-        - What negative effects do codesmells have?
-        - Explain the drawbacks of codesmells
-        - What impact can codesmells have on a project?
-        - Tell me about the risks associated with codesmells
-        - Are there any downsides to ignoring codesmells?
+        - What problems are caused by code smells?
+        - Can you explain the issues with code smells?
+        - What are the consequences of ignoring code smells?
+        - Why should I fix code smells?
+        - What negative effects do code smells have?
+        - Explain the drawbacks of code smells
+        - What impact can code smells have on a project?
+        - Tell me about the risks associated with code smells
+        - Are there any downsides to ignoring code smells?
 
 - intent: ask_technical_debt
   examples: |
@@ -132,3 +132,32 @@ nlu:
         - What are the common code smells identified by you?
         - Give me an overview of the detectable code smells
         - What kinds of code issues can your system identify?
+
+- intent: ask_code_smell_details
+  examples: |
+        - Tell me more about [1](code_smell_id)
+        - Can you explain code smell [13](code_smell_id)?
+        - What is code smell [5](code_smell_id) exactly?
+        - Give me details about code smell [20](code_smell_id)
+        - I'd like to know more about code smell [17](code_smell_id)
+        - Tell me about [Chain Indexing](code_smell_name)
+        - Can you explain [NaN Equivalence Comparison Misused](code_smell_name)?
+        - What is [Columns and DataType Not Explicitly Set](code_smell_name) exactly?
+        - Give me details about [Empty Column Misinitialization](code_smell_name)
+        - I'd like to know more about [Merge API Parameter Not Explicitly Set](code_smell_name)
+        - Explain [In-Place APIs Misused](code_smell_name)
+        - What is [Dataframe Conversion API Misused](code_smell_name)?
+        - Can you tell me more about [Matrix Multiplication API Misused](code_smell_name)?
+        - Tell me about [No Scaling before Scaling-Sensitive Operation](code_smell_name)
+        - What is [Hyperparameter Not Explicitly Set](code_smell_name)?
+        - Give me details about [Memory Not Freed](code_smell_name)
+        - I'd like to know more about [Deterministic Algorithm Option Not Used](code_smell_name)
+        - Can you explain [Randomness Uncontrolled](code_smell_name)?
+        - What is [Missing the Mask of Invalid Value](code_smell_name)?
+        - Tell me about [Broadcasting Feature Not Used](code_smell_name)
+        - Can you explain [TensorArray Not Used](code_smell_name)?
+        - What is [Training / Evaluation Mode Improper Toggling](code_smell_name)?
+        - Give me details about [Pytorch Call Method Misused](code_smell_name)
+        - I'd like to know more about [Gradients Not Cleared before Backward Propagation](code_smell_name)
+        - Explain [Data Leakage](code_smell_name)
+        - What is [Threshold-Dependent Validation](code_smell_name)?
