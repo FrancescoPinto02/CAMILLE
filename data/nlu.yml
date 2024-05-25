@@ -101,18 +101,6 @@ nlu:
     - Explain code smells
     - Give me more information about code smells
 
-- intent: ask_codesmell_problems
-  examples: |
-        - What problems are caused by code smells?
-        - Can you explain the issues with code smells?
-        - What are the consequences of ignoring code smells?
-        - Why should I fix code smells?
-        - What negative effects do code smells have?
-        - Explain the drawbacks of code smells
-        - What impact can code smells have on a project?
-        - Tell me about the risks associated with code smells
-        - Are there any downsides to ignoring code smells?
-
 - intent: ask_technical_debt
   examples: |
         - What do you mean by technical debt?

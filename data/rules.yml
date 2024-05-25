@@ -22,22 +22,17 @@ rules:
   - intent: define_codesmell
   - action: utter_define_codesmell
 
-- rule: Reply to asking about code smell problems
-  steps:
-  - intent: ask_codesmell_problems
-  - action: utter_codesmell_problems
-
 - rule: Reply to asking about technical debt
   steps:
   - intent: ask_technical_debt
   - action: utter_technical_debt
 
-- rule: Lists the detectable code smells
+- rule: Lists the code smells
   steps:
   - intent: ask_code_smells_list
   - action: action_get_code_smells_list
 
-- rule: Provide code smell details
+- rule: Provide details about a code smell
   steps:
   - intent: ask_code_smell_details
   - action: action_provide_code_smell_details
