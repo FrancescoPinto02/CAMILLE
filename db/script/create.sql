@@ -22,6 +22,8 @@ CREATE TABLE codesmell (
     id INT AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL,
     description TEXT NOT NULL,
+    problems TEXT NOT NULL,
+    solution TEXT NOT NULL,
     type ENUM('Generic', 'API-Specific') NOT NULL,
     
     PRIMARY KEY (id)
