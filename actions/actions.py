@@ -99,3 +99,99 @@ class ActionProvideCodeSmellDetails(Action):
             dispatcher.utter_message(text="Failed to connect to the database.")
 
         return []
+
+
+class ActionExplainCodeSmellProblems(Action):
+
+    def name(self) -> Text:
+        return "action_explain_code_smell_problems"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        code_smell_id = next(tracker.get_latest_entity_values("code_smell_id"), None)
+        code_smell_name = next(tracker.get_latest_entity_values("code_smell_name"), None)
+
+        if not code_smell_id and not code_smell_name:
+            dispatcher.utter_message(text="I'm sorry, I didn't understand what code smell you were referring to.")
+            return []
+
+        connection = get_connection()
+        if connection:
+            try:
+                cursor = connection.cursor()
+
+                if code_smell_id:
+                    query = "SELECT problems FROM codesmell WHERE id=%s"
+                    cursor.execute(query, (code_smell_id,))
+                    result = cursor.fetchone()
+                else:
+                    query = "SELECT problems FROM codesmell WHERE name=%s"
+                    cursor.execute(query, (code_smell_name,))
+                    result = cursor.fetchone()
+
+                if result:
+                    code_smell_details = result[0]
+                    dispatcher.utter_message(text=f"{code_smell_details}")
+                else:
+                    dispatcher.utter_message(text="Sorry, I couldn't find any details about that.")
+
+                cursor.close()
+
+            except mysql.connector.Error as err:
+                dispatcher.utter_message(text=f"Database error: {err}")
+            finally:
+                connection.close()  # Closing Connection
+        else:
+            dispatcher.utter_message(text="Failed to connect to the database.")
+
+        return []
+
+
+class ActionExplainCodeSmellSolution(Action):
+
+    def name(self) -> Text:
+        return "action_explain_code_smell_solution"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        code_smell_id = next(tracker.get_latest_entity_values("code_smell_id"), None)
+        code_smell_name = next(tracker.get_latest_entity_values("code_smell_name"), None)
+
+        if not code_smell_id and not code_smell_name:
+            dispatcher.utter_message(text="I'm sorry, I didn't understand what code smell you were referring to.")
+            return []
+
+        connection = get_connection()
+        if connection:
+            try:
+                cursor = connection.cursor()
+
+                if code_smell_id:
+                    query = "SELECT solution FROM codesmell WHERE id=%s"
+                    cursor.execute(query, (code_smell_id,))
+                    result = cursor.fetchone()
+                else:
+                    query = "SELECT solution FROM codesmell WHERE name=%s"
+                    cursor.execute(query, (code_smell_name,))
+                    result = cursor.fetchone()
+
+                if result:
+                    code_smell_details = result[0]
+                    dispatcher.utter_message(text=f"{code_smell_details}")
+                else:
+                    dispatcher.utter_message(text="Sorry, I couldn't find any details about that.")
+
+                cursor.close()
+
+            except mysql.connector.Error as err:
+                dispatcher.utter_message(text=f"Database error: {err}")
+            finally:
+                connection.close()  # Closing Connection
+        else:
+            dispatcher.utter_message(text="Failed to connect to the database.")
+
+        return []

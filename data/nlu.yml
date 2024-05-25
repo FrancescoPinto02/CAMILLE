@@ -131,21 +131,33 @@ nlu:
         - Tell me about [Chain Indexing](code_smell_name)
         - Can you explain [NaN Equivalence Comparison Misused](code_smell_name)?
         - What is [Columns and DataType Not Explicitly Set](code_smell_name) exactly?
-        - Give me details about [Empty Column Misinitialization](code_smell_name)
         - I'd like to know more about [Merge API Parameter Not Explicitly Set](code_smell_name)
-        - Explain [In-Place APIs Misused](code_smell_name)
-        - What is [Dataframe Conversion API Misused](code_smell_name)?
         - Can you tell me more about [Matrix Multiplication API Misused](code_smell_name)?
         - Tell me about [No Scaling before Scaling-Sensitive Operation](code_smell_name)
         - What is [Hyperparameter Not Explicitly Set](code_smell_name)?
         - Give me details about [Memory Not Freed](code_smell_name)
-        - I'd like to know more about [Deterministic Algorithm Option Not Used](code_smell_name)
-        - Can you explain [Randomness Uncontrolled](code_smell_name)?
         - What is [Missing the Mask of Invalid Value](code_smell_name)?
         - Tell me about [Broadcasting Feature Not Used](code_smell_name)
-        - Can you explain [TensorArray Not Used](code_smell_name)?
         - What is [Training / Evaluation Mode Improper Toggling](code_smell_name)?
         - Give me details about [Pytorch Call Method Misused](code_smell_name)
         - I'd like to know more about [Gradients Not Cleared before Backward Propagation](code_smell_name)
-        - Explain [Data Leakage](code_smell_name)
-        - What is [Threshold-Dependent Validation](code_smell_name)?
+
+- intent: ask_code_smell_problems
+  examples: |
+        - What kind of problems are caused by code smell [13](code_smell_id)?
+        - Can you explain the issues with code smell [4](code_smell_id)?
+        - What are the consequences of code smell [21](code_smell_id)?
+        - What problems are associated with the code smell [Data Leakage](code_smell_name)?
+        - Explain the problems leaded by [Empty Column Misinitialization](code_smell_name).
+        - Can you tell me about the issues with [In-Place APIs Misused](code_smell_name)?
+        - Explain the problems caused by [Threshold-Dependent Validation](code_smell_name).
+
+- intent: ask_code_smell_solution
+  examples: |
+    - What are the solutions for code smell [17](code_smell_id)?
+    - Can you suggest how to fix code smell [8](code_smell_id)?
+    - How can I address code smell [2](code_smell_id)?
+    - What solutions would you recommend for the code smell [Randomness Uncontrolled](code_smell_name)?
+    - Could you provide some suggestions to resolve [Dataframe Conversion API Misused](code_smell_name)?
+    - How can I mitigate the issues caused by [Deterministic Algorithm Option Not Used](code_smell_name)?
+    - Could you give me some advice on how to avoid [TensorArray Not Used](code_smell_name)?

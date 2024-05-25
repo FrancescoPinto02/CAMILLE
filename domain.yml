@@ -12,10 +12,14 @@ intents:
   - ask_technical_debt
   - ask_code_smells_list
   - ask_code_smell_details
+  - ask_code_smell_problems
+  - ask_code_smell_solution
 
 actions:
   - action_get_code_smells_list
   - action_provide_code_smell_details
+  - action_explain_code_smell_problems
+  - action_explain_code_smell_solution
 
 entities:
   - code_smell_id
