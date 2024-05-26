@@ -1,6 +1,31 @@
 version: "3.1"
 
 nlu:
+- lookup: code_smell_name
+  examples: |
+    - Unnecessary Iteration
+    - NaN Equivalence Comparison Misused
+    - Chain Indexing
+    - Columns and DataType Not Explicitly Set
+    - Empty Column Misinitialization
+    - Merge API Parameter Not Explicitly Set
+    - In-Place APIs Misused
+    - Dataframe Conversion API Misused
+    - Matrix Multiplication API Misused
+    - No Scaling before Scaling-Sensitive Operation
+    - Hyperparameter Not Explicitly Set
+    - Memory Not Freed
+    - Deterministic Algorithm Option Not Used
+    - Randomness Uncontrolled
+    - Missing the Mask of Invalid Value
+    - Broadcasting Feature Not Used
+    - TensorArray Not Used
+    - Training / Evaluation Mode Improper Toggling
+    - Pytorch Call Method Misused
+    - Gradients Not Cleared before Backward Propagation
+    - Data Leakage
+    - Threshold-Dependent Validation
+
 - intent: greet
   examples: |
     - hey
@@ -128,14 +153,14 @@ nlu:
         - What is code smell [5](code_smell_id) exactly?
         - Give me details about code smell [20](code_smell_id)
         - I'd like to know more about code smell [17](code_smell_id)
-        - Tell me about [Chain Indexing](code_smell_name)
-        - Can you explain [NaN Equivalence Comparison Misused](code_smell_name)?
-        - What is [Columns and DataType Not Explicitly Set](code_smell_name) exactly?
+        - Tell me about [chain index]{"entity": "code_smell_name", "value": "Chain Indexing"}
+        - Can you explain [nan equivalence misused]{"entity": "code_smell_name", "value": "NaN Equivalence Comparison Misused"}?
+        - What is [Columns not Explicitly Set]{"entity": "code_smell_name", "value": "Columns and DataType Not Explicitly Set"} exactly?
         - I'd like to know more about [Merge API Parameter Not Explicitly Set](code_smell_name)
         - Can you tell me more about [Matrix Multiplication API Misused](code_smell_name)?
         - Tell me about [No Scaling before Scaling-Sensitive Operation](code_smell_name)
         - What is [Hyperparameter Not Explicitly Set](code_smell_name)?
-        - Give me details about [Memory Not Freed](code_smell_name)
+        - Give me details about [memory no free]{"entity": "code_smell_name", "value": "Memory Not Freed"}
         - What is [Missing the Mask of Invalid Value](code_smell_name)?
         - Tell me about [Broadcasting Feature Not Used](code_smell_name)
         - What is [Training / Evaluation Mode Improper Toggling](code_smell_name)?
@@ -147,7 +172,7 @@ nlu:
         - What kind of problems are caused by code smell [13](code_smell_id)?
         - Can you explain the issues with code smell [4](code_smell_id)?
         - What are the consequences of code smell [21](code_smell_id)?
-        - What problems are associated with the code smell [Data Leakage](code_smell_name)?
+        - What problems are associated with [data leaks]{"entity": "code_smell_name", "value": "Data Leakage"}?
         - Explain the problems leaded by [Empty Column Misinitialization](code_smell_name).
         - Can you tell me about the issues with [In-Place APIs Misused](code_smell_name)?
         - Explain the problems caused by [Threshold-Dependent Validation](code_smell_name).
@@ -161,3 +186,4 @@ nlu:
     - Could you provide some suggestions to resolve [Dataframe Conversion API Misused](code_smell_name)?
     - How can I mitigate the issues caused by [Deterministic Algorithm Option Not Used](code_smell_name)?
     - Could you give me some advice on how to avoid [TensorArray Not Used](code_smell_name)?
+    - How can I avoid [unnecessary iterate]{"entity": "code_smell_name", "value": "Unnecessary Iteration"}?
