@@ -10,6 +10,13 @@ import mysql.connector
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from db.db_pool import get_connection
+import logging
+from utils.string_matcher import code_smell_name_matcher
+
+logging.basicConfig(level=logging.INFO)
+
+ERROR_MESSAGE = "Sorry, there was a problem... Please try again."
+CONNECTION_ERROR_MASSAGE = "Database connection could not be established"
 
 
 # REPLY WITH THE LIST OF CODE SMELLS RETRIEVED FROM DB
@@ -35,20 +42,23 @@ class ActionGetCodeSmellsList(Action):
                 result = cursor.fetchall()
 
                 if result:
-                    dispatcher.utter_message(text="Here is the list of code smells I can detect:")
+                    message = "Here is the list of code smells:\n"
                     for id, name in result:
-                        dispatcher.utter_message(text=f"{id}: {name}")
+                        message += f"{id}: {name}\n"
+                    dispatcher.utter_message(text=message)
                 else:
                     dispatcher.utter_message(text="No code smells found in the database.")
 
                 cursor.close()
 
-            except mysql.connector.Error as err:
-                dispatcher.utter_message(text=f"Database error: {err}")
+            except Exception as e:
+                dispatcher.utter_message(text=ERROR_MESSAGE)
+                logging.error("Error during action code smell list: %s", e)
             finally:
-                connection.close()  # Closing Connection
+                connection.close()
         else:
-            dispatcher.utter_message(text="Failed to connect to the database.")
+            dispatcher.utter_message(text=ERROR_MESSAGE)
+            logging.error("Error during action code smells list: %s", CONNECTION_ERROR_MASSAGE)
 
         return []
 
@@ -65,38 +75,43 @@ class ActionProvideCodeSmellDetails(Action):
         code_smell_id = next(tracker.get_latest_entity_values("code_smell_id"), None)
         code_smell_name = next(tracker.get_latest_entity_values("code_smell_name"), None)
 
-        if not code_smell_id and not code_smell_name:
-            dispatcher.utter_message(text="I'm sorry, I didn't understand what code smell you were referring to.")
-            return []
-
         connection = get_connection()
         if connection:
             try:
-                cursor = connection.cursor()
+                cursor = connection.cursor(dictionary=True)
 
                 if code_smell_id:
                     query = "SELECT description FROM codesmell WHERE id=%s"
                     cursor.execute(query, (code_smell_id,))
                     result = cursor.fetchone()
-                else:
+                elif code_smell_name:
                     query = "SELECT description FROM codesmell WHERE name=%s"
-                    cursor.execute(query, (code_smell_name,))
+                    best_match_name, similarity_score = code_smell_name_matcher(code_smell_name)
+                    if similarity_score >= 70:
+                        cursor.execute(query, (best_match_name,))
+                    else:
+                        cursor.execute(query, (code_smell_name,))
                     result = cursor.fetchone()
+                else:
+                    dispatcher.utter_message(text="I'm sorry, I didn't understand what code smell you were referring to.")
+                    return []
 
                 if result:
-                    code_smell_details = result[0]
+                    code_smell_details = result["description"]
                     dispatcher.utter_message(text=f"{code_smell_details}")
                 else:
                     dispatcher.utter_message(text="Sorry, I couldn't find any details about that.")
 
                 cursor.close()
 
-            except mysql.connector.Error as err:
-                dispatcher.utter_message(text=f"Database error: {err}")
+            except Exception as e:
+                dispatcher.utter_message(text=ERROR_MESSAGE)
+                logging.error("Error during action code smell details: %s", e)
             finally:
                 connection.close()  # Closing Connection
         else:
-            dispatcher.utter_message(text="Failed to connect to the database.")
+            dispatcher.utter_message(text=ERROR_MESSAGE)
+            logging.error("Error during action code smell details: %s", CONNECTION_ERROR_MASSAGE)
 
         return []
 
@@ -113,38 +128,44 @@ class ActionExplainCodeSmellProblems(Action):
         code_smell_id = next(tracker.get_latest_entity_values("code_smell_id"), None)
         code_smell_name = next(tracker.get_latest_entity_values("code_smell_name"), None)
 
-        if not code_smell_id and not code_smell_name:
-            dispatcher.utter_message(text="I'm sorry, I didn't understand what code smell you were referring to.")
-            return []
-
         connection = get_connection()
         if connection:
             try:
-                cursor = connection.cursor()
+                cursor = connection.cursor(dictionary=True)
 
                 if code_smell_id:
                     query = "SELECT problems FROM codesmell WHERE id=%s"
                     cursor.execute(query, (code_smell_id,))
                     result = cursor.fetchone()
-                else:
+                elif code_smell_name:
                     query = "SELECT problems FROM codesmell WHERE name=%s"
-                    cursor.execute(query, (code_smell_name,))
+                    best_match_name, similarity_score = code_smell_name_matcher(code_smell_name)
+                    if similarity_score >= 70:
+                        cursor.execute(query, (best_match_name,))
+                    else:
+                        cursor.execute(query, (code_smell_name,))
                     result = cursor.fetchone()
+                else:
+                    dispatcher.utter_message(text="I'm sorry, I didn't understand what code smell you were referring to.")
+                    return []
 
                 if result:
-                    code_smell_details = result[0]
-                    dispatcher.utter_message(text=f"{code_smell_details}")
+                    code_smell_problems = result["problems"]
+                    dispatcher.utter_message(text=f"{code_smell_problems}")
                 else:
                     dispatcher.utter_message(text="Sorry, I couldn't find any details about that.")
 
                 cursor.close()
 
-            except mysql.connector.Error as err:
-                dispatcher.utter_message(text=f"Database error: {err}")
+            except Exception as e:
+                dispatcher.utter_message(text=ERROR_MESSAGE)
+                logging.error("Error during action code smell problems: %s", e)
+
             finally:
                 connection.close()  # Closing Connection
         else:
-            dispatcher.utter_message(text="Failed to connect to the database.")
+            dispatcher.utter_message(text=ERROR_MESSAGE)
+            logging.error("Error during action code smell problems: %s", CONNECTION_ERROR_MASSAGE)
 
         return []
 
@@ -161,37 +182,44 @@ class ActionExplainCodeSmellSolution(Action):
         code_smell_id = next(tracker.get_latest_entity_values("code_smell_id"), None)
         code_smell_name = next(tracker.get_latest_entity_values("code_smell_name"), None)
 
-        if not code_smell_id and not code_smell_name:
-            dispatcher.utter_message(text="I'm sorry, I didn't understand what code smell you were referring to.")
-            return []
-
         connection = get_connection()
         if connection:
             try:
-                cursor = connection.cursor()
+                cursor = connection.cursor(dictionary=True)
 
                 if code_smell_id:
                     query = "SELECT solution FROM codesmell WHERE id=%s"
                     cursor.execute(query, (code_smell_id,))
                     result = cursor.fetchone()
-                else:
+                elif code_smell_name:
                     query = "SELECT solution FROM codesmell WHERE name=%s"
-                    cursor.execute(query, (code_smell_name,))
+                    best_match_name, similarity_score = code_smell_name_matcher(code_smell_name)
+                    if similarity_score >= 70:
+                        cursor.execute(query, (best_match_name,))
+                    else:
+                        cursor.execute(query, (code_smell_name,))
                     result = cursor.fetchone()
+                else:
+                    dispatcher.utter_message(
+                        text="I'm sorry, I didn't understand what code smell you were referring to.")
+                    return []
 
                 if result:
-                    code_smell_details = result[0]
-                    dispatcher.utter_message(text=f"{code_smell_details}")
+                    code_smell_solution = result["solution"]
+                    dispatcher.utter_message(text=f"{code_smell_solution}")
                 else:
                     dispatcher.utter_message(text="Sorry, I couldn't find any details about that.")
 
                 cursor.close()
 
-            except mysql.connector.Error as err:
-                dispatcher.utter_message(text=f"Database error: {err}")
+            except Exception as e:
+                dispatcher.utter_message(text=ERROR_MESSAGE)
+                logging.error("Error during action code smell solution: %s", e)
+
             finally:
                 connection.close()  # Closing Connection
         else:
-            dispatcher.utter_message(text="Failed to connect to the database.")
+            dispatcher.utter_message(text=ERROR_MESSAGE)
+            logging.error("Error during action code smell solution: %s", CONNECTION_ERROR_MASSAGE)
 
         return []
