@@ -74,40 +74,6 @@ nlu:
     - no way
     - not really
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -187,3 +153,17 @@ nlu:
     - How can I mitigate the issues caused by [Deterministic Algorithm Option Not Used](code_smell_name)?
     - Could you give me some advice on how to avoid [TensorArray Not Used](code_smell_name)?
     - How can I avoid [unnecessary iterate]{"entity": "code_smell_name", "value": "Unnecessary Iteration"}?
+
+- intent: ask_help
+  examples: |
+    - I need help
+    - Can you help me?
+    - How can I use this chatbot?
+    - Can you explain how this chatbot works?
+    - What commands can I use?
+    - How can I ask for information about code smells?
+    - What can I ask you?
+    - What features do you have?
+    - How can I get help?
+    - I need assistance
+    - Help

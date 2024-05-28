@@ -12,11 +12,6 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
-- rule: Reply to fallback
-  steps:
-  - intent: nlu_fallback
-  - action: utter_default
-
 - rule: Reply to asking about code smells
   steps:
   - intent: define_codesmell
@@ -47,3 +42,7 @@ rules:
   - intent: ask_code_smell_solution
   - action: action_explain_code_smell_solution
 
+- rule: Help the user
+  steps:
+  - intent: ask_help
+  - action: utter_help

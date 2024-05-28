@@ -19,6 +19,18 @@ ERROR_MESSAGE = "Sorry, there was a problem... Please try again."
 CONNECTION_ERROR_MASSAGE = "Database connection could not be established"
 
 
+class ActionDefaultFallback(Action):
+
+    def name(self) -> Text:
+        return "action_default_fallback"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message(template="utter_default")
+        return []
+
+
 # REPLY WITH THE LIST OF CODE SMELLS RETRIEVED FROM DB
 class ActionGetCodeSmellsList(Action):
 
