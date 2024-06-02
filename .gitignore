@@ -162,4 +162,7 @@ cython_debug/
 models/
 results/
 
+cs_detection_tool/input/
+cs_detection_tool/output/
+
 .rasa/

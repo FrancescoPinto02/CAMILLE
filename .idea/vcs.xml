@@ -2,5 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cs_detection_tool/input/projects/Adlik" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cs_detection_tool/input/projects/All-Machine-Learning-Algorithms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cs_detection_tool/input/projects/Estimated-annual-CO2-emissions-from-diesel-generators-at-mobile-or-cell-towers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cs_detection_tool/input/projects/MLfromscratch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cs_detection_tool/input/projects/SeaLion" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cs_detection_tool/input/projects/covidify" vcs="Git" />
   </component>
 </project>
