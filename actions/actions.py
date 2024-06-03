@@ -12,11 +12,17 @@ from rasa_sdk.executor import CollectingDispatcher
 from db.db_pool import get_connection
 import logging
 from utils.string_matcher import code_smell_name_matcher
+import requests
+from dotenv import load_dotenv
+import os
+import json
 
 logging.basicConfig(level=logging.INFO)
 
 ERROR_MESSAGE = "Sorry, there was a problem... Please try again."
 CONNECTION_ERROR_MASSAGE = "Database connection could not be established"
+
+load_dotenv()
 
 
 class ActionDefaultFallback(Action):
@@ -105,7 +111,8 @@ class ActionProvideCodeSmellDetails(Action):
                         cursor.execute(query, (code_smell_name,))
                     result = cursor.fetchone()
                 else:
-                    dispatcher.utter_message(text="I'm sorry, I didn't understand what code smell you were referring to.")
+                    dispatcher.utter_message(
+                        text="I'm sorry, I didn't understand what code smell you were referring to.")
                     return []
 
                 if result:
@@ -158,7 +165,8 @@ class ActionExplainCodeSmellProblems(Action):
                         cursor.execute(query, (code_smell_name,))
                     result = cursor.fetchone()
                 else:
-                    dispatcher.utter_message(text="I'm sorry, I didn't understand what code smell you were referring to.")
+                    dispatcher.utter_message(
+                        text="I'm sorry, I didn't understand what code smell you were referring to.")
                     return []
 
                 if result:
@@ -233,5 +241,43 @@ class ActionExplainCodeSmellSolution(Action):
         else:
             dispatcher.utter_message(text=ERROR_MESSAGE)
             logging.error("Error during action code smell solution: %s", CONNECTION_ERROR_MASSAGE)
+
+        return []
+
+
+class ActionProjectAnalysis(Action):
+
+    def name(self) -> Text:
+        return "action_project_analysis"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        github_repo_url = next(tracker.get_latest_entity_values("project_repository"), None)
+
+        if not github_repo_url:
+            dispatcher.utter_message(text="You haven`t provided a github repository url")
+            return []
+
+        url = os.getenv("PROJECT_ANALYZER_BASE_URL") + "/analyze-repository"
+        payload = {
+            "repository_url": github_repo_url
+        }
+
+        try:
+            response = requests.post(url, json=payload)
+            response.raise_for_status()  # raise an exepction if error code 4xx || 5xx
+            analysis_result = response.json()
+            dispatcher.utter_message(text=f"ANALISI COMPLETATA: {len(analysis_result)} code smells rilevati")
+
+            directory = "./reports/"
+            file_path = os.path.join(directory, "analysis_result.json")
+            with open(file_path, "w") as file:
+                json.dump(analysis_result, file)
+
+        except Exception as e:
+            dispatcher.utter_message(text=ERROR_MESSAGE)
+            logging.error("Error during action project analysis: %s", e)
 
         return []

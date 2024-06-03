@@ -26,6 +26,10 @@ nlu:
     - Data Leakage
     - Threshold-Dependent Validation
 
+- regex: project_repository
+  examples: |
+    - https:\/\/github\.com\/[a-zA-Z0-9_-]+\/[a-zA-Z0-9_-]+\.git
+
 - intent: greet
   examples: |
     - hey
@@ -167,3 +171,27 @@ nlu:
     - How can I get help?
     - I need assistance
     - Help
+
+- intent: ask_project_analysis
+  examples: |
+    - Analyze my project at this repository: [https://github.com/DrLele08/RolePlayersAI.git](project_repository)
+    - Can you analyze the project hosted at [https://github.com/FrancescoPinto02/PokeTeam-OPT.git](project_repository)?
+    - I need an analysis of my project at [https://github.com/FIANTOSCA/TSW-project.git](project_repository)
+    - Please analyze the repository at [https://github.com/showlab/DragAnything.git](project_repository)
+    - Could you analyze my project from [https://github.com/chef/chef.git](project_repository)?
+    - Analyze this GitHub repository: [https://github.com/Immortalise/SearchAnything.git](project_repository)
+    - Do an analysis for the project at [https://github.com/AnyMesh/anyMesh-Node.git](project_repository)
+    - Perform an analysis on this repository: [https://github.com/loft-sh/devpod.git](project_repository)
+    - I would like to have my project analyzed, it's at [https://github.com/remy/nodemon.git](project_repository)
+    - Please check the repository at [https://github.com/anyproto/anytype-swift.git](project_repository) and analyze it
+    - Analyze my GitHub project: [https://github.com/dz0ny/leapcast.git](project_repository)
+    - Can you do an analysis of the repository [https://github.com/biodiv/anycluster.git](project_repository)?
+    - I'd like an analysis of this project: [https://github.com/Cleveroad/MusicBobber.git](project_repository)
+    - Could you perform an analysis on [https://github.com/tumuyan/AnyLauncher.git](project_repository)?
+    - I want to get an analysis of the repository at [https://github.com/rembish/TextAtAnyCost.git](project_repository)
+    - Please analyze my project at [https://github.com/knutwurst/Marlin-2-0-x-Anycubic-i3-MEGA-S.git](project_repository)
+    - Can you analyze my GitHub repository? Here is the link: [https://github.com/schmittjoh/serializer.git](project_repository)
+    - Could you please check and analyze [https://github.com/deanmalmgren/textract.git](project_repository)?
+    - I need you to analyze this project: [https://github.com/Uminosachi/sd-webui-inpaint-anything.git](project_repository)
+    - Analyze this project repository: [https://github.com/sauravpradhan/AnySound2BT.git](project_repository)
+    

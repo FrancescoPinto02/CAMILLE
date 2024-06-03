@@ -46,3 +46,8 @@ rules:
   steps:
   - intent: ask_help
   - action: utter_help
+
+- rule: Run a project analysis when requested
+  steps:
+  - intent: ask_project_analysis
+  - action: action_project_analysis

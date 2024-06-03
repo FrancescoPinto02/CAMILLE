@@ -13,6 +13,7 @@ intents:
   - ask_code_smell_details
   - ask_code_smell_problems
   - ask_code_smell_solution
+  - ask_project_analysis
 
 
 actions:
@@ -21,10 +22,12 @@ actions:
   - action_provide_code_smell_details
   - action_explain_code_smell_problems
   - action_explain_code_smell_solution
+  - action_project_analysis
 
 entities:
   - code_smell_id
   - code_smell_name
+  - project_repository
 
 responses:
   utter_greet:
