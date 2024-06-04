@@ -7,12 +7,10 @@ intents:
   - deny
   - bot_challenge
   - ask_help
-  - define_codesmell
+  - define_code_smell
   - ask_technical_debt
   - ask_code_smells_list
   - ask_code_smell_details
-  - ask_code_smell_problems
-  - ask_code_smell_solution
   - ask_project_analysis
 
 
@@ -20,8 +18,6 @@ actions:
   - action_default_fallback
   - action_get_code_smells_list
   - action_provide_code_smell_details
-  - action_explain_code_smell_problems
-  - action_explain_code_smell_solution
   - action_project_analysis
 
 entities:
@@ -56,17 +52,16 @@ responses:
 
   utter_help:
   - text: "Here are some things I can assist you with:\n
-        - I can provide information on what code smells and technical debt are.\n
-        - I can give you a list of currently known code smells that you might encounter during your ML pipeline.\n
-        - I can provide detailed information about each code smell, the problems it causes, and how to avoid it.\n\n
+        - I can answer FAQs about codesmells and technical debt
+        - I can provide you a list of currently known ML specific code smells.\n
+        - I can give you detailed information about each code smell in the list\n
+        - I can run an analysis for your github repository\n
         
         Here are some example commands you can use:\n
         - What is a code smell?\n
-        - What do you mean by technical debt?\n
-        - List the detectable code smells\n
-        - Tell me more about [code smell name]\n
-        - What are the consequences of [code smell name]?\n
-        - How can I fix [code smell name]?\n\n
+        - Give me the code smells list.\n
+        - Tell me more about Memory Not Freed.\n
+        - Could you analyze this project: https://github.com/FrancescoPinto02/CAMILLE.git ?
         
         Feel free to ask anything related to these topics!"
 

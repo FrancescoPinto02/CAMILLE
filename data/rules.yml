@@ -14,7 +14,7 @@ rules:
 
 - rule: Reply to asking about code smells
   steps:
-  - intent: define_codesmell
+  - intent: define_code_smell
   - action: utter_define_codesmell
 
 - rule: Reply to asking about technical debt
@@ -31,16 +31,6 @@ rules:
   steps:
   - intent: ask_code_smell_details
   - action: action_provide_code_smell_details
-
-- rule: Provide info about issues caused by a code smell
-  steps:
-  - intent: ask_code_smell_problems
-  - action: action_explain_code_smell_problems
-
-- rule: Provide advices on how to avoid a code smell
-  steps:
-  - intent: ask_code_smell_solution
-  - action: action_explain_code_smell_solution
 
 - rule: Help the user
   steps:

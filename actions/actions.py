@@ -33,7 +33,7 @@ class ActionDefaultFallback(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        dispatcher.utter_message(template="utter_default")
+        dispatcher.utter_message(text="utter_default")
         return []
 
 
@@ -99,11 +99,11 @@ class ActionProvideCodeSmellDetails(Action):
                 cursor = connection.cursor(dictionary=True)
 
                 if code_smell_id:
-                    query = "SELECT description FROM codesmell WHERE id=%s"
+                    query = "SELECT description, problems, solution FROM codesmell WHERE id=%s"
                     cursor.execute(query, (code_smell_id,))
                     result = cursor.fetchone()
                 elif code_smell_name:
-                    query = "SELECT description FROM codesmell WHERE name=%s"
+                    query = "SELECT description, problems, solution FROM codesmell WHERE name=%s"
                     best_match_name, similarity_score = code_smell_name_matcher(code_smell_name)
                     if similarity_score >= 70:
                         cursor.execute(query, (best_match_name,))
@@ -116,10 +116,14 @@ class ActionProvideCodeSmellDetails(Action):
                     return []
 
                 if result:
-                    code_smell_details = result["description"]
-                    dispatcher.utter_message(text=f"{code_smell_details}")
+                    code_smell_description = result["description"]
+                    code_smell_problems = result["problems"]
+                    code_smell_solution = result["solution"]
+                    dispatcher.utter_message(text=f"{code_smell_description}")
+                    dispatcher.utter_message(text=f"{code_smell_problems}")
+                    dispatcher.utter_message(text=f"{code_smell_solution}")
                 else:
-                    dispatcher.utter_message(text="Sorry, I couldn't find any details about that.")
+                    dispatcher.utter_message(text="Sorry, I couldn't find any details about this code smell.")
 
                 cursor.close()
 
@@ -131,116 +135,6 @@ class ActionProvideCodeSmellDetails(Action):
         else:
             dispatcher.utter_message(text=ERROR_MESSAGE)
             logging.error("Error during action code smell details: %s", CONNECTION_ERROR_MASSAGE)
-
-        return []
-
-
-class ActionExplainCodeSmellProblems(Action):
-
-    def name(self) -> Text:
-        return "action_explain_code_smell_problems"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        code_smell_id = next(tracker.get_latest_entity_values("code_smell_id"), None)
-        code_smell_name = next(tracker.get_latest_entity_values("code_smell_name"), None)
-
-        connection = get_connection()
-        if connection:
-            try:
-                cursor = connection.cursor(dictionary=True)
-
-                if code_smell_id:
-                    query = "SELECT problems FROM codesmell WHERE id=%s"
-                    cursor.execute(query, (code_smell_id,))
-                    result = cursor.fetchone()
-                elif code_smell_name:
-                    query = "SELECT problems FROM codesmell WHERE name=%s"
-                    best_match_name, similarity_score = code_smell_name_matcher(code_smell_name)
-                    if similarity_score >= 70:
-                        cursor.execute(query, (best_match_name,))
-                    else:
-                        cursor.execute(query, (code_smell_name,))
-                    result = cursor.fetchone()
-                else:
-                    dispatcher.utter_message(
-                        text="I'm sorry, I didn't understand what code smell you were referring to.")
-                    return []
-
-                if result:
-                    code_smell_problems = result["problems"]
-                    dispatcher.utter_message(text=f"{code_smell_problems}")
-                else:
-                    dispatcher.utter_message(text="Sorry, I couldn't find any details about that.")
-
-                cursor.close()
-
-            except Exception as e:
-                dispatcher.utter_message(text=ERROR_MESSAGE)
-                logging.error("Error during action code smell problems: %s", e)
-
-            finally:
-                connection.close()  # Closing Connection
-        else:
-            dispatcher.utter_message(text=ERROR_MESSAGE)
-            logging.error("Error during action code smell problems: %s", CONNECTION_ERROR_MASSAGE)
-
-        return []
-
-
-class ActionExplainCodeSmellSolution(Action):
-
-    def name(self) -> Text:
-        return "action_explain_code_smell_solution"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        code_smell_id = next(tracker.get_latest_entity_values("code_smell_id"), None)
-        code_smell_name = next(tracker.get_latest_entity_values("code_smell_name"), None)
-
-        connection = get_connection()
-        if connection:
-            try:
-                cursor = connection.cursor(dictionary=True)
-
-                if code_smell_id:
-                    query = "SELECT solution FROM codesmell WHERE id=%s"
-                    cursor.execute(query, (code_smell_id,))
-                    result = cursor.fetchone()
-                elif code_smell_name:
-                    query = "SELECT solution FROM codesmell WHERE name=%s"
-                    best_match_name, similarity_score = code_smell_name_matcher(code_smell_name)
-                    if similarity_score >= 70:
-                        cursor.execute(query, (best_match_name,))
-                    else:
-                        cursor.execute(query, (code_smell_name,))
-                    result = cursor.fetchone()
-                else:
-                    dispatcher.utter_message(
-                        text="I'm sorry, I didn't understand what code smell you were referring to.")
-                    return []
-
-                if result:
-                    code_smell_solution = result["solution"]
-                    dispatcher.utter_message(text=f"{code_smell_solution}")
-                else:
-                    dispatcher.utter_message(text="Sorry, I couldn't find any details about that.")
-
-                cursor.close()
-
-            except Exception as e:
-                dispatcher.utter_message(text=ERROR_MESSAGE)
-                logging.error("Error during action code smell solution: %s", e)
-
-            finally:
-                connection.close()  # Closing Connection
-        else:
-            dispatcher.utter_message(text=ERROR_MESSAGE)
-            logging.error("Error during action code smell solution: %s", CONNECTION_ERROR_MASSAGE)
 
         return []
 
