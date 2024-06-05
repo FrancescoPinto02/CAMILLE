@@ -140,6 +140,17 @@ nlu:
         - Explain the code smell called [Empty Column Misinitialization](code_smell_name).
         - I need more info about [unnecessary iterate]{"entity": "code_smell_name", "value": "Unnecessary Iteration"}.
 
+- intent: ask_code_smell_example
+  examples: |
+        - Can you provide an example of code smell [3](code_smell_id)?
+        - Show me a sample code with code smell [19](code_smell_id).
+        - Provide an example of code smell [11](code_smell_id) if possible.
+        - Show me how [Pytorch Call Method Misused](code_smell_name) can be identified in the code.
+        - How would you recognize code smell [Hyperparameter Not Explicitly Set](code_smell_name) in the code?
+        - Show me an instance of [Missing the Mask of Invalid Value](code_smell_name) in a code snippet.
+        - I'd like to see an example where [Merge API Parameter Not Explicitly Set](code_smell_name) is present.
+        - Give me an example demonstrating [Pytorch Call Method Misused](code_smell_name).
+
 - intent: ask_help
   examples: |
     - I need help

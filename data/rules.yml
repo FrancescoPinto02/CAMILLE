@@ -32,6 +32,11 @@ rules:
   - intent: ask_code_smell_details
   - action: action_provide_code_smell_details
 
+- rule: Provide a specific code smell example
+  steps:
+  - intent: ask_code_smell_example
+  - action: action_provide_code_smell_example
+
 - rule: Help the user
   steps:
   - intent: ask_help

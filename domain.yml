@@ -11,6 +11,7 @@ intents:
   - ask_technical_debt
   - ask_code_smells_list
   - ask_code_smell_details
+  - ask_code_smell_example
   - ask_project_analysis
 
 
@@ -18,6 +19,7 @@ actions:
   - action_default_fallback
   - action_get_code_smells_list
   - action_provide_code_smell_details
+  - action_provide_code_smell_example
   - action_project_analysis
 
 entities:
