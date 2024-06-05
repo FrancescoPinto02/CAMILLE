@@ -24,6 +24,8 @@ CREATE TABLE codesmell (
     description TEXT NOT NULL,
     problems TEXT NOT NULL,
     solution TEXT NOT NULL,
+    bad_example TEXT NOT NULL,
+    good_example TEXT NOT NULL,
     type ENUM('Generic', 'API-Specific') NOT NULL,
     
     PRIMARY KEY (id)
