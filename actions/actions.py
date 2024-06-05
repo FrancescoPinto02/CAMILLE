@@ -3,10 +3,8 @@
 #
 # See this guide on how to implement these action:
 # https://rasa.com/docs/rasa/custom-actions
-
+import csv
 from typing import Any, Text, Dict, List
-
-import mysql.connector
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from db.db_pool import get_connection
@@ -15,7 +13,6 @@ from utils.string_matcher import code_smell_name_matcher
 import requests
 from dotenv import load_dotenv
 import os
-import json
 
 logging.basicConfig(level=logging.INFO)
 
@@ -166,9 +163,20 @@ class ActionProjectAnalysis(Action):
             dispatcher.utter_message(text=f"ANALISI COMPLETATA: {len(analysis_result)} code smells rilevati")
 
             directory = "./reports/"
-            file_path = os.path.join(directory, "analysis_result.json")
-            with open(file_path, "w") as file:
-                json.dump(analysis_result, file)
+            if not os.path.exists(directory):
+                os.makedirs(directory)
+
+            user_id = tracker.sender_id
+            file_path = os.path.join(directory, f"analysis_result_{user_id}.csv")
+
+            with open(file_path, "w", newline='') as file:
+                writer = csv.writer(file)
+
+                if analysis_result:
+                    header = analysis_result[0].keys()
+                    writer.writerow(header)
+                for item in analysis_result:
+                    writer.writerow(item.values())
 
         except Exception as e:
             dispatcher.utter_message(text=ERROR_MESSAGE)
