@@ -7,7 +7,7 @@ CONNECTION_ERROR_MESSAGE = "Database connection could not be established"
 VALID_FIELDS = ["id", "name", "description", "problems", "solution", "bad_example", "good_example", "type"]
 
 
-def get_code_smells_by_id(code_smell_id, fields=None):
+def get_code_smell_by_id(code_smell_id, fields=None):
     fields_str = build_field_string(fields)
     query = f"SELECT {fields_str} FROM codesmell WHERE id=%s"
     result = None
@@ -51,7 +51,7 @@ def get_all_code_smells(fields=None):
     return result
 
 
-def get_code_smells_by_name(code_smell_name, fields=None):
+def get_code_smell_by_name(code_smell_name, fields=None):
     fields_str = build_field_string(fields)
     query = f"SELECT {fields_str} FROM codesmell WHERE name=%s"
     result = None
