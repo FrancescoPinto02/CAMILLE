@@ -160,9 +160,11 @@ class ActionProjectAnalysis(Action):
                     header =['index'] + list(analysis_result[0].keys())
                     writer.writerow(header)
 
-                for idx, item in enumerate(analysis_result, start=1):
-                    row = [idx] + list(item.values())
-                    writer.writerow(row)
+                for i, item in enumerate(analysis_result, 1):
+                    # Normalize file paths to use forward slashes
+                    if 'filename' in item:
+                        item['filename'] = item['filename'].replace("\\", "/")
+                    writer.writerow([i] + list(item.values()))
 
         except Exception as e:
             dispatcher.utter_message(text=ERROR_MESSAGE)
