@@ -157,10 +157,12 @@ class ActionProjectAnalysis(Action):
                 writer = csv.writer(file)
 
                 if analysis_result:
-                    header = analysis_result[0].keys()
+                    header =['index'] + list(analysis_result[0].keys())
                     writer.writerow(header)
-                for item in analysis_result:
-                    writer.writerow(item.values())
+
+                for idx, item in enumerate(analysis_result, start=1):
+                    row = [idx] + list(item.values())
+                    writer.writerow(row)
 
         except Exception as e:
             dispatcher.utter_message(text=ERROR_MESSAGE)
