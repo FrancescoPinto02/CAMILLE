@@ -46,3 +46,8 @@ rules:
   steps:
   - intent: ask_project_analysis
   - action: action_project_analysis
+
+- rule: Suggest how to fix a problem when requested
+  steps:
+  - intent: ask_fix_suggestion
+  - action: action_suggest_fix

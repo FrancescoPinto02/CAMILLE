@@ -13,6 +13,7 @@ intents:
   - ask_code_smell_details
   - ask_code_smell_example
   - ask_project_analysis
+  - ask_fix_suggestion
 
 
 actions:
@@ -21,11 +22,19 @@ actions:
   - action_provide_code_smell_details
   - action_provide_code_smell_example
   - action_project_analysis
+  - action_suggest_fix
 
 entities:
   - code_smell_id
   - code_smell_name
   - project_repository
+  - issue_index
+
+slots:
+  report_filename:
+    type: text
+    mappings:
+      - type: custom
 
 responses:
   utter_greet:
