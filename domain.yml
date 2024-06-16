@@ -63,7 +63,7 @@ responses:
 
   utter_help:
   - text: "Here are some things I can assist you with:\n
-        - I can answer FAQs about codesmells and technical debt
+        - I can answer FAQs about codesmells and technical debt\n
         - I can provide you a list of currently known ML specific code smells.\n
         - I can give you detailed information about each code smell in the list\n
         - I can run an analysis for your github repository\n

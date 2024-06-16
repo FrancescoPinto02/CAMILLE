@@ -36,7 +36,7 @@ class ActionDefaultFallback(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        dispatcher.utter_message(text="utter_default")
+        dispatcher.utter_message(template="utter_default")
         return []
 
 
@@ -116,14 +116,26 @@ class ActionProvideCodeSmellExample(Action):
             return []
 
         if result:
-            dispatcher.utter_message(text=f"This is a code example with {result['name']}:")
-            dispatcher.utter_message(text=f"{result['bad_example']}")
-            dispatcher.utter_message(text=f"And this is the corrected version:")
-            dispatcher.utter_message(text=f"{result['good_example']}")
+            bad_example = result['bad_example']
+            good_example = result['good_example']
+
+            # Rimuovi le righe vuote o sostituiscile con uno spazio
+            bad_example = self._preserve_empty_lines(bad_example)
+            good_example = self._preserve_empty_lines(good_example)
+
+            dispatcher.utter_message(text=f"This is a code example with {result['name']}:\n{bad_example}")
+            print(bad_example)
+            dispatcher.utter_message(text=f"And this is the corrected version:\n{good_example}")
+            print(good_example)
         else:
             dispatcher.utter_message(text="Sorry, I couldn't find any example about this code smell.")
 
         return []
+
+    def _preserve_empty_lines(self, text: str) -> str:
+        lines = text.split('\n')
+        processed_lines = [line if line.strip() else ' ' for line in lines]  # Sostituisce righe vuote con uno spazio
+        return '\n'.join(processed_lines)
 
 
 class ActionProjectAnalysis(Action):
@@ -164,7 +176,7 @@ class ActionProjectAnalysis(Action):
                 writer = csv.writer(file)
 
                 if analysis_result:
-                    header =['index'] + list(analysis_result[0].keys())
+                    header = ['index'] + list(analysis_result[0].keys())
                     writer.writerow(header)
 
                 for i, item in enumerate(analysis_result, 1):
@@ -193,14 +205,17 @@ class ActionSuggestFix(Action):
         report_filename = tracker.get_slot("report_filename")
         if report_filename is None:
             dispatcher.utter_message(text="It looks like you haven't done an analysis yet...")
+            return []
 
         issue_index = next(tracker.get_latest_entity_values("issue_index"), None)
         if issue_index is None:
-            dispatcher.utter_message(text="It looks like you haven't provided the issue`s index...")
+            dispatcher.utter_message(text="It looks like you haven't provided the issue's index...")
+            return []
 
         cs_filename, cs_function_name, cs_name = get_info_from_report(report_filename, issue_index)
         if cs_filename is None or cs_function_name is None or cs_name is None:
             dispatcher.utter_message(text="It looks like you haven't provided a correct index...")
+            return []
 
         url = os.getenv("PROJECT_ANALYZER_BASE_URL") + "/get-function-body"
         payload = {
@@ -210,7 +225,7 @@ class ActionSuggestFix(Action):
 
         try:
             response = requests.post(url, json=payload)
-            response.raise_for_status()  # raise an exepction if error code 4xx || 5xx
+            response.raise_for_status()  # raise an exception if error code 4xx || 5xx
             function_body = response.json()['function_body']
             cs_name = code_smell_name_matcher(cs_name)[0]
             cs_info = get_code_smell_by_name(cs_name, ["description", "problems", "solution"])
@@ -218,15 +233,26 @@ class ActionSuggestFix(Action):
             prompt = [
                 {"role": "system", "content": f"{cs_info['description']} {cs_info['problems']} {cs_info['solution']}"},
                 {"role": "system", "content": f"{function_body}"},
-                {"role": "system", "content": "You will be provided with the explanation of a code smell and the body of a function. Your task is to suggest how to fix the code smell provided in the function provided"},
-                {"role": "system", "content": "You must write only the code, clearly indicating the modifications you have made using comments inside the code."},
-                {"role": "user", "content": f"Suggest me how to fix the code smell {cs_name} in the function {cs_function_name}"},
+                {"role": "system",
+                 "content": "You will be provided with the explanation of a code smell and the body of a function. Your task is to suggest how to fix the code smell provided in the function provided"},
+                {"role": "system",
+                 "content": "You must write only the code, clearly indicating the modifications you have made using comments inside the code."},
+                {"role": "user",
+                 "content": f"Suggest me how to fix the code smell {cs_name} in the function {cs_function_name}"},
             ]
             suggestion = complete_text(prompt)
-            dispatcher.utter_message(text=f"Here's how you could fix the code smell {cs_name} within the function {cs_function_name}.")
+            suggestion = self._preserve_empty_lines(suggestion)
+
+            dispatcher.utter_message(
+                text=f"Here's how you could fix the code smell {cs_name} within the function {cs_function_name}:")
             dispatcher.utter_message(text=suggestion)
         except Exception as e:
-            dispatcher.utter_message(text=ERROR_MESSAGE)
+            dispatcher.utter_message(text="An error occurred while suggesting the fix.")
             logging.error("Error during action suggest fix: %s", e)
 
         return []
+
+    def _preserve_empty_lines(self, text: str) -> str:
+        lines = text.split('\n')
+        processed_lines = [line if line.strip() else ' ' for line in lines]  # Sostituisce righe vuote con uno spazio
+        return '\n'.join(processed_lines)
