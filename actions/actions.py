@@ -124,9 +124,7 @@ class ActionProvideCodeSmellExample(Action):
             good_example = self._preserve_empty_lines(good_example)
 
             dispatcher.utter_message(text=f"This is a code example with {result['name']}:\n{bad_example}")
-            print(bad_example)
-            dispatcher.utter_message(text=f"And this is the corrected version:\n{good_example}")
-            print(good_example)
+            dispatcher.utter_message(text=f"And this is the correct one:\n{good_example}")
         else:
             dispatcher.utter_message(text="Sorry, I couldn't find any example about this code smell.")
 
@@ -243,9 +241,7 @@ class ActionSuggestFix(Action):
             suggestion = complete_text(prompt)
             suggestion = self._preserve_empty_lines(suggestion)
 
-            dispatcher.utter_message(
-                text=f"Here's how you could fix the code smell {cs_name} within the function {cs_function_name}:")
-            dispatcher.utter_message(text=suggestion)
+            dispatcher.utter_message(text=f"Here's how you could fix the code smell \"{cs_name}\" within the function \"{cs_function_name}\":\n{suggestion}")
         except Exception as e:
             dispatcher.utter_message(text="An error occurred while suggesting the fix.")
             logging.error("Error during action suggest fix: %s", e)

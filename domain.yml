@@ -72,7 +72,7 @@ responses:
         - What is a code smell?\n
         - Give me the code smells list.\n
         - Tell me more about Memory Not Freed.\n
-        - Could you analyze this project: https://github.com/FrancescoPinto02/CAMILLE.git ?
+        - Could you analyze this project: https://github.com/FrancescoPinto02/CAMILLE.git ?\n
         
         Feel free to ask anything related to these topics!"
 
