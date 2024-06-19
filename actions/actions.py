@@ -10,7 +10,12 @@ from rasa_sdk.events import SlotSet
 from rasa_sdk.executor import CollectingDispatcher
 import logging
 
+# Use this for OpenAI API
 from llm.open_ai import complete_text
+
+# Disable this if using OpenAI API
+# from llm.codeLlama import complete_text
+
 from utils.query import get_all_code_smells
 from utils.query import get_code_smell_by_id
 from utils.query import get_code_smell_by_name
@@ -228,20 +233,41 @@ class ActionSuggestFix(Action):
             cs_name = code_smell_name_matcher(cs_name)[0]
             cs_info = get_code_smell_by_name(cs_name, ["description", "problems", "solution"])
 
+            # Prompt for OpenAI API
             prompt = [
                 {"role": "system", "content": f"{cs_info['description']} {cs_info['problems']} {cs_info['solution']}"},
                 {"role": "system", "content": f"{function_body}"},
                 {"role": "system",
-                 "content": "You will be provided with the explanation of a code smell and the body of a function. Your task is to suggest how to fix the code smell provided in the function provided"},
+                 "content": "You will be provided with the explanation of a code smell and the body of a function. Your task is to suggest how to fix the code smell in the function provided"},
                 {"role": "system",
                  "content": "You must write only the code, clearly indicating the modifications you have made using comments inside the code."},
                 {"role": "user",
                  "content": f"Suggest me how to fix the code smell {cs_name} in the function {cs_function_name}"},
             ]
+
+            # Prompt for codeLlama
+            """
+            prompt = [
+                {"role": "system", "content": f"{cs_info['description']} {cs_info['problems']} {cs_info['solution']}"},
+                {"role": "system", "content": f"{function_body}"},
+                {"role": "system",
+                 "content": "You will be provided with the explanation of a code smell and the body of a function. Your task is to suggest how to fix the code smell in the function provided writing only the correct code and briefly explaining the changes made"},
+                {"role": "system",
+                 "content": "You must write only the code, clearly indicating the modifications you have made using comments inside the code."},
+                {"role": "user",
+                 "content": f"Suggest me how to fix the code smell {cs_name} in the function {cs_function_name}"},
+            ]
+            """
+
             suggestion = complete_text(prompt)
             suggestion = self._preserve_empty_lines(suggestion)
 
-            dispatcher.utter_message(text=f"Here's how you could fix the code smell \"{cs_name}\" within the function \"{cs_function_name}\":\n{suggestion}")
+            # OpenAI API Response
+            dispatcher.utter_message(
+                text=f"Here's how you could fix the code smell \"{cs_name}\" within the function \"{cs_function_name}\":\n{suggestion}")
+
+            # CodeLlama Response
+            # dispatcher.utter_message(text=f"{suggestion}")
         except Exception as e:
             dispatcher.utter_message(text="An error occurred while suggesting the fix.")
             logging.error("Error during action suggest fix: %s", e)
