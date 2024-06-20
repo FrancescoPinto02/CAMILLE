@@ -14,6 +14,7 @@ intents:
   - ask_code_smell_example
   - ask_project_analysis
   - ask_fix_suggestion
+  - ask_analysis_report
 
 
 actions:
@@ -23,6 +24,7 @@ actions:
   - action_provide_code_smell_example
   - action_project_analysis
   - action_suggest_fix
+  - action_analysis_report
 
 entities:
   - code_smell_id

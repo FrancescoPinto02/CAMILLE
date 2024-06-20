@@ -51,3 +51,8 @@ rules:
   steps:
   - intent: ask_fix_suggestion
   - action: action_suggest_fix
+
+- rule: Provide the analysis report when requested
+  steps:
+  - intent: ask_analysis_report
+  - action: action_analysis_report
