@@ -9,16 +9,15 @@ import os
 from utils.report_utilities import get_info_from_report
 from utils.string_matcher import code_smell_name_matcher
 
-# Use this for OpenAI API
-from llm.open_ai import complete_text
-
-# Disable this if using OpenAI API
-# from llm.codeLlama import complete_text
-
 logging.basicConfig(level=logging.INFO)
 ERROR_MESSAGE = "Sorry, there was a problem... Please try again."
 
 load_dotenv()
+llm = os.getenv("LLM", "OpenAI")
+if llm == "OpenAI":
+    from llm.open_ai import complete_text
+elif llm == "CodeLlama":
+    from llm.codeLlama import complete_text
 
 
 class ActionSuggestFix(Action):
@@ -58,31 +57,32 @@ class ActionSuggestFix(Action):
             cs_name = code_smell_name_matcher(cs_name)[0]
             cs_info = get_code_smell_by_name(cs_name, ["description", "problems", "solution"])
 
-            # Prompt for OpenAI API
-            prompt = [
-                {"role": "system", "content": f"{cs_info['description']} {cs_info['problems']} {cs_info['solution']}"},
-                {"role": "system", "content": f"{function_body}"},
-                {"role": "system",
-                 "content": "You will be provided with the explanation of a code smell and the body of a function. Your task is to suggest how to fix the code smell in the function provided"},
-                {"role": "system",
-                 "content": "You must write only the code, clearly indicating the modifications you have made using comments inside the code."},
-                {"role": "user",
-                 "content": f"Suggest me how to fix the code smell {cs_name} in the function {cs_function_name}"},
-            ]
-
-            # Prompt for codeLlama
-            """
-            prompt = [
-                {"role": "system", "content": f"{cs_info['description']} {cs_info['problems']} {cs_info['solution']}"},
-                {"role": "system", "content": f"{function_body}"},
-                {"role": "system",
-                 "content": "You will be provided with the explanation of a code smell and the body of a function. Your task is to suggest how to fix the code smell in the function provided writing only the correct code and briefly explaining the changes made"},
-                {"role": "system",
-                 "content": "You must write only the code, clearly indicating the modifications you have made using comments inside the code."},
-                {"role": "user",
-                 "content": f"Suggest me how to fix the code smell {cs_name} in the function {cs_function_name}"},
-            ]
-            """
+            prompt = []
+            if llm == "OpenAI":
+                prompt = [
+                    {"role": "system", "content": f"{cs_info['description']} {cs_info['problems']} {cs_info['solution']}"},
+                    {"role": "system", "content": f"{function_body}"},
+                    {"role": "system",
+                    "content": "You will be provided with the explanation of a code smell and the body of a function. Your task is to suggest how to fix the code smell in the function provided"},
+                    {"role": "system",
+                    "content": "You must write only the code, clearly indicating the modifications you have made using comments inside the code."},
+                    {"role": "user",
+                    "content": f"Suggest me how to fix the code smell {cs_name} in the function {cs_function_name}"},
+                ]
+            elif llm == "CodeLlama":
+                prompt = [
+                    {"role": "system", "content": f"{cs_info['description']} {cs_info['problems']} {cs_info['solution']}"},
+                    {"role": "system", "content": f"{function_body}"},
+                    {"role": "system",
+                    "content": "You will be provided with the explanation of a code smell and the body of a function. Your task is to suggest how to fix the code smell in the function provided writing only the correct code and briefly explaining the changes made"},
+                    {"role": "system",
+                    "content": "You must write only the code, clearly indicating the modifications you have made using comments inside the code."},
+                    {"role": "user",
+                    "content": f"Suggest me how to fix the code smell {cs_name} in the function {cs_function_name}"},
+                ]
+            else:
+                dispatcher.utter_message(text="There was a problema with the LLM... Please try again!")
+                return[]
 
             suggestion = complete_text(prompt)
             suggestion = self._preserve_empty_lines(suggestion)
