@@ -197,6 +197,7 @@ nlu:
     - I need help resolving issue [4](issue_index). Can you assist?
     - Please provide suggestions for correcting problem [6](issue_index).
     - Could you give me some tips for fixing issue [7](issue_index)?
+    - How can I solve issue [11](issue_index)?
 
 - intent: ask_analysis_report
   examples: |

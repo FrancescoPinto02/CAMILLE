@@ -46,10 +46,10 @@ responses:
   - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "I'm Camille, a chatbot created by F. Pinto to support Machine Learning Engineers in identifying and correcting code smells"
 
   utter_default:
-  - text: "I`m sorry, I don`t know how to help you. Can I do anything else for you?"
+  - text: "I`m sorry, I don`t know how to help you."
 
   utter_define_codesmell:
   - text: "A code smell refers to any characteristic in the source code of a program that indicates there might be a deeper problem. 
@@ -63,20 +63,21 @@ responses:
           implement in the short run is used instead of applying the best overall solution. Accumulating technical debt can result in increased 
           development time, reduced code quality, and higher maintenance costs."
 
+  utter_suggest_help:
+  - text: "If you're having trouble, try typing 'Help me'"
+
   utter_help:
-  - text: "Here are some things I can assist you with:\n
-        - I can answer FAQs about codesmells and technical debt\n
-        - I can provide you a list of currently known ML specific code smells.\n
-        - I can give you detailed information about each code smell in the list\n
-        - I can run an analysis for your github repository\n
+  - text: "I can assist you throughout your ML pipeline to identify and fix code smells. Here are some of my features:\n
+        - Show a list of existing code smells\n
+        - Provide information/examples of each code smell\n
+        - Analyze a github repository\n
+        - Provide personalized correction suggestions\n
         
-        Here are some example commands you can use:\n
-        - What is a code smell?\n
-        - Give me the code smells list.\n
-        - Tell me more about Memory Not Freed.\n
-        - Could you analyze this project: https://github.com/FrancescoPinto02/CAMILLE.git ?\n
-        
-        Feel free to ask anything related to these topics!"
+        Try typing something like:\n
+        - Show me the code smells list\n
+        - Tell me more about code smell [Index]\n
+        - Provide me an example of [Code Smell Name].\n
+        - Analyze: [Github Repo Url]\n"
 
 session_config:
   session_expiration_time: 60

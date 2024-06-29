@@ -6,6 +6,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_suggest_help
   - intent: ask_help
   - action: utter_help
 
@@ -13,6 +14,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_suggest_help
   - intent: nlu_fallback
   - action: action_default_fallback
   - intent: nlu_fallback
