@@ -53,13 +53,15 @@ def analyze_project(project_path, output_path="."):
 
 
 def analyze_github_repository(repo_url):
-    # Ottieni il nome del repository dall'URL
+    # Ottieni il nome del creatore e del repository dall'URL
     parsed_url = urlparse(repo_url)
-    repo_name = os.path.splitext(os.path.basename(parsed_url.path))[0]
+    path_parts = parsed_url.path.strip('/').split('/')
+    creator_name = path_parts[0]
+    repo_name = os.path.splitext(path_parts[1])[0]
 
     # Percorsi di input e output
-    input_path = f"cs_detection_tool/input/projects/{repo_name}"
-    output_path = f"cs_detection_tool/output/projects_analysis/{repo_name}"
+    input_path = f"cs_detection_tool/input/projects/{creator_name}/{repo_name}"
+    output_path = f"cs_detection_tool/output/projects_analysis/{creator_name}/{repo_name}"
     result_file = os.path.join(output_path, "to_save.csv")
 
     try:
