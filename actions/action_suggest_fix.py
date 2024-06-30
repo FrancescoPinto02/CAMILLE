@@ -2,7 +2,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import logging
-from utils.query import get_code_smell_by_name
+from db.query import get_code_smell_by_name
 import requests
 from dotenv import load_dotenv
 import os

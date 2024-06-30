@@ -1,0 +1,223 @@
+[
+    {
+        "id": "1",
+        "name": "Unnecessary Iteration",
+        "description": "The code smell known as 'Unnecessary Iteration' emphasizes the importance of replacing loops with vectorized solutions, especially in data-intensive tasks common in machine learning.",
+        "problems": "Unnecessary iteration poses a challenge due to its time-consuming nature and potential for increased code complexity. This can lead to slower execution times and reduced performance, particularly in data-intensive machine learning applications.",
+        "solution": "The solution to 'Unnecessary Iteration' is to adopt vectorized solutions instead of loops. Utilizing built-in methods like join and groupby in Pandas, along with APIs like tf.reduce_sum() in TensorFlow, can significantly improve program efficiency and reduce code complexity.",
+        "bad_example": "```python\nimport pandas as pd\n\n# Sample DataFrame\ndata = {\n    'category': ['A', 'B', 'A', 'B', 'C', 'A'],\n    'value': [10, 20, 30, 40, 50, 60]\n}\ndf = pd.DataFrame(data)\n\n# Unnecessary iteration\nresult = {}\nfor category in df['category'].unique():\n    total = 0\n    for index, row in df.iterrows():\n        if row['category'] == category:\n            total += row['value']\n    result[category] = total\n\nprint(result)\n```",
+        "good_example": "```python\nimport pandas as pd\n\n# Sample DataFrame\ndata = {\n    'category': ['A', 'B', 'A', 'B', 'C', 'A'],\n    'value': [10, 20, 30, 40, 50, 60]\n}\ndf = pd.DataFrame(data)\n\n# Vectorized solution using groupby\nresult = df.groupby('category')['value'].sum().to_dict()\n\nprint(result)\n```",
+        "type": "Performance"
+    },
+    {
+        "id": "2",
+        "name": "NaN Equivalence Comparison Misused",
+        "description": "The code smell known as 'NaN Equivalence Comparison Misused' highlights the difference between NaN equivalence comparison and None comparison, particularly in libraries like NumPy and Pandas.",
+        "problems": "Misusing NaN equivalence comparison can result in unintended behaviors due to the difference in how NaN values are treated compared to None. Developers may encounter unexpected results, particularly when comparing DataFrame elements with np.nan, as it always returns False, potentially leading to bugs in the code.",
+        "solution": "The solution to 'NaN Equivalence Comparison Misused' involves understanding the difference between NaN and None comparison and handling NaN values appropriately. Developers should be aware that np.nan == np.nan evaluates to False and utilize functions like np.isnan() for NaN checks instead of direct comparison.",
+        "bad_example": "```python\nimport numpy as np\nimport pandas as pd\n\n# Sample DataFrame with NaN values\ndata = {\n    'column1': [1, 2, np.nan, 4],\n    'column2': [np.nan, 2, 3, 4]\n}\ndf = pd.DataFrame(data)\n\n# Incorrect NaN comparison\nresult = df.applymap(lambda x: x == np.nan)\n\nprint(result)\n```",
+        "good_example": "```python\nimport numpy as np\nimport pandas as pd\n\n# Sample DataFrame with NaN values\ndata = {\n    'column1': [1, 2, np.nan, 4],\n    'column2': [np.nan, 2, 3, 4]\n}\ndf = pd.DataFrame(data)\n\n# Correct NaN comparison using np.isnan\nresult = df.applymap(lambda x: np.isnan(x))\n\nprint(result)\n```",
+        "type": "Generic"
+    },
+    {
+        "id": "3",
+        "name": "Chain Indexing",
+        "description": "The code smell known as 'Chain Indexing' refers to the use of multiple sequential indexing operations in Pandas, such as df['one']['two'], which can result in inefficient code and potential errors.",
+        "problems": "The problem with chain indexing in Pandas lies in its potential performance issues and error-prone nature. For instance, using df['one']['two'] triggers two separate indexing events, whereas df.loc[:, ('one', 'two')] accomplishes the same task with a single call, resulting in significant performance differences. Additionally, assigning values to the result of chain indexing can yield unpredictable outcomes due to Pandas' ambiguity regarding whether it returns a view or a copy.",
+        "solution": "The solution to 'Chain Indexing' is straightforward: developers using Pandas should refrain from employing chain indexing. Instead, they should opt for more efficient and reliable indexing methods, such as using .loc or .iloc for accessing DataFrame elements.",
+        "bad_example": "```python\nimport pandas as pd\n\n# Sample DataFrame\ndata = {\n    'one': [1, 2, 3, 4],\n    'two': [5, 6, 7, 8],\n    'three': [9, 10, 11, 12]\n}\ndf = pd.DataFrame(data)\n\n# Chain indexing to access elements in 'two' column\nresult = df['two'][df['one'] > 2]\n\nprint(result)\n```",
+        "good_example": "```python\nimport pandas as pd\n\n# Sample DataFrame\ndata = {\n    'one': [1, 2, 3, 4],\n    'two': [5, 6, 7, 8],\n    'three': [9, 10, 11, 12]\n}\ndf = pd.DataFrame(data)\n\n# Proper indexing using .loc\nresult = df.loc[df['one'] > 2, 'two']\n\nprint(result)\n```",
+        "type": "API-Specific"
+    },
+    {
+        "id": "4",
+        "name": "Columns and DataType Not Explicitly Set",
+        "description": "The code smell known as 'Columns and DataType Not Explicitly Set' highlights the importance of explicitly selecting columns and setting their data types when importing data, to avoid unexpected behavior in subsequent data processing steps.",
+        "problems": "The problem with not explicitly setting columns and data types during data import is that it can lead to confusion and errors in the downstream data schema. When columns are not explicitly selected, developers may be unsure of the data structure. Similarly, if data types are not set explicitly, the default type conversion might silently pass unexpected inputs, causing errors later in the processing pipeline.",
+        "solution": "To address 'Columns and DataType Not Explicitly Set', it is recommended to explicitly specify the columns and their data types when importing data. This practice helps in maintaining a clear data schema and ensures that the data types are correctly assigned, thus preventing unexpected behavior and potential errors in downstream tasks.",
+        "bad_example": "```python\nimport pandas as pd\n\n# Import data from a CSV file without specifying columns and data types\n# This can lead to confusion and potential errors\ndf = pd.read_csv('data.csv')\n\n# Print the DataFrame\nprint(df.info())\n```",
+        "good_example": "```python\nimport pandas as pd\n\n# Specify the columns to be imported and their data types\ncolumn_names = ['id', 'name', 'age', 'salary']\ndata_types = {\n    'id': 'int64',\n    'name': 'object',\n    'age': 'int64',\n    'salary': 'float64'\n}\n\n# Import data from a CSV file with specified columns and data types\n# This approach ensures a clear data schema and correct data types\ndf = pd.read_csv('data.csv', usecols=column_names, dtype=data_types)\n\n# Print the DataFrame\nprint(df.info())\n```",
+        "type": "Generic"
+    },
+    {
+        "id": "5",
+        "name": "Empty Column Misinitialization",
+        "description": "The code smell known as 'Empty Column Misinitialization' involves the incorrect practice of initializing new empty columns in Pandas DataFrames with zeros or empty strings rather than using NumPy's NaN value.",
+        "problems": "Initializing new empty columns with zeros or empty strings in Pandas can cause issues because it prevents the correct use of methods such as .isnull() or .notnull(). This can result in problems when trying to identify and handle missing data, potentially leading to errors in the data analysis process.",
+        "solution": "The solution to 'Empty Column Misinitialization' is to use NumPy's NaN value when creating new empty columns in a Pandas DataFrame. This ensures that methods like .isnull() and .notnull() work correctly, allowing for proper identification and handling of missing data.",
+        "bad_example": "```python\nimport pandas as pd\n\n# Sample DataFrame\ndata = {\n    'column1': [1, 2, 3],\n    'column2': [4, 5, 6]\n}\ndf = pd.DataFrame(data)\n\n# Incorrectly initializing new empty columns with zeros or empty strings\ndf['new_column_zeros'] = 0\ndf['new_column_empty_strings'] = ''\n\n# Print the DataFrame\nprint(df)\n\n# Check for missing values\nprint(df.isnull())\n```",
+        "good_example": "```python\nimport numpy as np\nimport pandas as pd\n\n# Sample DataFrame\ndata = {\n    'column1': [1, 2, 3],\n    'column2': [4, 5, 6]\n}\ndf = pd.DataFrame(data)\n\n# Correctly initializing new empty columns with NumPy's NaN\ndf['new_column_nan'] = np.nan\n\n# Print the DataFrame\nprint(df)\n\n# Check for missing values\nprint(df.isnull())\n```",
+        "type": "Generic"
+    },
+    {
+        "id": "6",
+        "name": "Merge API Parameter Not Explicitly Set",
+        "description": "The code smell you're referring to is called 'Merge API Parameter Not Explicitly Set'. It involves the practice of not explicitly specifying key parameters such as 'on', 'how', and 'validate' when performing merge operations using the df.merge() API in Pandas.",
+        "problems": "Not explicitly setting parameters for df.merge() can cause significant issues. It makes the code harder to read and understand, and may lead to incorrect merges if assumptions about the data are wrong. For instance, if the merge keys are not unique and the 'validate' parameter is not set, the merge might silently produce incorrect results.",
+        "solution": "To address 'Merge API Parameter Not Explicitly Set', developers should always explicitly set the 'on', 'how', and 'validate' parameters when performing a merge with df.merge(). This approach ensures clarity in the merge logic, enhances code readability, and helps catch potential issues early, preventing silent errors in data merging.",
+        "bad_example": "```python\nimport pandas as pd\n\n# Sample DataFrames\ndata1 = {\n    'id': [1, 2, 3],\n    'value1': ['A', 'B', 'C']\n}\ndf1 = pd.DataFrame(data1)\n\ndata2 = {\n    'id': [1, 2, 4],\n    'value2': ['D', 'E', 'F']\n}\ndf2 = pd.DataFrame(data2)\n\n# Merge without explicitly setting parameters\nmerged_df = df1.merge(df2)\n\n# Print the merged DataFrame\nprint(merged_df)\n```",
+        "good_example": "```python\nimport pandas as pd\n\n# Sample DataFrames\ndata1 = {\n    'id': [1, 2, 3],\n    'value1': ['A', 'B', 'C']\n}\ndf1 = pd.DataFrame(data1)\n\ndata2 = {\n    'id': [1, 2, 4],\n    'value2': ['D', 'E', 'F']\n}\ndf2 = pd.DataFrame(data2)\n\n# Merge with explicitly setting parameters\nmerged_df = df1.merge(df2, on='id', how='inner', validate='one_to_one')\n\n# Print the merged DataFrame\nprint(merged_df)\n```",
+        "type": "Generic"
+    },
+    {
+        "id": "7",
+        "name": "In-Place APIs Misused",
+        "description": "The code smell known as 'In-Place APIs Misused' highlights the incorrect use of in-place operations. It happens when developers do not assign the result of an operation to a variable or fail to set the in-place parameter, mistakenly believing the original data structure is modified directly.",
+        "problems": "The problem with misusing in-place APIs is that it can lead to unexpected results where changes do not affect the original data structure. For example, in Pandas, failing to assign the result of df.dropna() to a variable or not setting the in-place parameter means the original DataFrame remains unchanged. This can cause confusion and errors in data manipulation.",
+        "solution": "To address 'In-Place APIs Misused', developers should either assign the result of the operation to a new variable or explicitly set the in-place parameter in the API. This practice ensures that the intended changes are applied to the data structure. Understanding the specific behavior of methods in libraries like Pandas and TensorFlow is crucial for accurate data manipulation.",
+        "bad_example": "```python\nimport pandas as pd\n\n# Sample DataFrame\ndata = {\n    'A': [1, 2, None, 4],\n    'B': [5, None, 7, 8],\n    'C': [None, 10, 11, 12]\n}\ndf = pd.DataFrame(data)\n\n# Misuse of in-place operation: Drop NaN values without assigning the result\ndf.dropna(inplace=True)\n\n# Original DataFrame remains unchanged\nprint(df)\n```",
+        "good_example": "```python\nimport pandas as pd\n\n# Sample DataFrame\ndata = {\n    'A': [1, 2, None, 4],\n    'B': [5, None, 7, 8],\n    'C': [None, 10, 11, 12]\n}\ndf = pd.DataFrame(data)\n\n# Proper use of in-place operation: Assign the result to a new variable\ndf_cleaned = df.dropna()\n\n# Original DataFrame remains unchanged\nprint(df)\n\n# The result is stored in a new variable\nprint(df_cleaned)\n```",
+        "type": "Generic"
+    },
+    {
+        "id": "8",
+        "name": "DataFrame Conversion API Misused",
+        "description": "The code smell known as 'DataFrame Conversion API Misused' highlights the incorrect use of the df.values() method for converting a Pandas DataFrame to a NumPy array, which can lead to inconsistencies. The recommended method is df.to_numpy().",
+        "problems": "Using df.values() for DataFrame to NumPy array conversion has an inconsistency problem. It's unclear whether df.values() will return the actual array, a transformed version, or a custom Pandas array. This uncertainty can lead to errors in data manipulation and analysis.",
+        "solution": "The solution to 'DataFrame Conversion API Misused' is to use df.to_numpy() instead of df.values() when converting a DataFrame to a NumPy array. The df.to_numpy() method provides a consistent and reliable conversion, ensuring predictable results.",
+        "bad_example": "```python\nimport pandas as pd\n\n# Sample DataFrame\ndata = {\n    'A': [1, 2, 3],\n    'B': [4, 5, 6],\n    'C': [7, 8, 9]\n}\ndf = pd.DataFrame(data)\n\n# Misuse of DataFrame conversion API: Using df.values()\nnumpy_array = df.values\n\n# Print the NumPy array\nprint(numpy_array)\n```",
+        "good_example": "```python\nimport pandas as pd\n\n# Sample DataFrame\ndata = {\n    'A': [1, 2, 3],\n    'B': [4, 5, 6],\n    'C': [7, 8, 9]\n}\ndf = pd.DataFrame(data)\n\n# Proper use of DataFrame conversion API: Using df.to_numpy()\nnumpy_array = df.to_numpy()\n\n# Print the NumPy array\nprint(numpy_array)\n```",
+        "type": "API-Specific"
+    },
+    {
+        "id": "9",
+        "name": "Matrix Multiplication API Misused",
+        "description": "The code smell you're referring to is called 'Matrix Multiplication API Misused'. It involves using the np.dot() function for matrix multiplication in NumPy instead of the more semantically appropriate np.matmul() function.",
+        "problems": "The problem with using np.dot() for two-dimensional matrix multiplication is that it can cause confusion due to its mathematical semantics. In mathematics, the dot product usually results in a scalar, not a matrix. Using np.dot() for matrix multiplication can mislead developers and result in code that's harder to understand.",
+        "solution": "To address 'Matrix Multiplication API Misused', developers should prefer np.matmul() over np.dot() for two-dimensional matrix multiplication in NumPy. This practice ensures that the operation's semantics are clear and consistent with mathematical conventions, reducing potential confusion.",
+        "bad_example": "```python\nimport numpy as np\n\n# Sample matrices\nmatrix1 = np.array([[1, 2], [3, 4]])\nmatrix2 = np.array([[5, 6], [7, 8]])\n\n# Misuse of matrix multiplication API: Using np.dot()\nresult = np.dot(matrix1, matrix2)\n\n# Print the result\nprint(result)\n```",
+        "good_example": "```python\nimport numpy as np\n\n# Sample matrices\nmatrix1 = np.array([[1, 2], [3, 4]])\nmatrix2 = np.array([[5, 6], [7, 8]])\n\n# Proper use of matrix multiplication API: Using np.matmul()\nresult = np.matmul(matrix1, matrix2)\n\n# Print the result\nprint(result)\n```",
+        "type": "API-Specific"
+    },
+    {
+        "id": "10",
+        "name": "No Scaling before Scaling-Sensitive Operation",
+        "description": "The code smell you're referring to is called 'No Scaling before Scaling-Sensitive Operation'. It occurs when feature scaling is not applied before performing operations that are sensitive to the scale of the input data.",
+        "problems": "Skipping feature scaling before scaling-sensitive operations can cause significant issues. For instance, in PCA, if features are not scaled, the variable with the larger scale will dominate the principal components, leading to incorrect conclusions. Similarly, SVM, SGD, and other algorithms may perform poorly or give misleading results without proper scaling.",
+        "solution": "To address 'No Scaling before Scaling-Sensitive Operation', always check and apply appropriate feature scaling techniques such as standardization or normalization before running scaling-sensitive algorithms. This practice helps in obtaining accurate results and prevents one feature from disproportionately influencing the outcome.",
+        "bad_example": "```python\nfrom sklearn.decomposition import PCA\nfrom sklearn.datasets import load_iris\n\n# Load the Iris dataset\niris = load_iris()\nX = iris.data\n\n# Perform PCA without feature scaling\npca = PCA(n_components=2)\nX_pca = pca.fit_transform(X)\n\n# Print the transformed data\nprint(X_pca)\n```",
+        "good_example": "```python\nfrom sklearn.decomposition import PCA\nfrom sklearn.datasets import load_iris\nfrom sklearn.preprocessing import StandardScaler\n\n# Load the Iris dataset\niris = load_iris()\nX = iris.data\n\n# Scale the features\nscaler = StandardScaler()\nX_scaled = scaler.fit_transform(X)\n\n# Perform PCA with feature scaling\npca = PCA(n_components=2)\nX_pca = pca.fit_transform(X_scaled)\n\n# Print the transformed data\nprint(X_pca)\n```",
+        "type": "Generic"
+    },
+    {
+        "id": "11",
+        "name": "Hyperparameter Not Explicitly Set",
+        "description": "The code smell known as 'Hyperparameter Not Explicitly Set' highlights the practice of not explicitly setting hyperparameters for machine learning models, which can lead to suboptimal performance and issues with reproducibility.",
+        "problems": "The problem with not explicitly setting hyperparameters is that the default values provided by machine learning libraries may not be optimal for your specific dataset or problem. This can result in suboptimal model performance, such as getting stuck in local optima. Additionally, default parameters can change between library versions, causing inconsistencies in results and making it difficult to replicate the model in a different environment or programming language.",
+        "solution": "The solution to 'Hyperparameter Not Explicitly Set' is to explicitly define and tune hyperparameters for your machine learning models. By doing so, you can optimize the model's performance for your specific data and problem. Explicitly setting hyperparameters also enhances the reproducibility of your results, making it easier to replicate the model in different environments or programming languages.",
+        "bad_example": "```python\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.datasets import load_iris\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import accuracy_score\n\n# Load the Iris dataset\niris = load_iris()\nX = iris.data\ny = iris.target\n\n# Split the dataset into training and testing sets\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Initialize the Random Forest classifier without explicitly setting hyperparameters\nclf = RandomForestClassifier()\n\n# Train the model\nclf.fit(X_train, y_train)\n\n# Make predictions\ny_pred = clf.predict(X_test)\n\n# Calculate accuracy\naccuracy = accuracy_score(y_test, y_pred)\nprint(\"Accuracy:\", accuracy)\n```",
+        "good_example": "```python\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.datasets import load_iris\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import accuracy_score\n\n# Load the Iris dataset\niris = load_iris()\nX = iris.data\ny = iris.target\n\n# Split the dataset into training and testing sets\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Initialize the Random Forest classifier with explicitly set hyperparameters\nclf = RandomForestClassifier(n_estimators=100, max_depth=10, random_state=42)\n\n# Train the model\nclf.fit(X_train, y_train)\n\n# Make predictions\ny_pred = clf.predict(X_test)\n\n# Calculate accuracy\naccuracy = accuracy_score(y_test, y_pred)\nprint(\"Accuracy:\", accuracy)\n```",
+        "type": "Generic"
+    },
+    {
+        "id": "12",
+        "name": "Memory Not Freed",
+        "description": "The code smell known as 'Memory Not Freed' indicates a situation where memory resources are not appropriately managed during machine learning training.",
+        "problems": "The problem with not freeing memory during machine learning training is that it can lead to memory exhaustion, causing the training process to fail. This is particularly problematic given the memory constraints typically imposed on machines.",
+        "solution": "To address 'Memory Not Freed', developers should ensure they use memory management APIs provided by machine learning libraries effectively. This includes using clear_session() in TensorFlow when creating models in a loop and utilizing .detach() in PyTorch to release tensors from the computational graph when appropriate. These practices help prevent memory exhaustion and ensure smoother training processes.",
+        "bad_example": "```python\nimport tensorflow as tf\n\n# Loop to create and train multiple models\nfor _ in range(5):\n    # Define and compile the model\n    model = tf.keras.Sequential([\n        tf.keras.layers.Dense(128, activation='relu', input_shape=(784,)),\n        tf.keras.layers.Dense(10, activation='softmax')\n    ])\n    model.compile(optimizer='adam',\n                  loss='sparse_categorical_crossentropy',\n                  metrics=['accuracy'])\n\n    # Train the model\n    model.fit(X_train, y_train, epochs=10, batch_size=32)\n```",
+        "good_example": "```python\nimport tensorflow as tf\n\n# Loop to create and train multiple models\nfor _ in range(5):\n    # Define and compile the model\n    model = tf.keras.Sequential([\n        tf.keras.layers.Dense(128, activation='relu', input_shape=(784,)),\n        tf.keras.layers.Dense(10, activation='softmax')\n    ])\n    model.compile(optimizer='adam',\n                  loss='sparse_categorical_crossentropy',\n                  metrics=['accuracy'])\n\n    # Train the model\n    model.fit(X_train, y_train, epochs=10, batch_size=32)\n\n    # Clear the TensorFlow session to free up memory\n    tf.keras.backend.clear_session()\n```",
+        "type": "Generic"
+    },
+    {
+        "id": "13",
+        "name": "Deterministic Algorithm Option Not Used",
+        "description": "The code smell you're referring to is called 'Deterministic Algorithm Option Not Used'. It occurs when deterministic algorithms, which can improve reproducibility, are not utilized during the development process.",
+        "problems": "The problem with not using deterministic algorithms during development is that it can result in non-repeatable results, making debugging inconvenient. This lack of reproducibility can hinder the debugging process and lead to inefficiencies in resolving issues.",
+        "solution": "To address 'Deterministic Algorithm Option Not Used', developers should enable deterministic algorithm options, such as torch.use_deterministic_algorithms(True) in PyTorch, during the development phase to enhance reproducibility and simplify debugging. However, it's essential to switch to performance-optimized options for deployment to minimize any performance impact.",
+        "bad_example": "```python\nimport torch\n\n# Your PyTorch code for model training, evaluation, etc. goes here\n```",
+        "good_example": "```python\nimport torch\n\n# Enable deterministic algorithms for reproducibility during development\ntorch.use_deterministic_algorithms(True)\n\n# Your PyTorch code for model training, evaluation, etc. goes here\n```",
+        "type": "Generic"
+    },
+    {
+        "id": "14",
+        "name": "Randomness Uncontrolled",
+        "description": "The code smell known as 'Randomness Uncontrolled' highlights the absence of explicitly setting random seeds in applications involving random procedures.",
+        "problems": "Failing to set random seeds can lead to various issues, such as unpredictable results and difficulty in reproducing experiments. Without fixed random seeds, algorithms relying on randomness may produce different outcomes each time they run, making it harder to debug and replicate results.",
+        "solution": "To address 'Randomness Uncontrolled', it is recommended to set global random seeds explicitly during the development process. This ensures reproducibility in libraries like Scikit-Learn, PyTorch, Numpy, and others. Additionally, specific components like DataLoader in PyTorch should be initialized with random seeds to ensure consistent data splitting and loading.",
+        "bad_example": "```python\nimport numpy as np\nimport torch\nfrom sklearn.model_selection import train_test_split\n\n# Randomness is not controlled, leading to unpredictable results\ndata = np.random.rand(100, 10)\nlabels = np.random.randint(0, 2, size=(100,))\n\nX_train, X_test, y_train, y_test = train_test_split(data, labels, test_size=0.2)\n\n# Your further code for model training, evaluation, etc. goes here\n```",
+        "good_example": "```python\nimport numpy as np\nimport torch\nfrom sklearn.model_selection import train_test_split\n\n# Set random seed for reproducibility\nrandom_seed = 42\nnp.random.seed(random_seed)\ntorch.manual_seed(random_seed)\n\n# Randomness is controlled, ensuring reproducibility\ndata = np.random.rand(100, 10)\nlabels = np.random.randint(0, 2, size=(100,))\n\nX_train, X_test, y_train, y_test = train_test_split(data, labels, test_size=0.2, random_state=random_seed)\n\n# Your further code for model training, evaluation, etc. goes here\n```",
+        "type": "Generic"
+    },
+    {
+        "id": "15",
+        "name": "Missing the Mask of Invalid Value",
+        "description": "The code smell known as 'Missing the Mask of Invalid Value' arises when invalid values, such as values approaching zero, are not masked or handled appropriately in operations like the log function.",
+        "problems": "Failing to handle potential invalid values, such as values approaching zero, can lead to errors during the execution of operations like the log function. These errors are difficult to diagnose and may not provide clear indications of their source, prolonging the debugging process.",
+        "solution": "The solution to 'Missing the Mask of Invalid Value' involves checking for potential invalid values in operations like the log function and adding a mask to handle them appropriately. Utilizing functions like tf.clip_by_value() to ensure input values remain within a valid range can prevent errors and streamline the debugging process. By addressing this code smell proactively, developers can improve the robustness of their code and reduce debugging efforts.",
+        "bad_example": "```python\nimport tensorflow as tf\n\n# Perform a log operation without handling potential invalid values\ninput_tensor = tf.constant([-0.1, 0.5, 1.0, 10.0])\nresult = tf.math.log(input_tensor)\nprint(result)\n```",
+        "good_example": "```python\nimport tensorflow as tf\n\n# Handle potential invalid values by adding a mask\ninput_tensor = tf.constant([-0.1, 0.5, 1.0, 10.0])\nmasked_input = tf.clip_by_value(input_tensor, 1e-8, 1e8)  # Clip input values to a valid range\nresult = tf.math.log(masked_input)\nprint(result)\n```",
+        "type": "Generic"
+    },
+    {
+        "id": "16",
+        "name": "Broadcasting Feature Not Used",
+        "description": "The code smell you're referring to is called 'Broadcasting Feature Not Used'. It occurs when the broadcasting feature available in deep learning libraries like PyTorch and TensorFlow is not utilized, leading to potential inefficiencies in memory usage.",
+        "problems": "By not leveraging the broadcasting feature, deep learning code may consume more memory than necessary, especially when performing operations like tiling tensors. This inefficiency can hinder performance and scalability, particularly in memory-constrained environments.",
+        "solution": "The solution to 'Broadcasting Feature Not Used' involves embracing the broadcasting feature in deep learning code, even though it may introduce some trade-offs in terms of debugging. By leveraging broadcasting, developers can achieve more memory-efficient operations, enhancing the performance and scalability of their models.",
+        "bad_example": "```python\nimport torch\n\n# Create two tensors with different shapes\ntensor1 = torch.tensor([[1, 2, 3], [4, 5, 6]])\ntensor2 = torch.tensor([10, 20, 30])\n\n# Perform element-wise multiplication without utilizing broadcasting\nresult = tensor1 * tensor2\nprint(result)\n```",
+        "good_example": "```python\nimport torch\n\n# Create two tensors with different shapes\ntensor1 = torch.tensor([[1, 2, 3], [4, 5, 6]])\ntensor2 = torch.tensor([10, 20, 30])\n\n# Utilize broadcasting for element-wise multiplication\nresult = tensor1 * tensor2.unsqueeze(0)  # Unsqueeze tensor2 to match the shape of tensor1\nprint(result)\n```",
+        "type": "Generic"
+    },
+    {
+        "id": "17",
+        "name": "TensorArray Not Used",
+        "description": "The code smell known as 'TensorArray Not Used' indicates a missed opportunity to use tf.TensorArray() in TensorFlow 2 for scenarios where the value of the array needs to be modified iteratively within a loop.",
+        "problems": "The problem with not using tf.TensorArray() in TensorFlow 2 is that attempting to modify the value of an array initialized with tf.constant() within a loop can lead to errors. While the issue can be addressed using low-level APIs like tf.while_loop(), this approach can be inefficient and result in the creation of numerous intermediate tensors.",
+        "solution": "To address 'TensorArray Not Used', developers should utilize tf.TensorArray() in TensorFlow 2 when the value of the array needs to change dynamically within a loop. By using tf.TensorArray(), developers can avoid errors and inefficiencies associated with modifying arrays initialized with tf.constant() within loops.",
+        "bad_example": "```python\nimport tensorflow as tf\n\n# Initialize a tensor using tf.constant()\ntensor = tf.constant([1, 2, 3, 4, 5])\n\n# Attempt to modify the tensor value within a loop\nfor i in range(5):\n    tensor[i] += 1  # Trying to modify a tensor initialized with tf.constant() will result in an error\n```",
+        "good_example": "```python\nimport tensorflow as tf\n\n# Initialize a TensorArray to dynamically modify values within a loop\ntensor_array = tf.TensorArray(tf.int32, size=5)\ninitial_values = tf.constant([1, 2, 3, 4, 5])\n\n# Write initial values to the TensorArray\nfor i in range(5):\n    tensor_array = tensor_array.write(i, initial_values[i])\n\n# Modify values of the TensorArray within a loop\nfor i in range(5):\n    tensor_array = tensor_array.write(i, tensor_array.read(i) + 1)\n\n# Read values from the TensorArray\nresult = tensor_array.stack()\nprint(result)\n```",
+        "type": "API-Specific"
+    },
+    {
+        "id": "18",
+        "name": "Training / Evaluation Mode Improper Toggling",
+        "description": "The code smell known as 'Training / Evaluation Mode Improper Toggling' arises when developers fail to switch back to the training mode after using the evaluation mode in deep learning code.",
+        "problems": "The problem with improper toggling of training and evaluation modes is that it can lead to inconsistencies in the behavior of layers like Dropout. Forgetting to toggle back to the training mode after inference may cause Dropout layers to remain deactivated during subsequent training steps, potentially impacting the training results.",
+        "solution": "The solution to 'Training / Evaluation Mode Improper Toggling' involves correctly managing the toggling between training and evaluation modes in deep learning code. Developers should call the training mode in the appropriate place and remember to switch back to training mode after the inference step to ensure consistent behavior of layers like Dropout.",
+        "bad_example": "```python\nimport torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    def __init__(self):\n        super(Model, self).__init__()\n        self.dropout = nn.Dropout(0.5)\n        self.fc = nn.Linear(10, 2)\n\n    def forward(self, x):\n        x = self.dropout(x)\n        x = self.fc(x)\n        return x\n\n# Instantiate the model\nmodel = Model()\n\n# Set the model to evaluation mode\nmodel.eval()\n\n# Perform inference without toggling back to training mode\ninput_data = torch.randn(5, 10)\noutput = model(input_data)\n```",
+        "good_example": "```python\nimport torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    def __init__(self):\n        super(Model, self).__init__()\n        self.dropout = nn.Dropout(0.5)\n        self.fc = nn.Linear(10, 2)\n\n    def forward(self, x):\n        x = self.dropout(x)\n        x = self.fc(x)\n        return x\n\n# Instantiate the model\nmodel = Model()\n\n# Set the model to evaluation mode\nmodel.eval()\n\n# Perform inference\ninput_data = torch.randn(5, 10)\noutput = model(input_data)\n\n# Toggle back to training mode\nmodel.train()\n```",
+        "type": "Generic"
+    },
+    {
+        "id": "19",
+        "name": "Pytorch Call Method Misused",
+        "description": "The code smell known as 'PyTorch Call Method Misused' arises when developers incorrectly use self.net.forward() instead of self.net() to forward input to the network in PyTorch.",
+        "problems": "The problem with misusing the call method in PyTorch is that using self.net.forward() instead of self.net() may neglect certain functionalities such as registered hooks. This oversight can lead to unintended behavior or missed opportunities for customization during the forward pass.",
+        "solution": "The solution to 'PyTorch Call Method Misused' involves using self.net() instead of self.net.forward() in PyTorch for forwarding input to the network. By using self.net(), developers ensure that all relevant functionalities like registered hooks are accounted for during the forward pass, leading to more accurate and customizable model behavior.",
+        "bad_example": "```python\nimport torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    def __init__(self):\n        super(Model, self).__init__()\n        self.fc = nn.Linear(10, 2)\n\n    def forward(self, x):\n        x = self.fc(x)\n        return x\n\n# Instantiate the model\nmodel = Model()\n\n# Misuse of the call method\ninput_data = torch.randn(5, 10)\noutput = model.forward(input_data)\n```",
+        "good_example": "```python\nimport torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    def __init__(self):\n        super(Model, self).__init__()\n        self.fc = nn.Linear(10, 2)\n\n    def forward(self, x):\n        x = self.fc(x)\n        return x\n\n# Instantiate the model\nmodel = Model()\n\n# Correct usage of the call method\ninput_data = torch.randn(5, 10)\noutput = model(input_data)\n```",
+        "type": "API-Specific"
+    },
+    {
+        "id": "20",
+        "name": "Gradients Not Cleared before Backward Propagation",
+        "description": "The code smell you're referring to is called 'Gradients Not Cleared before Backward Propagation'. It occurs when developers forget to use optimizer.zero_grad() before calling loss_fn.backward() in PyTorch",
+        "problems": "Failure to clear gradients before backward propagation in PyTorch can result in the accumulation of gradients from previous iterations. This accumulation can lead to issues like gradient explosion, causing the training process to fail and hindering model convergence and performance.",
+        "solution": "The solution to 'Gradients Not Cleared before Backward Propagation' involves following the correct sequence of steps in PyTorch: optimizer.zero_grad(), loss_fn.backward(), and optimizer.step(). Developers should remember to use optimizer.zero_grad() before loss_fn.backward() to clear gradients and maintain the stability and effectiveness of the training process.",
+        "bad_example": "```python\nimport torch\nimport torch.nn as nn\nimport torch.optim as optim\n\n# Define a simple model\nclass Model(nn.Module):\n    def __init__(self):\n        super(Model, self).__init__()\n        self.fc = nn.Linear(10, 2)\n\n    def forward(self, x):\n        return self.fc(x)\n\n# Instantiate the model and define loss function and optimizer\nmodel = Model()\nloss_fn = nn.CrossEntropyLoss()\noptimizer = optim.SGD(model.parameters(), lr=0.01)\n\n# Perform forward pass\ninput_data = torch.randn(5, 10)\noutput = model(input_data)\n\n# Calculate loss\ntarget = torch.tensor([1, 0, 1, 0, 1])  # Example target\nloss = loss_fn(output, target)\n\n# Backward propagation without clearing gradients\nloss.backward()  # Gradients from previous iterations are accumulated\n```",
+        "good_example": "```python\nimport torch\nimport torch.nn as nn\nimport torch.optim as optim\n\n# Define a simple model\nclass Model(nn.Module):\n    def __init__(self):\n        super(Model, self).__init__()\n        self.fc = nn.Linear(10, 2)\n\n    def forward(self, x):\n        return self.fc(x)\n\n# Instantiate the model and define loss function and optimizer\nmodel = Model()\nloss_fn = nn.CrossEntropyLoss()\noptimizer = optim.SGD(model.parameters(), lr=0.01)\n\n# Perform forward pass\ninput_data = torch.randn(5, 10)\noutput = model(input_data)\n\n# Calculate loss\ntarget = torch.tensor([1, 0, 1, 0, 1])  # Example target\nloss = loss_fn(output, target)\n\n# Clear gradients before backward propagation\noptimizer.zero_grad()\n\n# Backward propagation\nloss.backward()\n\n# Update weights\noptimizer.step()\n```",
+        "type": "API-Specific"
+    },
+    {
+        "id": "21",
+        "name": "Data Leakage",
+        "description": "The code smell you're referring to is called 'Data Leakage'. It occurs when the data used for training a machine learning model contains information that should not be available at the time of prediction.",
+        "problems": "Data Leakage poses a significant challenge in machine learning as it can result in misleading experimental results and suboptimal real-world performance. Whether due to leaky predictors or leaky validation strategies, data leakage undermines the effectiveness and reliability of machine learning models.",
+        "solution": "To address 'Data Leakage', developers should carefully segregate training and validation data to prevent contamination. In Scikit-Learn, one effective approach is to use the Pipeline() API, which helps prevent data leakage by encapsulating preprocessing steps within the model pipeline.",
+        "bad_example": "```python\nimport pandas as pd\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.metrics import accuracy_score\n\n# Load data\ndata = pd.read_csv(\"data.csv\")\n\n# Assume 'leaky_feature' is a leaky predictor\nX = data.drop(columns=['target', 'leaky_feature'])\ny = data['target']\n\n# Split data into training and validation sets\nX_train, X_valid, y_train, y_valid = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Assume 'leaky_feature' is used during training\nmodel = RandomForestClassifier()\nmodel.fit(X_train, y_train)\n\n# Assume 'leaky_feature' is inadvertently used during validation\ny_pred = model.predict(X_valid)\n\n# Calculate accuracy\naccuracy = accuracy_score(y_valid, y_pred)\nprint(\"Validation Accuracy:\", accuracy)\n```",
+        "good_example": "```python\nfrom sklearn.pipeline import Pipeline\nfrom sklearn.compose import ColumnTransformer\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.metrics import accuracy_score\n\n# Load data\ndata = pd.read_csv(\"data.csv\")\n\n# Separate features and target\nX = data.drop(columns=['target'])\ny = data['target']\n\n# Split data into training and validation sets\nX_train, X_valid, y_train, y_valid = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Define preprocessing steps\nnumeric_transformer = Pipeline(steps=[\n    ('scaler', StandardScaler())\n])\n\n# Define model\nmodel = RandomForestClassifier()\n\n# Create pipeline\npreprocessor = ColumnTransformer(transformers=[\n    ('num', numeric_transformer, X_train.columns)\n])\n\npipeline = Pipeline(steps=[\n    ('preprocessor', preprocessor),\n    ('model', model)\n])\n\n# Train model\npipeline.fit(X_train, y_train)\n\n# Predict on validation set\ny_pred = pipeline.predict(X_valid)\n\n# Calculate accuracy\naccuracy = accuracy_score(y_valid, y_pred)\nprint(\"Validation Accuracy:\", accuracy)\n```",
+        "type": "Generic"
+    },
+    {
+        "id": "22",
+        "name": "Threshold-Dependent Validation",
+        "description": "The code smell known as 'Threshold-Dependent Validation' arises when model evaluation metrics are based on specific thresholds, which can lead to less interpretable results.",
+        "problems": "The problem with 'Threshold-Dependent Validation' is that relying on metrics tied to specific thresholds, such as F-measure, can be challenging to interpret and may not generalize well across different datasets or contexts. This can result in suboptimal model evaluation and decision-making.",
+        "solution": "The solution to 'Threshold-Dependent Validation' involves favoring threshold-independent metrics over threshold-dependent ones for model evaluation. By relying on metrics like Area Under the Curve (AUC), developers can ensure more reliable and interpretable assessments of model performance across different contexts and datasets.",
+        "bad_example": "```python\nimport numpy as np\nfrom sklearn.datasets import make_classification\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.metrics import f1_score\n\n# Generate synthetic data\nX, y = make_classification(n_samples=1000, n_features=20, n_classes=2, random_state=42)\n\n# Split data into train and test sets\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Train model\nmodel = RandomForestClassifier()\nmodel.fit(X_train, y_train)\n\n# Predict probabilities and convert to binary predictions using a threshold\ny_pred_proba = model.predict_proba(X_test)[:, 1]\nthreshold = 0.5\ny_pred = np.where(y_pred_proba > threshold, 1, 0)\n\n# Evaluate model using F1 score\nf1 = f1_score(y_test, y_pred)\nprint(\"F1 Score:\", f1)\n```",
+        "good_example": "```python\nfrom sklearn.metrics import roc_auc_score\n\n# Evaluate model using AUC-ROC score\nauc_roc = roc_auc_score(y_test, y_pred_proba)\nprint(\"AUC-ROC Score:\", auc_roc)\n```",
+        "type": "Generic"
+    }
+]
+

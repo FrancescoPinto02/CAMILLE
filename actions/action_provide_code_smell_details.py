@@ -1,7 +1,7 @@
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-from utils.query import get_code_smell_by_id, get_code_smell_by_name
+from db.query import get_code_smell_by_id, get_code_smell_by_name
 
 
 class ActionProvideCodeSmellDetails(Action):
