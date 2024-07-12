@@ -1,8 +1,12 @@
 import os
 from urllib.parse import urlparse
 import pandas as pd
-from git import Repo
+from git import Repo, GitCommandError
 from cs_detection_tool.components import detector
+import logging
+
+# Logger Configuration
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 def get_python_files(path):
@@ -22,7 +26,7 @@ def get_python_files(path):
     return result
 
 
-def analyze_project(project_path, output_path="."):
+def analyze_project(project_path, output_path=".", result_filename="to_save.csv"):
     col = ["filename", "function_name", "smell", "name_smell", "message"]
     to_save = pd.DataFrame(columns=col)
     filenames = get_python_files(project_path)
@@ -49,40 +53,62 @@ def analyze_project(project_path, output_path="."):
                     error_file.write(str(message))
                 continue
 
-    to_save.to_csv(output_path + "/to_save.csv", index=False, mode='w')
+    result_file_path = os.path.join(output_path, result_filename)
+    to_save.to_csv(result_file_path, index=False, mode='w')
 
 
-def analyze_github_repository(repo_url):
-    # Ottieni il nome del creatore e del repository dall'URL
+def get_repo_details(repo_url):
     parsed_url = urlparse(repo_url)
     path_parts = parsed_url.path.strip('/').split('/')
+    if len(path_parts) < 2:
+        raise ValueError("Invalid repository path in URL")
     creator_name = path_parts[0]
     repo_name = os.path.splitext(path_parts[1])[0]
+    return creator_name, repo_name
 
-    # Percorsi di input e output
-    input_path = f"cs_detection_tool/input/projects/{creator_name}/{repo_name}"
-    output_path = f"cs_detection_tool/output/projects_analysis/{creator_name}/{repo_name}"
-    result_file = os.path.join(output_path, "to_save.csv")
 
+def clone_or_pull_repo(repo_url, input_path):
     try:
-        if os.path.exists(input_path) and os.path.exists(output_path):
-            # Se la repository è già stata clonata e l'output è presente, esegui un pull
+        if os.path.exists(input_path):
             repo = Repo(input_path)
             origin = repo.remotes.origin
             origin.pull()
-            print(f"Pulling {repo_name}")
+            logging.info(f"Pulled updates for repository {repo_url}")
         else:
-            # Altrimenti, clona la repository
             Repo.clone_from(repo_url, input_path)
-            print(f"Cloned {repo_name}")
+            logging.info(f"Cloned repository {repo_url}")
+    except GitCommandError as e:
+        logging.error(f"Git command error: {e}")
+        raise
 
-            # Crea la cartella per l'analisi dei progetti
-            os.makedirs(output_path, exist_ok=True)
 
-        # Avvia l'analisi del progetto
-        analyze_project(input_path, output_path)
-        return result_file if os.path.exists(result_file) else None
+def analyze_github_repository(repo_url, input_base='cs_detection_tool/input/projects/',
+                              output_base='cs_detection_tool/output/projects_analysis/',
+                              result_filename="to_save.csv"):
+    try:
+        # Obtain Repo Details
+        creator_name, repo_name = get_repo_details(repo_url)
+
+        # Build Input/Output Paths
+        input_path = os.path.join(input_base, creator_name, repo_name)
+        output_path = os.path.join(output_base, creator_name, repo_name)
+        result_file = os.path.join(output_path, result_filename)
+
+        # Clone or Pull the Repo
+        clone_or_pull_repo(repo_url, input_path)
+
+        # Create Project Analysis Folder
+        os.makedirs(output_path, exist_ok=True)
+
+        # Run the Project Analysis
+        analyze_project(input_path, output_path, result_filename)
+
+        if os.path.exists(result_file):
+            return result_file
+        else:
+            logging.warning(f"Result file {result_filename} does not exist after analysis")
+            return None
 
     except Exception as e:
-        print(f"Error analyzing repository '{repo_name}': {e}")
+        logging.error(f"Error analyzing repository '{repo_url}': {e}")
         return None
