@@ -1,7 +1,7 @@
 import logging
 import pymongo
 from db.mongo_db import get_mongo_collection
-from utils.string_matcher import code_smell_name_matcher
+
 
 CONNECTION_ERROR_MESSAGE = "Database connection could not be established"
 VALID_FIELDS = ["id", "name", "description", "problems", "solution", "bad_example", "good_example", "type", "prompt_example"]
@@ -53,6 +53,8 @@ def get_all_code_smells(fields=None):
 
 
 def get_code_smell_by_name(code_smell_name, fields=None):
+    from utils.string_matcher import code_smell_name_matcher
+
     mongo_collection, mongo_client = get_mongo_collection()
     projection = build_field_projection(fields)
     try:

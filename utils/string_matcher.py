@@ -1,31 +1,27 @@
 from fuzzywuzzy import process
-from db.db_pool import get_connection
+from db.query import get_all_code_smells
 import logging
 
 logging.basicConfig(level=logging.INFO)
 
 
 def code_smell_name_matcher(code_smell_name):
-    connection = get_connection()
     try:
-        cursor = connection.cursor()
-
         # Strip code smell name
         code_smell_name = code_smell_name.strip()
 
-        # Select all the choices from the DB
-        query = "SELECT name FROM codesmell"
-        cursor.execute(query)
-        result = cursor.fetchall()
-        choices = [row[0] for row in result]
-        cursor.close()
+        # Select all the code smells name from DB
+        results = get_all_code_smells(["name"])
+        choices = [x['name'] for x in results]
 
         # Return matching results
-        return process.extractOne(code_smell_name, choices)
+        match = process.extractOne(code_smell_name, choices)
+        if match:
+            logging.info(f"Best match found: {match}")
+        else:
+            logging.info("No match found.")
+        return match
 
     except Exception as e:
-        logging.error("Error during code smell name matching: %s", e)
-
-    finally:
-        if connection:
-            connection.close()
+        logging.error(f"Error during String Matching: {e}")
+        return None
