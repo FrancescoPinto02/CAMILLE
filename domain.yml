@@ -38,6 +38,13 @@ slots:
     mappings:
       - type: custom
 
+  repo_url:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: project_repository
+        intent: ask_project_analysis
+
 responses:
   utter_greet:
   - text: "Hey! Nice to meet you, I am Camille."

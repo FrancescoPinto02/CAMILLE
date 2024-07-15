@@ -22,7 +22,7 @@ class ActionProjectAnalysis(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        github_repo_url = next(tracker.get_latest_entity_values("project_repository"), None)
+        github_repo_url = tracker.get_slot("repo_url")
 
         if not github_repo_url:
             dispatcher.utter_message(text="You haven’t provided a github repository url")

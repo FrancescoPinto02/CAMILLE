@@ -15,13 +15,14 @@ def analyze_repository():
     if not repository_url:
         return jsonify({"error": "Missing 'repository_url' parameter."}), 400
 
+    # Run repository analysis
     result_file = analyze_github_repository(repository_url)
     if not result_file:
         return jsonify({"error": "Failed to analyze repository or no results found."}), 500
 
     df = pd.read_csv(result_file)
 
-    # Restituisce solo il path relativo
+    # Return only Relative Paths
     df['filename'] = df['filename'].apply(extract_relative_path)
     results = df.to_dict(orient='records')
 
@@ -37,6 +38,7 @@ def get_function_body_endpoint():
     if not filename or not function_name:
         return jsonify({"error": "Missing 'filename' or 'function_name' parameter"}), 400
 
+    # Retrieve function body
     function_body = get_function_body(filename, function_name)
 
     if function_body:
