@@ -1,35 +1,5 @@
 version: "3.1"
-
 nlu:
-- lookup: code_smell_name
-  examples: |
-    - Unnecessary Iteration
-    - NaN Equivalence Comparison Misused
-    - Chain Indexing
-    - Columns and DataType Not Explicitly Set
-    - Empty Column Misinitialization
-    - Merge API Parameter Not Explicitly Set
-    - In-Place APIs Misused
-    - Dataframe Conversion API Misused
-    - Matrix Multiplication API Misused
-    - No Scaling before Scaling-Sensitive Operation
-    - Hyperparameter Not Explicitly Set
-    - Memory Not Freed
-    - Deterministic Algorithm Option Not Used
-    - Randomness Uncontrolled
-    - Missing the Mask of Invalid Value
-    - Broadcasting Feature Not Used
-    - TensorArray Not Used
-    - Training / Evaluation Mode Improper Toggling
-    - Pytorch Call Method Misused
-    - Gradients Not Cleared before Backward Propagation
-    - Data Leakage
-    - Threshold-Dependent Validation
-
-- regex: project_repository
-  examples: |
-    - https:\/\/github\.com\/[a-zA-Z0-9_-]+\/[a-zA-Z0-9_-]+\.git
-
 - intent: greet
   examples: |
     - hey
@@ -45,7 +15,7 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
+    - Hello
 - intent: goodbye
   examples: |
     - cu
@@ -58,7 +28,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -67,7 +36,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -77,14 +45,12 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-
 - intent: define_code_smell
   examples: |
     - What is a code smell?
@@ -95,62 +61,57 @@ nlu:
     - Give me a definition of code smell
     - Explain code smells
     - Give me more information about code smells
-
 - intent: ask_technical_debt
   examples: |
-        - What do you mean by technical debt?
-        - Can you explain technical debt?
-        - How would you define technical debt?
-        - What are the consequences of accumulating technical debt?
-        - Why is it important to address technical debt?
-        - What is a techinical debt?
-
+    - What do you mean by technical debt?
+    - Can you explain technical debt?
+    - How would you define technical debt?
+    - What are the consequences of accumulating technical debt?
+    - Why is it important to address technical debt?
+    - What is a techinical debt?
 - intent: ask_code_smells_list
   examples: |
-        - Show me the list of code smells
-        - What code smells do you detect?
-        - List the detectable code smells
-        - Can you provide the types of code smells you detect?
-        - I'd like to know about the code smells you can detect
-        - What are the common code smells identified by you?
-        - Give me an overview of the detectable code smells
-        - What kinds of code issues can your system identify?
-
+    - Show me the list of code smells
+    - What code smells do you detect?
+    - List the detectable code smells
+    - Can you provide the types of code smells you detect?
+    - I'd like to know about the code smells you can detect
+    - What are the common code smells identified by you?
+    - Give me an overview of the detectable code smells
+    - What kinds of code issues can your system identify?
 - intent: ask_code_smell_details
   examples: |
-        - Tell me more about [1](code_smell_id)
-        - Can you explain code smell [13](code_smell_id)?
-        - What is code smell [5](code_smell_id) exactly?
-        - Give me details about code smell [20](code_smell_id)
-        - I'd like to know more about code smell [17](code_smell_id)
-        - Tell me about [chain index]{"entity": "code_smell_name", "value": "Chain Indexing"}
-        - Can you explain [nan equivalence misused]{"entity": "code_smell_name", "value": "NaN Equivalence Comparison Misused"}?
-        - What is [Columns not Explicitly Set]{"entity": "code_smell_name", "value": "Columns and DataType Not Explicitly Set"} exactly?
-        - I'd like to know more about [Merge API Parameter Not Explicitly Set](code_smell_name)
-        - Can you tell me more about [Matrix Multiplication API Misused](code_smell_name)?
-        - Tell me about [No Scaling before Scaling-Sensitive Operation](code_smell_name)
-        - What is [Hyperparameter Not Explicitly Set](code_smell_name)?
-        - Give me details about [memory no free]{"entity": "code_smell_name", "value": "Memory Not Freed"}
-        - What is [Missing the Mask of Invalid Value](code_smell_name)?
-        - Tell me about [Broadcasting Feature Not Used](code_smell_name)
-        - What is [Training / Evaluation Mode Improper Toggling](code_smell_name)?
-        - Give me details about [Pytorch Call Method Misused](code_smell_name)
-        - I'd like to know more about [Gradients Not Cleared before Backward Propagation](code_smell_name)
-        - Give me more info about [data leaks]{"entity": "code_smell_name", "value": "Data Leakage"}?
-        - Explain the code smell called [Empty Column Misinitialization](code_smell_name).
-        - I need more info about [unnecessary iterate]{"entity": "code_smell_name", "value": "Unnecessary Iteration"}.
-
+    - Tell me more about [1](code_smell_id)
+    - Can you explain code smell [13](code_smell_id)?
+    - What is code smell [5](code_smell_id) exactly?
+    - Give me details about code smell [20](code_smell_id)
+    - I'd like to know more about code smell [17](code_smell_id)
+    - Tell me about [chain index]{"entity": "code_smell_name", "value": "Chain Indexing"}
+    - Can you explain [nan equivalence misused]{"entity": "code_smell_name", "value": "NaN Equivalence Comparison Misused"}?
+    - What is [Columns not Explicitly Set]{"entity": "code_smell_name", "value": "Columns and DataType Not Explicitly Set"} exactly?
+    - I'd like to know more about [Merge API Parameter Not Explicitly Set](code_smell_name)
+    - Can you tell me more about [Matrix Multiplication API Misused](code_smell_name)?
+    - Tell me about [No Scaling before Scaling-Sensitive Operation](code_smell_name)
+    - What is [Hyperparameter Not Explicitly Set](code_smell_name)?
+    - Give me details about [memory no free]{"entity": "code_smell_name", "value": "Memory Not Freed"}
+    - What is [Missing the Mask of Invalid Value](code_smell_name)?
+    - Tell me about [Broadcasting Feature Not Used](code_smell_name)
+    - What is [Training / Evaluation Mode Improper Toggling](code_smell_name)?
+    - Give me details about [Pytorch Call Method Misused](code_smell_name)
+    - I'd like to know more about [Gradients Not Cleared before Backward Propagation](code_smell_name)
+    - Give me more info about [data leaks]{"entity": "code_smell_name", "value": "Data Leakage"}?
+    - Explain the code smell called [Empty Column Misinitialization](code_smell_name).
+    - I need more info about [unnecessary iterate]{"entity": "code_smell_name", "value": "Unnecessary Iteration"}.
 - intent: ask_code_smell_example
   examples: |
-        - Can you provide an example of code smell [3](code_smell_id)?
-        - Show me a sample code with code smell [19](code_smell_id).
-        - Provide an example of code smell [11](code_smell_id) if possible.
-        - Show me how [Pytorch Call Method Misused](code_smell_name) can be identified in the code.
-        - How would you recognize code smell [Hyperparameter Not Explicitly Set](code_smell_name) in the code?
-        - Show me an instance of [Missing the Mask of Invalid Value](code_smell_name) in a code snippet.
-        - I'd like to see an example where [Merge API Parameter Not Explicitly Set](code_smell_name) is present.
-        - Give me an example demonstrating [Pytorch Call Method Misused](code_smell_name).
-
+    - Can you provide an example of code smell [3](code_smell_id)?
+    - Show me a sample code with code smell [19](code_smell_id).
+    - Provide an example of code smell [11](code_smell_id) if possible.
+    - Show me how [Pytorch Call Method Misused](code_smell_name) can be identified in the code.
+    - How would you recognize code smell [Hyperparameter Not Explicitly Set](code_smell_name) in the code?
+    - Show me an instance of [Missing the Mask of Invalid Value](code_smell_name) in a code snippet.
+    - I'd like to see an example where [Merge API Parameter Not Explicitly Set](code_smell_name) is present.
+    - Give me an example demonstrating [Pytorch Call Method Misused](code_smell_name).
 - intent: ask_help
   examples: |
     - I need help
@@ -164,7 +125,7 @@ nlu:
     - How can I get help?
     - I need assistance
     - Help
-
+    - Help me
 - intent: ask_project_analysis
   examples: |
     - Analyze my project at this repository: [https://github.com/DrLele08/RolePlayersAI.git](project_repository)
@@ -190,7 +151,7 @@ nlu:
     - Could you please check and analyze [https://github.com/deanmalmgren/textract.git](project_repository)?
     - I need you to analyze this project: [https://github.com/Uminosachi/sd-webui-inpaint-anything.git](project_repository)
     - Analyze this project repository: [https://github.com/sauravpradhan/AnySound2BT.git](project_repository)
-
+    - Analyze [https://github.com/AaronWard/covidify.git](project_repository)
 - intent: ask_fix_suggestion
   examples: |
     - How can I fix problem [1](issue_index)
@@ -201,7 +162,6 @@ nlu:
     - Please provide suggestions for correcting problem [6](issue_index).
     - Could you give me some tips for fixing issue [7](issue_index)?
     - How can I solve issue [11](issue_index)?
-
 - intent: ask_analysis_report
   examples: |
     - Download the analysis report.
@@ -209,3 +169,49 @@ nlu:
     - I need the analysis report.
     - Could you share the analysis report?
     - Show me the report.
+    - Show the report
+- synonym: Chain Indexing
+  examples: |
+    - chain index
+- synonym: NaN Equivalence Comparison Misused
+  examples: |
+    - nan equivalence misused
+- synonym: Columns and DataType Not Explicitly Set
+  examples: |
+    - Columns not Explicitly Set
+- synonym: Memory Not Freed
+  examples: |
+    - memory no free
+- synonym: Data Leakage
+  examples: |
+    - data leaks
+- synonym: Unnecessary Iteration
+  examples: |
+    - unnecessary iterate
+- regex: project_repository
+  examples: |
+    - https:\/\/github\.com\/[a-zA-Z0-9_-]+\/[a-zA-Z0-9_-]+\.git
+- lookup: code_smell_name
+  examples: |
+    - Unnecessary Iteration
+    - NaN Equivalence Comparison Misused
+    - Chain Indexing
+    - Columns and DataType Not Explicitly Set
+    - Empty Column Misinitialization
+    - Merge API Parameter Not Explicitly Set
+    - In-Place APIs Misused
+    - Dataframe Conversion API Misused
+    - Matrix Multiplication API Misused
+    - No Scaling before Scaling-Sensitive Operation
+    - Hyperparameter Not Explicitly Set
+    - Memory Not Freed
+    - Deterministic Algorithm Option Not Used
+    - Randomness Uncontrolled
+    - Missing the Mask of Invalid Value
+    - Broadcasting Feature Not Used
+    - TensorArray Not Used
+    - Training / Evaluation Mode Improper Toggling
+    - Pytorch Call Method Misused
+    - Gradients Not Cleared before Backward Propagation
+    - Data Leakage
+    - Threshold-Dependent Validation

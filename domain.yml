@@ -1,91 +1,74 @@
-version: "3.1"
-
+version: '3.1'
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - bot_challenge
-  - ask_help
-  - define_code_smell
-  - ask_technical_debt
-  - ask_code_smells_list
-  - ask_code_smell_details
-  - ask_code_smell_example
-  - ask_project_analysis
-  - ask_fix_suggestion
-  - ask_analysis_report
-
-
+- affirm
+- ask_analysis_report
+- ask_code_smell_details
+- ask_code_smell_example
+- ask_code_smells_list
+- ask_fix_suggestion
+- ask_help
+- ask_project_analysis
+- ask_technical_debt
+- bot_challenge
+- define_code_smell
+- deny
+- goodbye
+- greet
 actions:
-  - action_default_fallback
-  - action_get_code_smells_list
-  - action_provide_code_smell_details
-  - action_provide_code_smell_example
-  - action_project_analysis
-  - action_suggest_fix
-  - action_analysis_report
-
+- action_analysis_report
+- action_project_analysis
+- utter_suggest_help
+- utter_help
+- utter_greet
+- action_default_fallback
+- action_get_code_smells_list
+- action_provide_code_smell_details
+- action_provide_code_smell_example
+- action_suggest_fix
 entities:
-  - code_smell_id
-  - code_smell_name
-  - project_repository
-  - issue_index
-
+- project_repository
+- code_smell_id
+- code_smell_name
+- issue_index
 slots:
   report_filename:
     type: text
     mappings:
-      - type: custom
-
+    - type: custom
   repo_url:
     type: text
     mappings:
-      - type: from_entity
-        entity: project_repository
-        intent: ask_project_analysis
-
+    - type: from_entity
+      entity: project_repository
+      intent: ask_project_analysis
 responses:
   utter_greet:
-  - text: "Hey! Nice to meet you, I am Camille."
-
+  - text: Hey! Nice to meet you, I am Camille.
   utter_goodbye:
-  - text: "Bye"
-
+  - text: Bye
   utter_iamabot:
-  - text: "I'm Camille, a chatbot created by F. Pinto to support Machine Learning Engineers in identifying and correcting code smells"
-
+  - text: I'm Camille, a chatbot created by F. Pinto to support Machine Learning Engineers in identifying and correcting code smells
   utter_default:
-  - text: "I`m sorry, I don`t know how to help you."
-
+  - text: I`m sorry, I don`t know how to help you.
   utter_define_codesmell:
-  - text: "A code smell refers to any characteristic in the source code of a program that indicates there might be a deeper problem. 
-          It's often a sign that the code could be structured or written in a better way. Just like a foul odor indicates there might 
-          be something wrong in the physical world, a code smell indicates there might be something wrong with the code. 
-          Codesmells can lead to various issues such as decreased code maintainability, increased complexity, and higher chances of 
-          introducing bugs. Ignoring codesmells can result in technical debts and make future development more difficult and costly."
-
+  - text: A code smell refers to any characteristic in the source code of a program that indicates there might be a deeper problem. It's often a sign that the code could be structured or written in a better way. Just like a foul odor indicates there might be something wrong in the physical world, a code smell indicates there might be something wrong with the code. Codesmells can lead to various issues such as decreased code maintainability, increased complexity, and higher chances of introducing bugs. Ignoring codesmells can result in technical debts and make future development more difficult and costly.
   utter_technical_debt:
-  - text: "Technical debt is a concept in software development that refers to the extra work that arises when code that is easy to 
-          implement in the short run is used instead of applying the best overall solution. Accumulating technical debt can result in increased 
-          development time, reduced code quality, and higher maintenance costs."
-
+  - text: Technical debt is a concept in software development that refers to the extra work that arises when code that is easy to implement in the short run is used instead of applying the best overall solution. Accumulating technical debt can result in increased development time, reduced code quality, and higher maintenance costs.
   utter_suggest_help:
-  - text: "If you're having trouble, try typing 'Help me'"
-
+  - text: If you're having trouble, try typing 'Help me'
   utter_help:
-  - text: "I can assist you throughout your ML pipeline to identify and fix code smells. Here are some of my features:\n
-        - Show a list of existing code smells\n
-        - Provide information/examples of each code smell\n
-        - Analyze a github repository\n
-        - Provide personalized correction suggestions\n
-        
-        Try typing something like:\n
-        - Show me the code smells list\n
-        - Tell me more about code smell [Index]\n
-        - Provide me an example of [Code Smell Name].\n
-        - Analyze: [Github Repo Url]\n"
+  - text: |
+      I can assist you throughout your ML pipeline to identify and fix code smells. Here are some of my features:
+       - Show a list of existing code smells
+       - Provide information/examples of each code smell
+       - Analyze a github repository
+       - Provide personalized correction suggestions
 
+      Try typing something like:
+       - Show me the code smells list
+       - Tell me more about code smell [Index]
+       - Provide me an example of [Code Smell Name].
+       - Analyze: [Github Repo Url]
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

@@ -22,3 +22,21 @@ stories:
   - intent: nlu_fallback
   - action: action_default_fallback
   - action: utter_help
+
+- story: Project Analysis Story
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_suggest_help
+  - intent: ask_help
+  - action: utter_help
+  - intent: ask_project_analysis
+    entities:
+    - project_repository: https://github.com/AaronWard/covidify.git
+  - slot_was_set:
+    - repo_url: https://github.com/AaronWard/covidify.git
+  - action: action_project_analysis
+  - slot_was_set:
+    - report_filename: analysis_result_017da3e968aa4d9c860e6fc66c82c534.csv
+  - intent: ask_analysis_report
+  - action: action_analysis_report
