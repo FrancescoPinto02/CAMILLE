@@ -2,7 +2,7 @@ import ast
 import os
 import logging
 
-#Logger Config
+# Logger Config
 logging.basicConfig(level=logging.ERROR, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
@@ -16,7 +16,7 @@ def extract_relative_path(full_path):
         return full_path  # Return the full path if 'projects' is not found
 
 
-def get_function_body(filename, function_name):
+"""def get_function_body(filename, function_name):
     # Construct the base path for project files
     project_base_path = os.path.join(os.path.dirname(__file__), '../input/projects/')
     file_path = os.path.join(project_base_path, filename)
@@ -40,4 +40,34 @@ def get_function_body(filename, function_name):
     except Exception as e:
         logging.error(f"Error analyzing the file '{file_path}': {e}")
         return None
+    return None"""
+
+
+def get_function_body(filename, function_name):
+    # Construct the base path for project files
+    project_base_path = os.path.join(os.path.dirname(__file__), '../input/projects/')
+    file_path = os.path.join(project_base_path, filename)
+
+    try:
+        # Open the file and build AST
+        with open(file_path, 'r') as file:
+            tree = ast.parse(file.read(), filename=filename)
+
+        # Traverse the AST
+        for node in ast.walk(tree):
+            if isinstance(node, ast.FunctionDef) and node.name == function_name:
+                start_line = node.lineno - 1  # ast uses 1-based line numbers, list uses 0-based
+                end_line = node.end_lineno if hasattr(node, 'end_lineno') else node.body[-1].lineno
+
+                # Open the file and extract function body
+                with open(file_path, 'r') as file:
+                    lines = file.readlines()
+                function_body = ''.join(lines[start_line:end_line])
+                return function_body
+    except FileNotFoundError:
+        logging.error(f"File not found: '{file_path}'")
+    except SyntaxError:
+        logging.error(f"Syntax error in file: '{file_path}'")
+    except Exception as e:
+        logging.error(f"Error analyzing the file '{file_path}': {e}")
     return None
