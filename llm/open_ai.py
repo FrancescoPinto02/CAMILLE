@@ -4,7 +4,7 @@ from openai import OpenAI
 
 load_dotenv()
 
-MODEL = "gpt-3.5-turbo"
+MODEL = "gpt-4o-mini"
 TEMPERATURE = 0.7
 
 client = OpenAI()

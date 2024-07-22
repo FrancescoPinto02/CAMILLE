@@ -93,8 +93,8 @@ class ActionSuggestFix(Action):
 
             {"role": "system", "content": f"Your task is to refactor the function {cs_function_name} "
                                           f"and remove the code smell {cs_name}."},
-            {"role": "system", "content": "You must write the whole refactored function clearly indicating "
-                                          "the modifications you have done."},
+            {"role": "system", "content": "You must write only the code of the whole refactored function clearly "
+                                          "indicating the modifications you have done using comments inside the code."},
         ]
 
     def _preserve_empty_lines(self, text: str) -> str:

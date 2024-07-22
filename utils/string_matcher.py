@@ -16,10 +16,7 @@ def code_smell_name_matcher(code_smell_name):
 
         # Return matching results
         match = process.extractOne(code_smell_name, choices)
-        if match:
-            logging.info(f"Best match found: {match}")
-        else:
-            logging.info("No match found.")
+
         return match
 
     except Exception as e:
