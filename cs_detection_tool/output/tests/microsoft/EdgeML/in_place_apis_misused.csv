@@ -1,0 +1,9 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\EdgeML\tf\edgeml_tf\trainer\emirnnTrainer.py,analyseModel,in_place_apis_misused,594
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\EdgeML\tf\edgeml_tf\trainer\emirnnTrainer.py,analyseModel,in_place_apis_misused,595
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\EdgeML\tf\edgeml_tf\trainer\emirnnTrainer.py,analyseModel,in_place_apis_misused,596
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\EdgeML\tf\edgeml_tf\trainer\emirnnTrainer.py,analyseModel,in_place_apis_misused,597
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\EdgeML\tf\edgeml_tf\trainer\emirnnTrainer.py,analyseModel,in_place_apis_misused,599
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\EdgeML\tf\edgeml_tf\trainer\emirnnTrainer.py,analyseModel,in_place_apis_misused,600
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\EdgeML\tf\edgeml_tf\trainer\emirnnTrainer.py,analyseModel,in_place_apis_misused,601
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\EdgeML\tf\edgeml_tf\trainer\emirnnTrainer.py,analyseModel,in_place_apis_misused,637

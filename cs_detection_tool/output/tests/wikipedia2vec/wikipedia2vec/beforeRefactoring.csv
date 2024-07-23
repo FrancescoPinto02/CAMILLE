@@ -1,0 +1,2 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\wikipedia2vec\wikipedia2vec\examples\text_classification\train.py,train,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().

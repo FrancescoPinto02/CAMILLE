@@ -1,0 +1,8 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\totalgood\nlpia\src\nlpia\loaders.py,rename_file,in_place_apis_misused,521
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\totalgood\nlpia\src\nlpia\book\examples\ch06_nessvectors.py,nessvector_marie_curie,in_place_apis_misused,134
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\totalgood\nlpia\src\nlpia\book\examples\ch06_nessvectors.py,nessvector_marie_curie,in_place_apis_misused,135
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\totalgood\nlpia\src\nlpia\book\examples\ch06_nessvectors.py,nessvector_marie_curie,in_place_apis_misused,136
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\totalgood\nlpia\src\nlpia\scripts\plot_city_wordvectors.py,plot_city_wordvectors,in_place_apis_misused,47
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\totalgood\nlpia\src\nlpia\loaders.py,rename_file,in_place_apis_misused,346
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\totalgood\nlpia\src\nlpia\scripts\plot_city_wordvectors.py,plot_city_wordvectors,in_place_apis_misused,25

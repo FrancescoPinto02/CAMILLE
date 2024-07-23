@@ -1,0 +1,1 @@
+Error in file C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\vilbert-multi-task\script\generate_demo.py: expected ':' (<unknown>, line 63)Error in file C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\vilbert-multi-task\script\generate_demo.py: expected ':' (<unknown>, line 63)

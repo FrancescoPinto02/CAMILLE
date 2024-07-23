@@ -1,0 +1,4 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cgre-aachen\gempy\examples\integrations\gempy_subsurface.py,get_interface_coord_from_surfaces,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cgre-aachen\gempy\gempy\core\data\DEP_xsolution.py,extract_each_surface_representations,2,unnecessary_iteration,"Iterating through pandas objects is generally slow. In many cases, iterating manually over the rows is not needed and can be avoided Pandas’ built-in methods (e.g., join, groupby) are vectorized. It is therefore recommended to use Pandas built-in methods as an alternative to loops."
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cgre-aachen\gempy\gempy\core\data\DEP_xsolution.py,set_meshes,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

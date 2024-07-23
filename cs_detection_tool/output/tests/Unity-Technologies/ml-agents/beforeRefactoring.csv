@@ -1,0 +1,4 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Unity-Technologies\ml-agents\ml-agents\mlagents\trainers\poca\optimizer_torch.py,baseline,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Unity-Technologies\ml-agents\ml-agents\mlagents\trainers\poca\optimizer_torch.py,critic_pass,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Unity-Technologies\ml-agents\ml-agents\mlagents\trainers\torch_entities\networks.py,critic_pass,1,pytorch_call_method_misused,is recommended to use self.net()

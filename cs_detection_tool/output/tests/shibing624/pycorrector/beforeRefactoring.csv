@@ -1,0 +1,6 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\shibing624\pycorrector\pycorrector\deepcontext\deepcontext_model.py,train_model,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\shibing624\pycorrector\pycorrector\deepcontext\deepcontext_utils.py,run_inference,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\shibing624\pycorrector\pycorrector\macbert\base_model.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\shibing624\pycorrector\pycorrector\macbert\base_model.py,training_step,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\shibing624\pycorrector\pycorrector\macbert\base_model.py,validation_step,1,pytorch_call_method_misused,is recommended to use self.net()

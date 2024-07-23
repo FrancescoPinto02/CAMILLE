@@ -1,0 +1,3 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deezer\spleeter\spleeter\__main__.py,separate,in_place_apis_misused,152
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deezer\spleeter\spleeter\__main__.py,_compile_metrics,in_place_apis_misused,183

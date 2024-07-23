@@ -1,0 +1,9 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ria-com\nomeroff-net\nomeroff_net\nnmodels\fraud_numberpate_model.py,step,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ria-com\nomeroff-net\nomeroff_net\nnmodels\numberplate_inverse_model.py,step,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ria-com\nomeroff-net\nomeroff_net\nnmodels\numberplate_options_model.py,step,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ria-com\nomeroff-net\nomeroff_net\nnmodels\ocr_model.py,step,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ria-com\nomeroff-net\nomeroff_net\pipes\number_plate_keypoints_detectors\bbox_np_points.py,forward_batch,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ria-com\nomeroff-net\nomeroff_net\pipes\number_plate_localizators\yolox_detector.py,detect,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ria-com\nomeroff-net\nomeroff_net\pipes\number_plate_localizators\yolox_detector.py,detect_bbox,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ria-com\nomeroff-net\nomeroff_net\tools\datasets_tools.py,auto_number_grab,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

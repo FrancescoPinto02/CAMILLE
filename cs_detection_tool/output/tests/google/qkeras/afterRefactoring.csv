@@ -1,0 +1,3 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\google\qkeras\qkeras\codebook.py,activation_compression,1,memory_not_freed,Memory not freed
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\google\qkeras\qkeras\codebook.py,weight_compression,1,memory_not_freed,Memory not freed

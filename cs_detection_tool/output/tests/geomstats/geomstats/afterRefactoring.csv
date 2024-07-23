@@ -1,0 +1,2 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\geomstats\geomstats\geomstats\datasets\utils.py,load_sao_paulo,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

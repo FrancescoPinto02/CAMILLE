@@ -1,0 +1,3 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepmipt\DeepPavlov\deeppavlov\dataset_readers\basic_classification_reader.py,read,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepmipt\DeepPavlov\deeppavlov\dataset_readers\docred_reader.py,print_statistics,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

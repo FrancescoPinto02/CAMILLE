@@ -1,0 +1,3 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nyanp\nyaggle\nyaggle\validation\split.py,add_fold,in_place_apis_misused,255
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nyanp\nyaggle\nyaggle\validation\split.py,add_fold,in_place_apis_misused,219

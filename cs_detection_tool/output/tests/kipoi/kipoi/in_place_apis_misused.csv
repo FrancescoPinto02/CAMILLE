@@ -1,0 +1,12 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kipoi\kipoi\kipoi\sources.py,clone,in_place_apis_misused,646
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kipoi\kipoi\kipoi\sources.py,clone,in_place_apis_misused,647
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kipoi\kipoi\kipoi\writers.py,close,in_place_apis_misused,125
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kipoi\kipoi\kipoi\writers.py,batch_write,in_place_apis_misused,208
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kipoi\kipoi\kipoi\writers.py,batch_write,in_place_apis_misused,267
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kipoi\kipoi\tests\test_26_cli_examples.py,test_kipoi_env_create_cleanup_remove,in_place_apis_misused,224
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kipoi\kipoi\tests\legacy\test_cli_examples.py,test_kipoi_env_create_cleanup_remove,in_place_apis_misused,431
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kipoi\kipoi\kipoi\sources.py,clone,in_place_apis_misused,582
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kipoi\kipoi\kipoi\sources.py,clone,in_place_apis_misused,583
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kipoi\kipoi\tests\test_26_cli_examples.py,test_kipoi_env_create_cleanup_remove,in_place_apis_misused,186
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kipoi\kipoi\tests\legacy\test_cli_examples.py,test_kipoi_env_create_cleanup_remove,in_place_apis_misused,327

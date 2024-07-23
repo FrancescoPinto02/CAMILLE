@@ -1,0 +1,8 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ZQPei\deep_sort_pytorch\detector\YOLOv5\export.py,export_formats,columns_and_datatype_not_explicitly_set,89
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ZQPei\deep_sort_pytorch\detector\YOLOv5\models\common.py,pandas,columns_and_datatype_not_explicitly_set,653
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ZQPei\deep_sort_pytorch\detector\YOLOv5\utils\benchmarks.py,run,columns_and_datatype_not_explicitly_set,69
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ZQPei\deep_sort_pytorch\detector\YOLOv5\utils\general.py,print_mutation,columns_and_datatype_not_explicitly_set,808
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ZQPei\deep_sort_pytorch\detector\YOLOv5\utils\plots.py,plot_labels,columns_and_datatype_not_explicitly_set,332
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ZQPei\deep_sort_pytorch\detector\YOLOv5\utils\plots.py,plot_evolve,columns_and_datatype_not_explicitly_set,377
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ZQPei\deep_sort_pytorch\detector\YOLOv5\utils\plots.py,plot_results,columns_and_datatype_not_explicitly_set,410

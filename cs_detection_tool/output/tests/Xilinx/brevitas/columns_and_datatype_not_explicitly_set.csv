@@ -1,0 +1,6 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Xilinx\brevitas\src\brevitas_examples\imagenet_classification\ptq\benchmark\post_processing.py,main,columns_and_datatype_not_explicitly_set,16
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Xilinx\brevitas\src\brevitas_examples\imagenet_classification\ptq\benchmark\post_processing.py,main,columns_and_datatype_not_explicitly_set,18
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Xilinx\brevitas\src\brevitas_examples\imagenet_classification\ptq\benchmark\ptq_benchmark_quant_model.py,main,columns_and_datatype_not_explicitly_set,59
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Xilinx\brevitas\src\brevitas_examples\imagenet_classification\ptq\benchmark\ptq_benchmark_torchvision.py,ptq_torchvision_models,columns_and_datatype_not_explicitly_set,316
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Xilinx\brevitas\src\brevitas_examples\imagenet_classification\ptq\benchmark\ptq_benchmark_quant_model.py,main,columns_and_datatype_not_explicitly_set,48

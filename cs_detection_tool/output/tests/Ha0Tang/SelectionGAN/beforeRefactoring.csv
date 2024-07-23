@@ -1,0 +1,12 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\person_transfer\data\keypoint.py,init_categories,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\person_transfer\models\PATN.py,optimize_parameters,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\person_transfer\tool\generate_pose_map_fashion.py,compute_pose,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\person_transfer\tool\generate_pose_map_market.py,compute_pose,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\person_transfer\tool\getMetrics_fashion.py,create_masked_image,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\person_transfer\tool\getMetrics_market.py,create_masked_image,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\person_transfer\tool\resize_fashion.py,resize_annotations,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\selectiongan_v1\models\base_model.py,test,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\selectiongan_v1\models\selectiongan_model.py,optimize_parameters,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\selectiongan_v2\models\base_model.py,test,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\selectiongan_v2\models\selectiongan_model.py,optimize_parameters,1,pytorch_call_method_misused,is recommended to use self.net()

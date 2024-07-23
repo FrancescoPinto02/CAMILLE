@@ -1,0 +1,5 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\autorope\donkeycar\donkeycar\parts\datastore.py,exclude_index,in_place_apis_misused,340
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\autorope\donkeycar\donkeycar\pipeline\database.py,add_entry,in_place_apis_misused,70
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\autorope\donkeycar\donkeycar\parts\datastore.py,exclude_index,in_place_apis_misused,340
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\autorope\donkeycar\donkeycar\pipeline\database.py,add_entry,in_place_apis_misused,70

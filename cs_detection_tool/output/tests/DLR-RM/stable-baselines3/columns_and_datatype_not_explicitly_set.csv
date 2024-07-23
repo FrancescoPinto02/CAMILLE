@@ -1,0 +1,5 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DLR-RM\stable-baselines3\stable_baselines3\common\logger.py,read_json,columns_and_datatype_not_explicitly_set,684
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DLR-RM\stable-baselines3\stable_baselines3\common\logger.py,read_csv,columns_and_datatype_not_explicitly_set,694
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DLR-RM\stable-baselines3\stable_baselines3\common\monitor.py,load_results,columns_and_datatype_not_explicitly_set,246
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DLR-RM\stable-baselines3\tests\test_monitor.py,test_monitor,columns_and_datatype_not_explicitly_set,47

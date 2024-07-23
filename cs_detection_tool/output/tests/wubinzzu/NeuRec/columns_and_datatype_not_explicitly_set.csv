@@ -1,0 +1,14 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\wubinzzu\NeuRec\data\dataset.py,_load_data,columns_and_datatype_not_explicitly_set,97
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\wubinzzu\NeuRec\data\dataset.py,_load_data,columns_and_datatype_not_explicitly_set,98
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\wubinzzu\NeuRec\data\dataset.py,_load_data,columns_and_datatype_not_explicitly_set,100
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\wubinzzu\NeuRec\data\dataset.py,_load_data,columns_and_datatype_not_explicitly_set,101
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\wubinzzu\NeuRec\data\dataset.py,_split_data,columns_and_datatype_not_explicitly_set,144
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\wubinzzu\NeuRec\data\dataset.py,_split_data,columns_and_datatype_not_explicitly_set,158
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\wubinzzu\NeuRec\data\dataset.py,_split_data,columns_and_datatype_not_explicitly_set,159
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\wubinzzu\NeuRec\data\dataset.py,_load_test_neg_items,columns_and_datatype_not_explicitly_set,228
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\wubinzzu\NeuRec\data\dataset.py,_load_test_neg_items,columns_and_datatype_not_explicitly_set,232
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\wubinzzu\NeuRec\data\utils.py,load_data,columns_and_datatype_not_explicitly_set,21
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\wubinzzu\NeuRec\evaluator\grouped_evaluator.py,__init__,columns_and_datatype_not_explicitly_set,70
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\wubinzzu\NeuRec\model\AbstractRecommender.py,__init__,columns_and_datatype_not_explicitly_set,58
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\wubinzzu\NeuRec\data\dataset.py,_load_test_neg_items,columns_and_datatype_not_explicitly_set,220

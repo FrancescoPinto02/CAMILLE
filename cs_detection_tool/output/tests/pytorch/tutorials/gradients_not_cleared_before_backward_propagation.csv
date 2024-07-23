@@ -1,0 +1,9 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\tutorials\advanced_source\rpc_ddp_tutorial\main.py,_run_trainer,gradients_not_cleared_before_backward_propagation,101
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\tutorials\advanced_source\rpc_ddp_tutorial\main.py,_run_trainer,gradients_not_cleared_before_backward_propagation,101
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\tutorials\beginner_source\nn_tutorial.py,fit,gradients_not_cleared_before_backward_propagation,365
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\tutorials\beginner_source\nn_tutorial.py,fit,gradients_not_cleared_before_backward_propagation,365
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\tutorials\beginner_source\basics\optimization_tutorial.py,train_loop,gradients_not_cleared_before_backward_propagation,161
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\tutorials\beginner_source\basics\quickstart_tutorial.py,train,gradients_not_cleared_before_backward_propagation,155
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\tutorials\advanced_source\rpc_ddp_tutorial\main.py,_run_trainer,gradients_not_cleared_before_backward_propagation,63
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\tutorials\advanced_source\rpc_ddp_tutorial\main.py,_run_trainer,gradients_not_cleared_before_backward_propagation,63

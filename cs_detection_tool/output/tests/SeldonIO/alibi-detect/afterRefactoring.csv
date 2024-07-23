@@ -1,0 +1,4 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\alibi-detect\alibi_detect\datasets.py,fetch_nab,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\alibi-detect\alibi_detect\od\prophet.py,predict,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\alibi-detect\alibi_detect\utils\visualize.py,plot_instance_score,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

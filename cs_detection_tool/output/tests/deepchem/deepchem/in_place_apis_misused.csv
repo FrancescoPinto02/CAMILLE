@@ -1,0 +1,9 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepchem\deepchem\contrib\pubchem_dataset\create_assay_overview.py,create_assay_file,in_place_apis_misused,158
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepchem\deepchem\contrib\pubchem_dataset\create_assay_overview.py,create_assay_file,in_place_apis_misused,159
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepchem\deepchem\deepchem\data\datasets.py,to_csv,in_place_apis_misused,737
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepchem\deepchem\deepchem\data\datasets.py,add_shard,in_place_apis_misused,2354
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepchem\deepchem\contrib\pubchem_dataset\create_assay_overview.py,create_assay_file,in_place_apis_misused,141
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepchem\deepchem\contrib\pubchem_dataset\create_assay_overview.py,create_assay_file,in_place_apis_misused,142
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepchem\deepchem\deepchem\data\datasets.py,to_csv,in_place_apis_misused,666
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepchem\deepchem\deepchem\data\datasets.py,add_shard,in_place_apis_misused,2097

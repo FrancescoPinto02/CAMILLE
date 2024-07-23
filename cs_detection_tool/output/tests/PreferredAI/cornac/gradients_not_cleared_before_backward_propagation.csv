@@ -1,0 +1,9 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PreferredAI\cornac\cornac\models\amr\recom_amr.py,_fit_torch,gradients_not_cleared_before_backward_propagation,226
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PreferredAI\cornac\cornac\models\amr\recom_amr.py,_fit_torch,gradients_not_cleared_before_backward_propagation,226
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PreferredAI\cornac\cornac\models\hypar\recom_hypar.py,_fit,gradients_not_cleared_before_backward_propagation,714
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PreferredAI\cornac\cornac\models\hypar\recom_hypar.py,_fit,gradients_not_cleared_before_backward_propagation,714
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PreferredAI\cornac\cornac\models\recvae\recom_recvae.py,run,gradients_not_cleared_before_backward_propagation,142
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PreferredAI\cornac\cornac\models\recvae\recom_recvae.py,run,gradients_not_cleared_before_backward_propagation,142
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PreferredAI\cornac\cornac\models\recvae\recom_recvae.py,run,gradients_not_cleared_before_backward_propagation,103
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PreferredAI\cornac\cornac\models\recvae\recom_recvae.py,run,gradients_not_cleared_before_backward_propagation,103

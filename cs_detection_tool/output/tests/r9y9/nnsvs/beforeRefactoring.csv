@@ -1,0 +1,7 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\r9y9\nnsvs\nnsvs\model.py,inference,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\r9y9\nnsvs\nnsvs\model.py,inference,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\r9y9\nnsvs\nnsvs\model.py,inference,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\r9y9\nnsvs\nnsvs\model.py,inference,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\r9y9\nnsvs\nnsvs\model.py,inference,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\r9y9\nnsvs\utils\make_graph.py,process_log,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

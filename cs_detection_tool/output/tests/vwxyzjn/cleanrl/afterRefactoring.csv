@@ -1,0 +1,3 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\vwxyzjn\cleanrl\cleanrl_utils\paper_plot.py,get_df_for_env,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\vwxyzjn\cleanrl\cleanrl_utils\plot.py,get_df_for_env,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

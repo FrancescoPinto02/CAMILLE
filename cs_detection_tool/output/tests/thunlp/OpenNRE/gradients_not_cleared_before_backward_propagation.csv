@@ -1,0 +1,7 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\thunlp\OpenNRE\opennre\framework\bag_re.py,train_model,gradients_not_cleared_before_backward_propagation,139
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\thunlp\OpenNRE\opennre\framework\bag_re.py,train_model,gradients_not_cleared_before_backward_propagation,139
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\thunlp\OpenNRE\opennre\framework\multi_label_sentence_re.py,train_model,gradients_not_cleared_before_backward_propagation,131
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\thunlp\OpenNRE\opennre\framework\multi_label_sentence_re.py,train_model,gradients_not_cleared_before_backward_propagation,131
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\thunlp\OpenNRE\opennre\framework\sentence_re.py,train_model,gradients_not_cleared_before_backward_propagation,123
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\thunlp\OpenNRE\opennre\framework\sentence_re.py,train_model,gradients_not_cleared_before_backward_propagation,123

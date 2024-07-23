@@ -1,0 +1,6 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\determined-ai\determined\examples\computer_vision\iris_tf_keras\model_def.py,build_training_data_loader,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\determined-ai\determined\examples\computer_vision\iris_tf_keras\model_def.py,build_validation_data_loader,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\determined-ai\determined\examples\deepspeed_autotune\torchvision\core_api\script.py,main,3,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\determined-ai\determined\examples\features\unmanaged\advanced\checkpoints_advanced.py,main,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\determined-ai\determined\harness\tests\experiment\fixtures\deepspeed_linear_model.py,train_batch,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().

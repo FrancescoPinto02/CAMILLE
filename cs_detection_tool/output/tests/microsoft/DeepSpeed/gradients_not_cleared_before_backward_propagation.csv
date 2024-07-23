@@ -1,0 +1,9 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\DeepSpeed\tests\benchmarks\DS4Sci_EvoformerAttention_bench.py,benchmark,gradients_not_cleared_before_backward_propagation,94
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\DeepSpeed\tests\benchmarks\DS4Sci_EvoformerAttention_bench.py,benchmark,gradients_not_cleared_before_backward_propagation,100
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\DeepSpeed\tests\unit\checkpoint\common.py,checkpoint_correctness_verification,gradients_not_cleared_before_backward_propagation,203
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\DeepSpeed\tests\unit\runtime\test_multi_output_model.py,test,gradients_not_cleared_before_backward_propagation,64
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\DeepSpeed\tests\unit\runtime\test_multi_output_model.py,test,gradients_not_cleared_before_backward_propagation,124
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\DeepSpeed\tests\unit\runtime\compile\util.py,compare_loss,gradients_not_cleared_before_backward_propagation,116
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\DeepSpeed\tests\unit\runtime\compile\util.py,compare_loss,gradients_not_cleared_before_backward_propagation,117
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\DeepSpeed\tests\unit\runtime\zero\test_zero_leaf_module.py,run_model,gradients_not_cleared_before_backward_propagation,68

@@ -1,0 +1,7 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fbcotter\pytorch_wavelets\tests\parser.py,pandify,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fbcotter\pytorch_wavelets\tests\profile.py,end_to_end,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fbcotter\pytorch_wavelets\tests\profile.py,forward,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fbcotter\pytorch_wavelets\tests\profile.py,inverse,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fbcotter\pytorch_wavelets\tests\profile.py,selesnick_dtcwt,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fbcotter\pytorch_wavelets\tests\profile.py,separable_dwt,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().

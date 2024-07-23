@@ -1,0 +1,4 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\bayesiains\nflows\nflows\nn\nde\made.py,log_prob,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\bayesiains\nflows\nflows\nn\nde\made.py,sample,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\bayesiains\nflows\nflows\transforms\UMNN\MonotonicNormalizer.py,inverse_transform,3,pytorch_call_method_misused,is recommended to use self.net()

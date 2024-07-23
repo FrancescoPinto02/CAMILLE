@@ -1,0 +1,5 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\activations\density\fit_density.py,_load_and_reshape_single_file,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\activations\density\visualize.py,heatmap_plot,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\activations\tsne\fit_model.py,_load_and_reshape_single_file,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\visualize\util.py,load_scores,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

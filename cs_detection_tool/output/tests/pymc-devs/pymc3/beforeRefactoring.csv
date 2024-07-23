@@ -1,0 +1,5 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pymc-devs\pymc3\benchmarks\benchmarks\benchmarks.py,glm_hierarchical_model,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pymc-devs\pymc3\benchmarks\benchmarks\benchmarks.py,time_drug_evaluation,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pymc-devs\pymc3\scripts\check_all_tests_are_covered.py,from_yaml,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pymc-devs\pymc3\scripts\run_mypy.py,mypy_to_pandas,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

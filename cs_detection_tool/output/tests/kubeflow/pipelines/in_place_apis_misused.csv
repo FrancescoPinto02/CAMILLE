@@ -1,0 +1,5 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\pipelines\components\contrib\keras\Train_classifier\from_CSV\component.py,keras_train_classifier_from_csv,in_place_apis_misused,52
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\pipelines\samples\contrib\versioned-pipeline-ci-samples\kaggle-ci-sample\visualize_html\visualize.py,datahtml,in_place_apis_misused,24
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\pipelines\components\contrib\keras\Train_classifier\from_CSV\component.py,keras_train_classifier_from_csv,in_place_apis_misused,32
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\pipelines\samples\contrib\versioned-pipeline-ci-samples\kaggle-ci-sample\visualize_html\visualize.py,datahtml,in_place_apis_misused,20

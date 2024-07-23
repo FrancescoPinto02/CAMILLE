@@ -1,0 +1,18 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\container\bert\predictor.py,transformation,3,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\container\bert_batch\predictor.py,transformation,3,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\data.py,get_dev_examples,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\data.py,get_labels,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\data.py,get_labels,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\data.py,get_test_examples,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\data.py,get_train_examples,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\data_cls.py,__init__,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\data_cls.py,get_dev_examples,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\data_cls.py,get_labels,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\data_cls.py,get_test_examples,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\data_cls.py,get_train_examples,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\learner_cls copy.py,_train_batch,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\learner_cls copy.py,predict_batch,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\learner_cls.py,_train_batch,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\learner_cls.py,predict_batch,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\learner_qa.py,fit,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().

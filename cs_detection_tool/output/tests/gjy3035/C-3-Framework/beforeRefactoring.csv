@@ -1,0 +1,8 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\gjy3035\C-3-Framework\datasets\GCC\GCC.py,read_image_and_gt,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\gjy3035\C-3-Framework\datasets\Mall\Mall.py,read_image_and_gt,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\gjy3035\C-3-Framework\datasets\QNRF\QNRF.py,read_image_and_gt,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\gjy3035\C-3-Framework\datasets\SHHB\SHHB.py,read_image_and_gt,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\gjy3035\C-3-Framework\datasets\UCF50\UCF50.py,read_image_and_gt,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\gjy3035\C-3-Framework\datasets\UCSD\UCSD.py,read_image_and_gt,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\gjy3035\C-3-Framework\datasets\WE\WE.py,read_image_and_gt,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

@@ -1,0 +1,4 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\inference\vision\classification_and_detection\tools\openimages.py,export_to_coco,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\inference\vision\classification_and_detection\tools\openimages.py,export_to_coco,2,merge_api_parameter_not_explicitly_set,merge not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\inference\vision\medical_imaging\3d-unet-kits19\accuracy_kits.py,save_evaluation_summary,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

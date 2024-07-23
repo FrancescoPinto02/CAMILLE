@@ -1,0 +1,4 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\norse\norse\norse\benchmark\main.py,run_benchmark,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\norse\norse\norse\torch\functional\test\test_threshold.py,test_threshold_backward,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\norse\norse\norse\torch\module\test\test_spikes_to_times_decoder.py,test_backward,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().

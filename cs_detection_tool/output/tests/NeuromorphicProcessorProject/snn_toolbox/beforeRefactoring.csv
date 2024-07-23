@@ -1,0 +1,2 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NeuromorphicProcessorProject\snn_toolbox\snntoolbox\conversion\utils.py,get_activations_batch,1,memory_not_freed,Memory not freed

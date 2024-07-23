@@ -1,0 +1,4 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Unity-Technologies\ml-agents\ml-agents\mlagents\trainers\poca\optimizer_torch.py,baseline,pytorch_call_method_misused,114
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Unity-Technologies\ml-agents\ml-agents\mlagents\trainers\poca\optimizer_torch.py,critic_pass,pytorch_call_method_misused,141
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Unity-Technologies\ml-agents\ml-agents\mlagents\trainers\torch_entities\networks.py,critic_pass,pytorch_call_method_misused,487

@@ -1,0 +1,1 @@
+Error in file C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\seldon-core\examples\models\templates\ModelName.py: invalid syntax (<unknown>, line 1)Error in file C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\seldon-core\examples\models\templates\ModelName.py: invalid syntax (<unknown>, line 1)

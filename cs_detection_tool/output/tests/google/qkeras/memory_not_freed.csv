@@ -1,0 +1,6 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\google\qkeras\qkeras\codebook.py,activation_compression,memory_not_freed,76
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\google\qkeras\qkeras\codebook.py,weight_compression,memory_not_freed,139
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\google\qkeras\qkeras\codebook.py,two_tier_embedding_compression,memory_not_freed,187
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\google\qkeras\qkeras\codebook.py,activation_compression,memory_not_freed,39
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\google\qkeras\qkeras\codebook.py,weight_compression,memory_not_freed,79

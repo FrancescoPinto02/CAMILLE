@@ -1,0 +1,5 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NVIDIA\NeMo\scripts\dataset_processing\kaldi2json.py,main,merge_api_parameter_not_explicitly_set,91
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NVIDIA\NeMo\scripts\dataset_processing\kaldi2json.py,main,merge_api_parameter_not_explicitly_set,92
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NVIDIA\NeMo\scripts\dataset_processing\kaldi2json.py,main,merge_api_parameter_not_explicitly_set,100
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NVIDIA\NeMo\scripts\fid-eval-text2img\plot.py,plot_fid_vs_clip,merge_api_parameter_not_explicitly_set,33

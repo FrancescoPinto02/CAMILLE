@@ -1,0 +1,6 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepset-ai\FARM\farm\utils.py,reformat_msmarco_train,columns_and_datatype_not_explicitly_set,357
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepset-ai\FARM\farm\utils.py,reformat_msmarco_dev,columns_and_datatype_not_explicitly_set,425
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepset-ai\FARM\farm\evaluation\msmarco_passage_farm.py,msmarco_evaluation,columns_and_datatype_not_explicitly_set,75
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepset-ai\FARM\farm\modeling\wordembedding_utils.py,_load_data,columns_and_datatype_not_explicitly_set,147
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepset-ai\FARM\farm\utils.py,reformat_msmarco_dev,columns_and_datatype_not_explicitly_set,388

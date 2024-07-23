@@ -1,0 +1,9 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nyanp\nyaggle\nyaggle\feature\nlp\bert.py,_process,columns_and_datatype_not_explicitly_set,130
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nyanp\nyaggle\nyaggle\testing\util.py,make_classification_df,columns_and_datatype_not_explicitly_set,26
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nyanp\nyaggle\nyaggle\testing\util.py,make_regression_df,columns_and_datatype_not_explicitly_set,50
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nyanp\nyaggle\nyaggle\util\submission.py,make_submission_df,columns_and_datatype_not_explicitly_set,33
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nyanp\nyaggle\nyaggle\validation\cross_validate.py,_get_gbdt_importance,columns_and_datatype_not_explicitly_set,217
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nyanp\nyaggle\tests\experiment\test_hyperparameter_tuner.py,test_binary_classification_parameter_tunes,columns_and_datatype_not_explicitly_set,30
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nyanp\nyaggle\tests\experiment\test_hyperparameter_tuner.py,test_multi_classification_parameter_tunes,columns_and_datatype_not_explicitly_set,42
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nyanp\nyaggle\nyaggle\feature\nlp\bert.py,_process,columns_and_datatype_not_explicitly_set,137

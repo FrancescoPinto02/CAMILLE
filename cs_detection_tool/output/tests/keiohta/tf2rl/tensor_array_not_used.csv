@@ -1,0 +1,8 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\keiohta\tf2rl\tf2rl\algos\categorical_dqn.py,__init__,tensor_array_not_used,152
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\keiohta\tf2rl\tf2rl\algos\categorical_dqn.py,_compute_td_error_body,tensor_array_not_used,321
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\keiohta\tf2rl\tf2rl\algos\categorical_dqn.py,_compute_td_error_body,tensor_array_not_used,324
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\keiohta\tf2rl\tf2rl\algos\categorical_dqn.py,_compute_td_error_body,tensor_array_not_used,336
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\keiohta\tf2rl\tf2rl\algos\categorical_dqn.py,_compute_td_error_body,tensor_array_not_used,207
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\keiohta\tf2rl\tf2rl\algos\categorical_dqn.py,_compute_td_error_body,tensor_array_not_used,209
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\keiohta\tf2rl\tf2rl\algos\categorical_dqn.py,_compute_td_error_body,tensor_array_not_used,217

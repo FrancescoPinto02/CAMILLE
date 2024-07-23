@@ -1,0 +1,17 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\arogozhnikov\hep_ml\hep_ml\commonutils.py,generate_sample,columns_and_datatype_not_explicitly_set,89
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\arogozhnikov\hep_ml\hep_ml\commonutils.py,to_pandas_dataframe,columns_and_datatype_not_explicitly_set,356
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\arogozhnikov\hep_ml\hep_ml\losses.py,fit,columns_and_datatype_not_explicitly_set,692
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\arogozhnikov\hep_ml\hep_ml\preprocessing.py,transform,columns_and_datatype_not_explicitly_set,155
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\arogozhnikov\hep_ml\hep_ml\splot.py,compute_sweights,columns_and_datatype_not_explicitly_set,40
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\arogozhnikov\hep_ml\hep_ml\splot.py,compute_sweights,columns_and_datatype_not_explicitly_set,57
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\arogozhnikov\hep_ml\tests\test_commonutils.py,test_splitting,columns_and_datatype_not_explicitly_set,15
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\arogozhnikov\hep_ml\tests\test_commonutils.py,test_splitting,columns_and_datatype_not_explicitly_set,16
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\arogozhnikov\hep_ml\tests\test_metrics.py,test_bins,columns_and_datatype_not_explicitly_set,59
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\arogozhnikov\hep_ml\tests\test_preprocessing.py,test_iron_transformer,columns_and_datatype_not_explicitly_set,55
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\arogozhnikov\hep_ml\tests\test_speedup.py,test_classifier_with_dataframe,columns_and_datatype_not_explicitly_set,80
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\arogozhnikov\hep_ml\tests\_metrics_oldimplementation.py,sde,columns_and_datatype_not_explicitly_set,218
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\arogozhnikov\hep_ml\tests\_metrics_oldimplementation.py,cvm_flatness,columns_and_datatype_not_explicitly_set,252
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\arogozhnikov\hep_ml\tests\test_preprocessing.py,test_iron_transformer,columns_and_datatype_not_explicitly_set,55
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\arogozhnikov\hep_ml\tests\test_speedup.py,test_classifier_with_dataframe,columns_and_datatype_not_explicitly_set,80
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\arogozhnikov\hep_ml\tests\test_preprocessing.py,test_iron_transformer,columns_and_datatype_not_explicitly_set,45

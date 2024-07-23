@@ -1,0 +1,9 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stanfordnlp\stanza\stanza\models\classifier.py,train_model,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stanfordnlp\stanza\stanza\models\common\char_model.py,build_char_representation,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stanfordnlp\stanza\stanza\models\common\char_model.py,get_representation,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stanfordnlp\stanza\stanza\models\common\char_model.py,per_char_representation,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stanfordnlp\stanza\stanza\models\constituency\lstm_model.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stanfordnlp\stanza\stanza\models\constituency\lstm_model.py,predict_gold,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stanfordnlp\stanza\stanza\models\constituency\lstm_model.py,weighted_choice,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stanfordnlp\stanza\stanza\models\coref\model.py,train,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().

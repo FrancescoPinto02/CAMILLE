@@ -1,0 +1,17 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\EpistasisLab\tpot\tests\tpot_tests.py,test_preprocess_individuals,in_place_apis_misused,1723
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\EpistasisLab\tpot\tests\tpot_tests.py,test_preprocess_individuals,in_place_apis_misused,1724
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\EpistasisLab\tpot\tests\tpot_tests.py,test_preprocess_individuals_2,in_place_apis_misused,1772
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\EpistasisLab\tpot\tests\tpot_tests.py,test_preprocess_individuals_2,in_place_apis_misused,1773
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\EpistasisLab\tpot\tests\tpot_tests.py,test_preprocess_individuals_3,in_place_apis_misused,1819
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\EpistasisLab\tpot\tests\tpot_tests.py,test_preprocess_individuals_3,in_place_apis_misused,1820
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\EpistasisLab\tpot\tests\tpot_tests.py,test_PolynomialFeatures_exception,in_place_apis_misused,2162
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\EpistasisLab\tpot\tests\tpot_tests.py,test_PolynomialFeatures_exception,in_place_apis_misused,2163
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\EpistasisLab\tpot\tests\tpot_tests.py,test_preprocess_individuals,in_place_apis_misused,1274
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\EpistasisLab\tpot\tests\tpot_tests.py,test_preprocess_individuals,in_place_apis_misused,1276
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\EpistasisLab\tpot\tests\tpot_tests.py,test_preprocess_individuals_2,in_place_apis_misused,1304
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\EpistasisLab\tpot\tests\tpot_tests.py,test_preprocess_individuals_2,in_place_apis_misused,1306
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\EpistasisLab\tpot\tests\tpot_tests.py,test_preprocess_individuals_3,in_place_apis_misused,1333
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\EpistasisLab\tpot\tests\tpot_tests.py,test_preprocess_individuals_3,in_place_apis_misused,1335
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\EpistasisLab\tpot\tests\tpot_tests.py,test_PolynomialFeatures_exception,in_place_apis_misused,1553
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\EpistasisLab\tpot\tests\tpot_tests.py,test_PolynomialFeatures_exception,in_place_apis_misused,1555

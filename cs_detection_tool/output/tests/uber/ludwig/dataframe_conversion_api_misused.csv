@@ -1,0 +1,2 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\uber\ludwig\tests\integration_tests\test_timeseries_feature.py,test_timeseries_preprocessing_with_nan,dataframe_conversion_api_misused,85

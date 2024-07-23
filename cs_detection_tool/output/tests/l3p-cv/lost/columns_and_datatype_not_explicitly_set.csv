@@ -1,0 +1,17 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\l3p-cv\lost\backend\lost\cli\remove_label_tree.py,main,columns_and_datatype_not_explicitly_set,16
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\l3p-cv\lost\backend\lost\db\model.py,to_df,columns_and_datatype_not_explicitly_set,319
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\l3p-cv\lost\backend\lost\db\model.py,to_df,columns_and_datatype_not_explicitly_set,852
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\l3p-cv\lost\backend\lost\db\model.py,to_vec,columns_and_datatype_not_explicitly_set,886
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\l3p-cv\lost\backend\lost\db\model.py,to_df,columns_and_datatype_not_explicitly_set,1582
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\l3p-cv\lost\backend\lost\logic\project_config.py,_load_from_db,columns_and_datatype_not_explicitly_set,28
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\l3p-cv\lost\backend\lost\logic\init\initlost.py,import_example_label_trees,columns_and_datatype_not_explicitly_set,159
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\l3p-cv\lost\backend\lost\pyapi\inout.py,_request_lds,columns_and_datatype_not_explicitly_set,458
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\l3p-cv\lost\backend\lost\pyapi\inout.py,calc_sim_class,columns_and_datatype_not_explicitly_set,458
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\l3p-cv\lost\backend\lost\utils\testils.py,get_voc_label_tree,columns_and_datatype_not_explicitly_set,50
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\l3p-cv\lost\backend\lost\db\model.py,to_df,columns_and_datatype_not_explicitly_set,260
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\l3p-cv\lost\backend\lost\db\model.py,to_df,columns_and_datatype_not_explicitly_set,677
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\l3p-cv\lost\backend\lost\db\model.py,to_df,columns_and_datatype_not_explicitly_set,1370
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\l3p-cv\lost\backend\lost\logic\project_config.py,_load_from_db,columns_and_datatype_not_explicitly_set,28
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\l3p-cv\lost\backend\lost\pyapi\inout.py,_request_lds,columns_and_datatype_not_explicitly_set,448
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\l3p-cv\lost\backend\lost\pyapi\inout.py,calc_sim_class,columns_and_datatype_not_explicitly_set,448

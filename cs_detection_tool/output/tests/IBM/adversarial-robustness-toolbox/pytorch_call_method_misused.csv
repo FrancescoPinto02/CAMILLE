@@ -1,0 +1,13 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\adversarial-robustness-toolbox\art\defences\preprocessor\preprocessor.py,estimate_forward,pytorch_call_method_misused,177
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\adversarial-robustness-toolbox\art\defences\preprocessor\preprocessor.py,__call__,pytorch_call_method_misused,203
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\adversarial-robustness-toolbox\art\defences\preprocessor\preprocessor.py,estimate_forward,pytorch_call_method_misused,274
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\adversarial-robustness-toolbox\art\defences\preprocessor\preprocessor.py,__call__,pytorch_call_method_misused,290
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\adversarial-robustness-toolbox\art\estimators\certification\deep_z\deep_z.py,__call__,pytorch_call_method_misused,43
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\adversarial-robustness-toolbox\art\estimators\certification\deep_z\deep_z.py,__call__,pytorch_call_method_misused,238
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\adversarial-robustness-toolbox\art\estimators\certification\deep_z\deep_z.py,__call__,pytorch_call_method_misused,292
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\adversarial-robustness-toolbox\art\estimators\certification\interval\interval.py,__call__,pytorch_call_method_misused,43
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\adversarial-robustness-toolbox\art\estimators\certification\interval\interval.py,__call__,pytorch_call_method_misused,396
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\adversarial-robustness-toolbox\art\preprocessing\audio\l_filter\pytorch.py,__call__,pytorch_call_method_misused,144
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\adversarial-robustness-toolbox\art\defences\preprocessor\preprocessor.py,estimate_forward,pytorch_call_method_misused,142
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\adversarial-robustness-toolbox\art\defences\preprocessor\preprocessor.py,estimate_forward,pytorch_call_method_misused,207

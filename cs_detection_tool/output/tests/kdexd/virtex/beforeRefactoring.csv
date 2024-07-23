@@ -1,0 +1,5 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kdexd\virtex\virtex\models\captioning.py,log_predictions,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kdexd\virtex\virtex\models\classification.py,log_predictions,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kdexd\virtex\virtex\models\classification.py,log_predictions,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kdexd\virtex\virtex\models\masked_lm.py,log_predictions,1,pytorch_call_method_misused,is recommended to use self.net()

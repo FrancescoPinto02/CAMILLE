@@ -1,0 +1,3 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NVIDIA\TRTorch\examples\fx\hugging_face_torchdynamo_example.py,run_all_eval,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NVIDIA\TRTorch\tools\perf\perf_run.py,recordStats,1,in_place_apis_misused,We suggest developers check whether the result of the operation is assigned to a variable or the in-place parameter is set in the API. Some developers hold the view that the in-place operation will save memory

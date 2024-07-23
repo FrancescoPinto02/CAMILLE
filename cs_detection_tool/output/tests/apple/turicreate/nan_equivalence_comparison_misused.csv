@@ -1,0 +1,2 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apple\turicreate\src\external\xgboost\python-package\xgboost\sklearn.py,get_params,nan_equivalence_comparison_misused,129

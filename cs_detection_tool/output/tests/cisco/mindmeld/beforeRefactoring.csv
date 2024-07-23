@@ -1,0 +1,9 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cisco\mindmeld\mindmeld\models\nn_utils\classification.py,fit,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cisco\mindmeld\mindmeld\models\nn_utils\classification.py,fit,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cisco\mindmeld\mindmeld\models\nn_utils\sequence_classification.py,_forward_with_batching_and_no_grad,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cisco\mindmeld\mindmeld\models\nn_utils\token_classification.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cisco\mindmeld\mindmeld\models\nn_utils\token_classification.py,predict_proba,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cisco\mindmeld\mindmeld\models\taggers\pytorch_crf.py,closure,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cisco\mindmeld\mindmeld\models\taggers\pytorch_crf.py,run_predictions,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cisco\mindmeld\mindmeld\models\taggers\pytorch_crf.py,train_one_epoch,1,pytorch_call_method_misused,is recommended to use self.net()

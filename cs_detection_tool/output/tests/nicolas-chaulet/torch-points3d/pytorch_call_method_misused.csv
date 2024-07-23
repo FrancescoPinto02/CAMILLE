@@ -1,0 +1,3 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nicolas-chaulet\torch-points3d\torch_points3d\models\base_model.py,optimize_parameters,pytorch_call_method_misused,235
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nicolas-chaulet\torch-points3d\torch_points3d\modules\PointNet\modules.py,forward_embedding,pytorch_call_method_misused,32

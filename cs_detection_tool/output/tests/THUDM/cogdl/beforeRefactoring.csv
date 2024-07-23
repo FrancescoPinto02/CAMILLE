@@ -1,0 +1,39 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\datasets\stgat_data.py,raw_data_processByNumNodes,3,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\datasets\stgat_data.py,raw_data_processByNumNodes,5,in_place_apis_misused,We suggest developers check whether the result of the operation is assigned to a variable or the in-place parameter is set in the API. Some developers hold the view that the in-place operation will save memory
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\datasets\stgat_data.py,read_stgat_data,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\datasets\stgcn_data.py,raw_data_processByNumNodes,3,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\datasets\stgcn_data.py,raw_data_processByNumNodes,5,in_place_apis_misused,We suggest developers check whether the result of the operation is assigned to a variable or the in-place parameter is set in the API. Some developers hold the view that the in-place operation will save memory
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\datasets\stgcn_data.py,read_stgcn_data,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\base_model.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\compgcn.py,loss,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\correct_smooth.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\daegc.py,get_features,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\deepergcn.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\diffpool.py,graph_classificatoin_loss,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\disengcn.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\drgcn.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\dropedge_gcn.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\gae.py,get_features,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\gat.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\gcnii.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\gcnmix.py,predict_noise,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\gdc_gcn.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\grace.py,embed,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\grand.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\graphsaint.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\m3s.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\mixhop.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\moe_gcn.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\mvgrl.py,loss,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\ppnp.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\rgcn.py,loss,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\models\nn\srgcn.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\wrappers\model_wrapper\traffic_prediction\stgat_mw.py,test_step,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\wrappers\model_wrapper\traffic_prediction\stgcn_mw.py,test_step,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\examples\dgraph\gnn.py,main,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\examples\dgraph\models\gat.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\examples\dgraph\models\grand.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\examples\dgraph\models\mixhop.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\examples\dgraph\models\mlp.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\examples\dgraph\models\sgc.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()

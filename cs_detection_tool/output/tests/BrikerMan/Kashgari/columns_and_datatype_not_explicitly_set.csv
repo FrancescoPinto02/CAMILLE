@@ -1,0 +1,5 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\BrikerMan\Kashgari\kashgari\corpus.py,load_data,columns_and_datatype_not_explicitly_set,171
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\BrikerMan\Kashgari\kashgari\corpus.py,__init__,columns_and_datatype_not_explicitly_set,226
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\BrikerMan\Kashgari\kashgari\corpus.py,load_data,columns_and_datatype_not_explicitly_set,265
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\BrikerMan\Kashgari\test_performance\classifications.py,run,columns_and_datatype_not_explicitly_set,77

@@ -1,0 +1,15 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\anilkfo_cifarfs.py,main,gradients_not_cleared_before_backward_propagation,169
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\anil_fc100.py,main,gradients_not_cleared_before_backward_propagation,163
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\distributed_maml.py,main,gradients_not_cleared_before_backward_propagation,106
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\maml_miniimagenet.py,main,gradients_not_cleared_before_backward_propagation,107
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\maml_omniglot.py,main,gradients_not_cleared_before_backward_propagation,101
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\metacurvature_fc100.py,main,gradients_not_cleared_before_backward_propagation,139
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\mamlpp\maml++_miniimagenet.py,train,gradients_not_cleared_before_backward_propagation,235
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\anilkfo_cifarfs.py,main,gradients_not_cleared_before_backward_propagation,112
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\anil_fc100.py,main,gradients_not_cleared_before_backward_propagation,99
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\distributed_maml.py,main,gradients_not_cleared_before_backward_propagation,64
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\maml_miniimagenet.py,main,gradients_not_cleared_before_backward_propagation,70
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\maml_omniglot.py,main,gradients_not_cleared_before_backward_propagation,67
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\metacurvature_fc100.py,main,gradients_not_cleared_before_backward_propagation,95
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\mamlpp\maml++_miniimagenet.py,train,gradients_not_cleared_before_backward_propagation,143

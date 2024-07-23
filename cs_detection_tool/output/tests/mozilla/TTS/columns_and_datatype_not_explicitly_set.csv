@@ -1,0 +1,2 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mozilla\TTS\TTS\speaker_encoder\utils\prepare_voxceleb.py,convert_audio_and_make_label,columns_and_datatype_not_explicitly_set,196

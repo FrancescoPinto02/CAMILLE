@@ -1,0 +1,5 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\examples\mnist_forward_forward\main.py,train,pytorch_call_method_misused,86
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\examples\mnist_forward_forward\main.py,train,pytorch_call_method_misused,86
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\examples\mnist_forward_forward\main.py,train,pytorch_call_method_misused,73
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\examples\mnist_forward_forward\main.py,train,pytorch_call_method_misused,74

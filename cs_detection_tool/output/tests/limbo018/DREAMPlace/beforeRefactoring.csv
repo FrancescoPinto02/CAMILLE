@@ -1,0 +1,6 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\limbo018\DREAMPlace\dreamplace\PlaceObj.py,initialize_density_weight,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\limbo018\DREAMPlace\dreamplace\ops\draw_place\draw_place.py,__call__,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\limbo018\DREAMPlace\dreamplace\ops\legality_check\legality_check.py,__call__,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\limbo018\DREAMPlace\dreamplace\ops\move_boundary\move_boundary.py,__call__,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\limbo018\DREAMPlace\dreamplace\ops\nctugr_binary\nctugr_binary.py,__call__,1,pytorch_call_method_misused,is recommended to use self.net()

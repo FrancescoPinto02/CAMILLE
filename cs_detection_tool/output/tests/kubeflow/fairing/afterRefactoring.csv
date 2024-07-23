@@ -1,0 +1,2 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\fairing\examples\prediction\HousingTrain.py,read_input,2,dataframe_conversion_api_misused,Please consider to use numpy instead values to convert dataframe. The function 'values' is deprecated.The value return of this function is unclear.

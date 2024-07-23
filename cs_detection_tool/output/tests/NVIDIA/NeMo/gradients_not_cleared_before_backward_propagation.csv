@@ -1,0 +1,2 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NVIDIA\NeMo\examples\multimodal\text_to_image\stable_diffusion\sd_train.py,main,gradients_not_cleared_before_backward_propagation,96

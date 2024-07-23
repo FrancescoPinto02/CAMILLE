@@ -1,0 +1,8 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\interpretml\interpret-community\python\interpret_community\explanation\serialization.py,_get_value_from_file,columns_and_datatype_not_explicitly_set,185
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\interpretml\interpret-community\tests\datasets.py,retrieve_dataset,columns_and_datatype_not_explicitly_set,33
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\interpretml\interpret-community\tests\models.py,predict,columns_and_datatype_not_explicitly_set,85
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\interpretml\interpret-community\tests\models.py,predict_proba,columns_and_datatype_not_explicitly_set,92
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\interpretml\interpret-community\tests\models.py,predict,columns_and_datatype_not_explicitly_set,109
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\interpretml\interpret-community\tests\test_backwards_compatibility.py,test_model_backcompat_local,columns_and_datatype_not_explicitly_set,51
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\interpretml\interpret-community\tests\test_backwards_compatibility.py,test_model_backcompat_local,columns_and_datatype_not_explicitly_set,51

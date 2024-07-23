@@ -1,0 +1,9 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GoogleCloudPlatform\ml-on-gcp\example_zoo\tensorflow\models\ncf_main\official\datasets\movielens.py,ratings_csv_to_dataframe,columns_and_datatype_not_explicitly_set,248
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GoogleCloudPlatform\ml-on-gcp\example_zoo\tensorflow\models\ncf_main\official\datasets\movielens.py,csv_to_joint_dataframe,columns_and_datatype_not_explicitly_set,255
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GoogleCloudPlatform\ml-on-gcp\example_zoo\tensorflow\models\ncf_main\official\recommendation\data_preprocessing.py,_filter_index_sort,columns_and_datatype_not_explicitly_set,104
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GoogleCloudPlatform\ml-on-gcp\gce\burst-training\census-analysis.py,main,columns_and_datatype_not_explicitly_set,63
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GoogleCloudPlatform\ml-on-gcp\gce\burst-training\census-analysis.py,main,columns_and_datatype_not_explicitly_set,68
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GoogleCloudPlatform\ml-on-gcp\tutorials\sklearn\titanic\titanic.py,train_model,columns_and_datatype_not_explicitly_set,28
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GoogleCloudPlatform\ml-on-gcp\tutorials\tensorflow\mlflow_gcp\trainer\utils.py,load_data,columns_and_datatype_not_explicitly_set,217
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GoogleCloudPlatform\ml-on-gcp\tutorials\tensorflow\mlflow_gcp\trainer\utils.py,load_data,columns_and_datatype_not_explicitly_set,219

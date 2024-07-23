@@ -1,0 +1,2 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyprob\pyprob\pyprob\model.py,_trace_generator,1,pytorch_call_method_misused,is recommended to use self.net()

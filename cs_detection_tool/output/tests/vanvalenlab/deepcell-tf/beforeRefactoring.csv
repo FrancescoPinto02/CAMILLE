@@ -1,0 +1,6 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\vanvalenlab\deepcell-tf\deepcell\datasets\dataset.py,_load_data,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\vanvalenlab\deepcell-tf\deepcell\datasets\dataset.py,load_source_metadata,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\vanvalenlab\deepcell-tf\deepcell\datasets\spot_net.py,_load_csv,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\vanvalenlab\deepcell-tf\deepcell\model_zoo\tracking.py,_get_deltas,1,tensor_array_not_used,"If the developer initializes an array using tf.constant() and tries to assign a new value to it in the loop to keep it growing, the code will run into an error.Using tf.TensorArray() for growing array in the loop is a better solution for this kind of problem in TensorFlow 2."
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\vanvalenlab\deepcell-tf\deepcell\utils\backbone_utils.py,get_backbone,1,memory_not_freed,Memory not freed

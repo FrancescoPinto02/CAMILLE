@@ -1,0 +1,6 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\f-dangel\backpack\docs_src\examples\use_cases\example_retain_graph.py,diag_ggn_multiple_passes,gradients_not_cleared_before_backward_propagation,306
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\f-dangel\backpack\test\linear_test.py,test_grad,gradients_not_cleared_before_backward_propagation,96
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\f-dangel\backpack\test\linear_test.py,test_grad_batch,gradients_not_cleared_before_backward_propagation,116
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\f-dangel\backpack\test\test_retain_graph.py,test_retain_graph,gradients_not_cleared_before_backward_propagation,43
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\f-dangel\backpack\test\test_retain_graph.py,test_for_loop_replace,gradients_not_cleared_before_backward_propagation,96

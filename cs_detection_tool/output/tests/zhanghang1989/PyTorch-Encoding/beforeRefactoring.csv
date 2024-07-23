@@ -1,0 +1,2 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\zhanghang1989\PyTorch-Encoding\encoding\models\sseg\base.py,evaluate,1,pytorch_call_method_misused,is recommended to use self.net()

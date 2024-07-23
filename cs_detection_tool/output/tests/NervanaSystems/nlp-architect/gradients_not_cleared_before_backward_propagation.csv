@@ -1,0 +1,7 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NervanaSystems\nlp-architect\nlp_architect\models\tagging.py,train,gradients_not_cleared_before_backward_propagation,347
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NervanaSystems\nlp-architect\nlp_architect\models\tagging.py,train,gradients_not_cleared_before_backward_propagation,347
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NervanaSystems\nlp-architect\nlp_architect\models\transformers\base_model.py,_train,gradients_not_cleared_before_backward_propagation,338
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NervanaSystems\nlp-architect\nlp_architect\models\transformers\base_model.py,_train,gradients_not_cleared_before_backward_propagation,338
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NervanaSystems\nlp-architect\nlp_architect\models\transformers\base_model.py,_train,gradients_not_cleared_before_backward_propagation,245
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NervanaSystems\nlp-architect\nlp_architect\models\transformers\base_model.py,_train,gradients_not_cleared_before_backward_propagation,245

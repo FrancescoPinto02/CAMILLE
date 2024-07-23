@@ -1,0 +1,7 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GRAAL-Research\poutyne\poutyne\framework\model_bundle.py,get_stats,columns_and_datatype_not_explicitly_set,538
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GRAAL-Research\poutyne\poutyne\framework\model_bundle.py,_test,columns_and_datatype_not_explicitly_set,1151
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GRAAL-Research\poutyne\tests\framework\experiment\test_experiment.py,_test_train_integration,columns_and_datatype_not_explicitly_set,259
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GRAAL-Research\poutyne\tests\framework\experiment\test_experiment.py,_test_train_integration,columns_and_datatype_not_explicitly_set,264
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GRAAL-Research\poutyne\poutyne\framework\model_bundle.py,_test,columns_and_datatype_not_explicitly_set,1023
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GRAAL-Research\poutyne\tests\framework\experiment\test_experiment.py,_test_train_integration,columns_and_datatype_not_explicitly_set,239

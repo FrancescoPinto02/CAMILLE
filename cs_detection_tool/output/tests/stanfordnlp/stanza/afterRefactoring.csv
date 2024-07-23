@@ -1,0 +1,3 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stanfordnlp\stanza\stanza\models\classifier.py,train_model,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stanfordnlp\stanza\stanza\models\coref\model.py,train,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().

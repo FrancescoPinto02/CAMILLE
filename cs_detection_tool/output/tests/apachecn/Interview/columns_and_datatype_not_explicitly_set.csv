@@ -1,0 +1,17 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apachecn\Interview\src\py3.x\kaggle\getting-started\digit-recognizer\cnn_pytorch-python3.6.py,__init__,columns_and_datatype_not_explicitly_set,29
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apachecn\Interview\src\py3.x\kaggle\getting-started\digit-recognizer\cnn_pytorch-python3.6.py,__init__,columns_and_datatype_not_explicitly_set,39
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apachecn\Interview\src\py3.x\kaggle\getting-started\digit-recognizer\knn-python3.6.py,opencsv,columns_and_datatype_not_explicitly_set,24
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apachecn\Interview\src\py3.x\kaggle\getting-started\digit-recognizer\knn-python3.6.py,opencsv,columns_and_datatype_not_explicitly_set,25
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apachecn\Interview\src\py3.x\kaggle\getting-started\digit-recognizer\rf-python3.6.py,opencsv,columns_and_datatype_not_explicitly_set,28
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apachecn\Interview\src\py3.x\kaggle\getting-started\digit-recognizer\rf-python3.6.py,opencsv,columns_and_datatype_not_explicitly_set,29
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apachecn\Interview\src\py3.x\kaggle\getting-started\digit-recognizer\svm-python3.6.py,opencsv,columns_and_datatype_not_explicitly_set,30
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apachecn\Interview\src\py3.x\kaggle\getting-started\digit-recognizer\svm-python3.6.py,opencsv,columns_and_datatype_not_explicitly_set,31
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apachecn\Interview\src\py3.x\kaggle\getting-started\house-prices\base-model_lasso_python3.6.py,opencsv,columns_and_datatype_not_explicitly_set,20
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apachecn\Interview\src\py3.x\kaggle\getting-started\house-prices\base-model_lasso_python3.6.py,opencsv,columns_and_datatype_not_explicitly_set,21
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apachecn\Interview\src\py3.x\kaggle\getting-started\house-prices\base-model_lasso_python3.6.py,ridgeRegression,columns_and_datatype_not_explicitly_set,37
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apachecn\Interview\src\py3.x\kaggle\getting-started\house-prices\deeplearning_method.py,load_data,columns_and_datatype_not_explicitly_set,21
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apachecn\Interview\src\py3.x\kaggle\getting-started\house-prices\deeplearning_method.py,load_data,columns_and_datatype_not_explicitly_set,22
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apachecn\Interview\src\py3.x\kaggle\getting-started\titanic\titanic-python3.6.py,opencsv,columns_and_datatype_not_explicitly_set,30
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apachecn\Interview\src\py3.x\kaggle\getting-started\titanic\titanic-python3.6.py,opencsv,columns_and_datatype_not_explicitly_set,31
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apachecn\Interview\src\py3.x\kaggle\getting-started\titanic\titanic-python3.6.py,main,columns_and_datatype_not_explicitly_set,345

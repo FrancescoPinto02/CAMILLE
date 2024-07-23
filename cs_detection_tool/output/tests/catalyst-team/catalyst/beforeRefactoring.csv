@@ -1,0 +1,8 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\catalyst-team\catalyst\catalyst\contrib\datasets\movielens.py,_read_raw_movielens_data,10,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\catalyst-team\catalyst\catalyst\contrib\scripts\project_embeddings.py,main,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\catalyst-team\catalyst\catalyst\contrib\utils\report.py,get_classification_report,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\catalyst-team\catalyst\catalyst\runners\supervised.py,handle_batch,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\catalyst-team\catalyst\catalyst\runners\supervised.py,predict_batch,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\catalyst-team\catalyst\examples\self_supervised\src\runner.py,handle_batch,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\catalyst-team\catalyst\examples\self_supervised\src\runner.py,predict_batch,1,pytorch_call_method_misused,is recommended to use self.net()

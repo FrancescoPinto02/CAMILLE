@@ -1,0 +1,8 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\allegro-ai\trains\trains\logger.py,_touch_title_series,in_place_apis_misused,810
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\allegro-ai\trains\trains\binding\artifacts.py,unregister_artifact,in_place_apis_misused,270
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\allegro-ai\trains\trains\binding\artifacts.py,hash_row,in_place_apis_misused,621
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\allegro-ai\trains\trains\utilities\plotly_reporter.py,create_3d_scatter_series,in_place_apis_misused,195
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\allegro-ai\trains\trains\utilities\plotly_reporter.py,_get_z_colorbar_data,in_place_apis_misused,326
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\allegro-ai\trains\trains\binding\artifacts.py,hash_row,in_place_apis_misused,577
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\allegro-ai\trains\trains\utilities\plotly_reporter.py,_get_z_colorbar_data,in_place_apis_misused,214

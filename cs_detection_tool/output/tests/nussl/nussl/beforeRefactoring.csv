@@ -1,0 +1,5 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nussl\nussl\nussl\evaluation\report_card.py,aggregate_score_files,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nussl\nussl\nussl\separation\deep\deep_audio_estimation.py,run,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nussl\nussl\nussl\separation\deep\deep_mask_estimation.py,run,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nussl\nussl\tests\ml\test_gradients.py,test_gradients,3,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().

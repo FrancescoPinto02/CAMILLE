@@ -1,0 +1,2 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\QData\TextAttack\textattack\constraints\semantics\sentence_encoders\infer_sent\infer_sent_model.py,encode,pytorch_call_method_misused,260

@@ -1,0 +1,12 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\_compat.py,_deduped_module_warn_or_error,in_place_apis_misused,598
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\_compat.py,deprecated_submodule,in_place_apis_misused,746
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\_compat_test.py,run_in_subprocess,in_place_apis_misused,671
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\experiments\t2_decay_experiment.py,t2_decay,in_place_apis_misused,193
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\experiments\t2_decay_experiment.py,t2_decay,in_place_apis_misused,194
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\experiments\t2_decay_experiment.py,t2_decay,in_place_apis_misused,195
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\experiments\t2_decay_experiment.py,_cpmg_circuit,in_place_apis_misused,256
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\protocols\json_serialization.py,_register_resolver,in_place_apis_misused,108
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\work\observable_measurement.py,_with_parameterized_layers,in_place_apis_misused,76
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\work\sampler_test.py,test_sampler_simple_sample_expectation_requirements,in_place_apis_misused,385
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\_compat.py,deprecated_submodule,in_place_apis_misused,602

@@ -1,0 +1,10 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ConvLab\ConvLab\convlab\agent\__init__.py,__init__,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ConvLab\ConvLab\convlab\agent\__init__.py,update,1,nan_equivalence_comparison_misused,NaN equivalence comparison misused
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ConvLab\ConvLab\convlab\experiment\analysis.py,calc_experiment_df,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ConvLab\ConvLab\convlab\modules\usr\multiwoz\vhus_usr\usermodule.py,select_action,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ConvLab\ConvLab\convlab\modules\word_policy\multiwoz\hdsa\transformer\Transformer.py,beam_decode_step,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ConvLab\ConvLab\convlab\modules\word_policy\multiwoz\hdsa\transformer\Transformer.py,beam_decode_step,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ConvLab\ConvLab\convlab\modules\word_policy\multiwoz\hdsa\transformer\Transformer.py,translate_batch,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ConvLab\ConvLab\convlab\modules\word_policy\multiwoz\hdsa\transformer\Transformer.py,translate_batch,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ConvLab\ConvLab\convlab\modules\word_policy\multiwoz\mdrg\model\model.py,train,1,pytorch_call_method_misused,is recommended to use self.net()

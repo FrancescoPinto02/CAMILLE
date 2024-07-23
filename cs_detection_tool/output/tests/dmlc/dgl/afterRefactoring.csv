@@ -1,0 +1,9 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\dmlc\dgl\benchmarks\benchmarks\utils.py,get_num_gpu,1,in_place_apis_misused,We suggest developers check whether the result of the operation is assigned to a variable or the in-place parameter is set in the API. Some developers hold the view that the in-place operation will save memory
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\dmlc\dgl\examples\pytorch\bgnn\run.py,encode_cat_features,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\dmlc\dgl\examples\pytorch\gcmc\data.py,_drop_unseen_nodes,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\dmlc\dgl\examples\pytorch\gcmc\data.py,_load_raw_user_info,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\dmlc\dgl\python\dgl\data\movielens.py,_load_raw_user_data,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\dmlc\dgl\tests\python\pytorch\graphbolt\gb_test_utils.py,generate_raw_data_for_hetero_dataset,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\dmlc\dgl\tools\distpartitioning\array_readwriter\csv.py,write,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\dmlc\dgl\tools\distpartitioning\array_readwriter\parquet.py,write,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

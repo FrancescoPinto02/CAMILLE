@@ -1,0 +1,4 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\KevinMusgrave\powerful-benchmarker\validator_tests\main.py,fn,in_place_apis_misused,93
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\KevinMusgrave\powerful-benchmarker\validator_tests\save_resilience_to_noise_dfs.py,add_noise,in_place_apis_misused,23
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\KevinMusgrave\powerful-benchmarker\validator_tests\main.py,fn,in_place_apis_misused,72

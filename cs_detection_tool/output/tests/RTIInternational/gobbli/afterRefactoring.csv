@@ -1,0 +1,6 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\RTIInternational\gobbli\gobbli\model\bert\model.py,_df_to_train_tsv,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\RTIInternational\gobbli\gobbli\model\bert\src\optimization_test.py,test_adam,1,tensor_array_not_used,"If the developer initializes an array using tf.constant() and tries to assign a new value to it in the loop to keep it growing, the code will run into an error.Using tf.TensorArray() for growing array in the loop is a better solution for this kind of problem in TensorFlow 2."
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\RTIInternational\gobbli\gobbli\model\majority.py,_make_pred_df,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\RTIInternational\gobbli\gobbli\model\mtdnn\model.py,_write_input,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\RTIInternational\gobbli\gobbli\model\transformer\src\run_model.py,predict,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

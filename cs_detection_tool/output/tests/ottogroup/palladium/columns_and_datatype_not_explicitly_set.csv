@@ -1,0 +1,3 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ottogroup\palladium\palladium\fit.py,_persist_model,columns_and_datatype_not_explicitly_set,30
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ottogroup\palladium\palladium\fit.py,grid_search,columns_and_datatype_not_explicitly_set,242

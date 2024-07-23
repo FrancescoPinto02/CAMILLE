@@ -1,0 +1,10 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nicolas-chaulet\torch-points3d\scripts\test_registration_scripts\descriptor_matcher.py,compute_recall_scene,columns_and_datatype_not_explicitly_set,136
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nicolas-chaulet\torch-points3d\scripts\test_registration_scripts\descriptor_matcher.py,compute_recall_scene,columns_and_datatype_not_explicitly_set,139
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nicolas-chaulet\torch-points3d\scripts\test_registration_scripts\descriptor_matcher.py,evaluate,columns_and_datatype_not_explicitly_set,170
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nicolas-chaulet\torch-points3d\scripts\test_registration_scripts\evaluate.py,run,columns_and_datatype_not_explicitly_set,203
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nicolas-chaulet\torch-points3d\torch_points3d\datasets\registration\basetest.py,_pre_transform_fragments,columns_and_datatype_not_explicitly_set,357
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nicolas-chaulet\torch-points3d\torch_points3d\datasets\segmentation\s3dis.py,read_s3dis_format,columns_and_datatype_not_explicitly_set,119
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nicolas-chaulet\torch-points3d\torch_points3d\datasets\segmentation\s3dis.py,read_s3dis_format,columns_and_datatype_not_explicitly_set,134
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nicolas-chaulet\torch-points3d\torch_points3d\datasets\segmentation\s3dis.py,read_s3dis_format,columns_and_datatype_not_explicitly_set,157
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nicolas-chaulet\torch-points3d\torch_points3d\datasets\segmentation\s3dis.py,read_s3dis_format,columns_and_datatype_not_explicitly_set,58

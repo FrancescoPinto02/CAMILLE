@@ -1,0 +1,6 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\santi-pdp\pase\emorec\train.py,main,gradients_not_cleared_before_backward_propagation,197
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\santi-pdp\pase\pase\models\core.py,train_,gradients_not_cleared_before_backward_propagation,485
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\santi-pdp\pase\pase\models\core.py,train_,gradients_not_cleared_before_backward_propagation,485
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\santi-pdp\pase\pase\models\core.py,train_,gradients_not_cleared_before_backward_propagation,382
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\santi-pdp\pase\pase\models\core.py,train_,gradients_not_cleared_before_backward_propagation,382

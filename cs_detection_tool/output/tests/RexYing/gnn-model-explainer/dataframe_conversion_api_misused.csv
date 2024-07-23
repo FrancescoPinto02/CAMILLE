@@ -1,0 +1,4 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\RexYing\gnn-model-explainer\utils\io_utils.py,read_biosnap,dataframe_conversion_api_misused,610
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\RexYing\gnn-model-explainer\utils\io_utils.py,read_biosnap,dataframe_conversion_api_misused,577
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\RexYing\gnn-model-explainer\utils\io_utils.py,read_biosnap,dataframe_conversion_api_misused,585

@@ -1,0 +1,10 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\examples\LBFGS.py,_step,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\gpytorch\lazy\lazy_evaluated_kernel_tensor.py,_bilinear_derivative,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\gpytorch\likelihoods\likelihood.py,_draw_likelihood_samples,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\gpytorch\likelihoods\likelihood.py,_draw_likelihood_samples,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\gpytorch\likelihoods\likelihood.py,expected_log_prob,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\gpytorch\likelihoods\likelihood.py,log_marginal,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\gpytorch\module.py,__call__,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\gpytorch\variational\_variational_distribution.py,__call__,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\gpytorch\variational\nearest_neighbor_variational_strategy.py,__call__,2,pytorch_call_method_misused,is recommended to use self.net()

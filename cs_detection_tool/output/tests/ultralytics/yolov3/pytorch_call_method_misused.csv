@@ -1,0 +1,6 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ultralytics\yolov3\models\common.py,warmup,pytorch_call_method_misused,716
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ultralytics\yolov3\models\yolo.py,__init__,pytorch_call_method_misused,227
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ultralytics\yolov3\models\yolo.py,__init__,pytorch_call_method_misused,227
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ultralytics\yolov3\models\yolo.py,forward,pytorch_call_method_misused,227
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ultralytics\yolov3\models\yolo.py,forward,pytorch_call_method_misused,227

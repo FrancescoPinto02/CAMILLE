@@ -1,0 +1,3 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\OpenNMT\OpenNMT-py\eval_llm\MMLU-FR\run_mmlu_opennmt_fr.py,evaluate,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\OpenNMT\OpenNMT-py\eval_llm\MMLU\run_mmlu_opennmt.py,evaluate,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

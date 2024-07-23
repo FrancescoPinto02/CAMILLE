@@ -1,0 +1,5 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\keras-team\autokeras\autokeras\keras_layers_test.py,test_cast_to_float32_return_float32_tensor,tensor_array_not_used,47
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\keras-team\autokeras\autokeras\keras_layers_test.py,test_expand_last_dim_return_tensor_with_more_dims,tensor_array_not_used,55
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\keras-team\autokeras\autokeras\keras_layers_test.py,test_cast_to_float32_return_float32_tensor,tensor_array_not_used,20
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\keras-team\autokeras\autokeras\keras_layers_test.py,test_expand_last_dim_return_tensor_with_more_dims,tensor_array_not_used,28

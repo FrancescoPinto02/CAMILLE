@@ -1,0 +1,7 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stanfordnlp\stanza\stanza\models\common\char_model.py,get_representation,pytorch_call_method_misused,160
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stanfordnlp\stanza\stanza\models\common\char_model.py,per_char_representation,pytorch_call_method_misused,178
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stanfordnlp\stanza\stanza\models\common\char_model.py,build_char_representation,pytorch_call_method_misused,222
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stanfordnlp\stanza\stanza\models\constituency\lstm_model.py,predict,pytorch_call_method_misused,1082
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stanfordnlp\stanza\stanza\models\constituency\lstm_model.py,weighted_choice,pytorch_call_method_misused,1109
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stanfordnlp\stanza\stanza\models\constituency\lstm_model.py,predict_gold,pytorch_call_method_misused,1130

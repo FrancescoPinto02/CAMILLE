@@ -1,0 +1,4 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\examples\vae\utils\vae_plots.py,plot_llk,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\pyro\infer\predictive.py,call,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\pyro\infer\predictive.py,call,1,pytorch_call_method_misused,is recommended to use self.net()

@@ -1,0 +1,8 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\google-research\text-to-text-transfer-transformer\t5\evaluation\eval_utils.py,scores_to_df,columns_and_datatype_not_explicitly_set,220
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\google-research\text-to-text-transfer-transformer\t5\evaluation\eval_utils.py,metric_group_max,columns_and_datatype_not_explicitly_set,232
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\google-research\text-to-text-transfer-transformer\t5\evaluation\eval_utils_test.py,test_glue_average,columns_and_datatype_not_explicitly_set,119
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\google-research\text-to-text-transfer-transformer\t5\evaluation\eval_utils_test.py,test_metric_group_max,columns_and_datatype_not_explicitly_set,142
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\google-research\text-to-text-transfer-transformer\t5\evaluation\eval_utils_test.py,test_log_csv,columns_and_datatype_not_explicitly_set,163
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\google-research\text-to-text-transfer-transformer\t5\evaluation\eval_utils_test.py,test_metric_group_max,columns_and_datatype_not_explicitly_set,86
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\google-research\text-to-text-transfer-transformer\t5\evaluation\eval_utils_test.py,test_log_csv,columns_and_datatype_not_explicitly_set,105

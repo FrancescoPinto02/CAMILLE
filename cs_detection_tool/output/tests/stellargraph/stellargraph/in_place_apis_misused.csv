@@ -1,0 +1,9 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stellargraph\stellargraph\stellargraph\core\graph.py,info,in_place_apis_misused,1482
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stellargraph\stellargraph\stellargraph\core\graph.py,info,in_place_apis_misused,1483
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stellargraph\stellargraph\tests\layer\test_appnp.py,test_APPNP_apply_propagate_model_dense,in_place_apis_misused,211
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stellargraph\stellargraph\tests\layer\test_appnp.py,test_APPNP_apply_propagate_model_sparse,in_place_apis_misused,283
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stellargraph\stellargraph\stellargraph\core\graph.py,info,in_place_apis_misused,1241
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stellargraph\stellargraph\stellargraph\core\graph.py,info,in_place_apis_misused,1242
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stellargraph\stellargraph\tests\layer\test_appnp.py,test_APPNP_apply_propagate_model_dense,in_place_apis_misused,146
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\stellargraph\stellargraph\tests\layer\test_appnp.py,test_APPNP_apply_propagate_model_sparse,in_place_apis_misused,200

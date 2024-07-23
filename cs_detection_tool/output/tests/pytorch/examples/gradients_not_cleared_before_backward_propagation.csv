@@ -1,0 +1,13 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\examples\distributed\rpc\batch\parameter_server.py,train,gradients_not_cleared_before_backward_propagation,86
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\examples\distributed\rpc\ddp_rpc\main.py,_run_trainer,gradients_not_cleared_before_backward_propagation,98
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\examples\distributed\rpc\ddp_rpc\main.py,_run_trainer,gradients_not_cleared_before_backward_propagation,98
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\examples\distributed\rpc\parameter_server\rpc_parameter_server.py,run_training_loop,gradients_not_cleared_before_backward_propagation,182
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\examples\distributed\rpc\pipeline\main.py,run_master,gradients_not_cleared_before_backward_propagation,215
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\examples\distributed\rpc\rnn\main.py,_run_trainer,gradients_not_cleared_before_backward_propagation,57
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\examples\distributed\rpc\rnn\main.py,_run_trainer,gradients_not_cleared_before_backward_propagation,57
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\examples\distributed\rpc\batch\parameter_server.py,train,gradients_not_cleared_before_backward_propagation,81
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\examples\distributed\rpc\ddp_rpc\main.py,_run_trainer,gradients_not_cleared_before_backward_propagation,63
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\examples\distributed\rpc\ddp_rpc\main.py,_run_trainer,gradients_not_cleared_before_backward_propagation,63
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\examples\distributed\rpc\rnn\main.py,_run_trainer,gradients_not_cleared_before_backward_propagation,40
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\examples\distributed\rpc\rnn\main.py,_run_trainer,gradients_not_cleared_before_backward_propagation,40

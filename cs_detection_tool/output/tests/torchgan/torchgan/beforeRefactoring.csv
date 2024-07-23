@@ -1,0 +1,11 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\torchgan\torchgan\torchgan\losses\auxclassifier.py,train_ops,2,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\torchgan\torchgan\torchgan\losses\auxclassifier.py,train_ops,4,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\torchgan\torchgan\torchgan\losses\boundaryequilibrium.py,train_ops,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\torchgan\torchgan\torchgan\losses\draganpenalty.py,train_ops,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\torchgan\torchgan\torchgan\losses\energybased.py,train_ops,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\torchgan\torchgan\torchgan\losses\featurematching.py,train_ops,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\torchgan\torchgan\torchgan\losses\loss.py,train_ops,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\torchgan\torchgan\torchgan\losses\loss.py,train_ops,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\torchgan\torchgan\torchgan\losses\mutualinfo.py,train_ops,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\torchgan\torchgan\torchgan\losses\wasserstein.py,train_ops,1,pytorch_call_method_misused,is recommended to use self.net()

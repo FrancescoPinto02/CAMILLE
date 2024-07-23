@@ -1,0 +1,13 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\flairNLP\flair\flair\embeddings\image.py,_add_embeddings_internal,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\flairNLP\flair\flair\embeddings\transformer.py,_forward_tensors,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\flairNLP\flair\flair\models\language_model.py,calculate_perplexity,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\flairNLP\flair\flair\models\language_model.py,generate_text,2,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\flairNLP\flair\flair\models\language_model.py,get_output,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\flairNLP\flair\flair\models\language_model.py,get_representation,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\flairNLP\flair\flair\models\lemmatizer_model.py,encode,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\flairNLP\flair\flair\models\sequence_tagger_model.py,forward_loss,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\flairNLP\flair\flair\models\sequence_tagger_model.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\flairNLP\flair\flair\models\text_regression_model.py,forward_labels_and_loss,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\flairNLP\flair\flair\models\text_regression_model.py,forward_loss,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\flairNLP\flair\flair\models\text_regression_model.py,predict,1,pytorch_call_method_misused,is recommended to use self.net()

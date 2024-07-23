@@ -1,0 +1,8 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\tutorials\advanced_source\rpc_ddp_tutorial\main.py,_run_trainer,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\tutorials\beginner_source\basics\data_tutorial.py,__init__,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\tutorials\beginner_source\basics\data_tutorial.py,__init__,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\tutorials\beginner_source\basics\optimization_tutorial.py,train_loop,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\tutorials\beginner_source\basics\quickstart_tutorial.py,train,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\tutorials\beginner_source\data_loading_tutorial.py,__init__,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\tutorials\beginner_source\nn_tutorial.py,fit,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().

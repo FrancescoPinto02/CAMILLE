@@ -1,0 +1,14 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\rusty1s\pytorch_geometric\torch_geometric\datasets\aminer.py,process,dataframe_conversion_api_misused,108
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\rusty1s\pytorch_geometric\torch_geometric\datasets\aminer.py,process,dataframe_conversion_api_misused,120
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\rusty1s\pytorch_geometric\torch_geometric\datasets\attributed_graph_dataset.py,process,dataframe_conversion_api_misused,173
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\rusty1s\pytorch_geometric\torch_geometric\datasets\elliptic.py,process,dataframe_conversion_api_misused,113
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\rusty1s\pytorch_geometric\torch_geometric\datasets\email_eu_core.py,process,dataframe_conversion_api_misused,74
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\rusty1s\pytorch_geometric\torch_geometric\datasets\email_eu_core.py,process,dataframe_conversion_api_misused,71
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\rusty1s\pytorch_geometric\torch_geometric\datasets\particle.py,get,dataframe_conversion_api_misused,71
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\rusty1s\pytorch_geometric\torch_geometric\datasets\polblogs.py,process,dataframe_conversion_api_misused,89
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\rusty1s\pytorch_geometric\torch_geometric\datasets\polblogs.py,process,dataframe_conversion_api_misused,86
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\rusty1s\pytorch_geometric\torch_geometric\datasets\snap_dataset.py,read_ego,dataframe_conversion_api_misused,55
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\rusty1s\pytorch_geometric\torch_geometric\datasets\snap_dataset.py,read_ego,dataframe_conversion_api_misused,58
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\rusty1s\pytorch_geometric\torch_geometric\datasets\snap_dataset.py,read_soc,dataframe_conversion_api_misused,131
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\rusty1s\pytorch_geometric\torch_geometric\datasets\snap_dataset.py,read_wiki,dataframe_conversion_api_misused,143

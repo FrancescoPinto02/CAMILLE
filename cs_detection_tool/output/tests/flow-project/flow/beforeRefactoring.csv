@@ -1,0 +1,2 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\flow-project\flow\flow\visualize\time_space_diagram.py,import_data_from_trajectory,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

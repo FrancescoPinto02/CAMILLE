@@ -1,0 +1,6 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\AntonMu\TrainYourOwnYOLO\Utils\Convert_Format.py,csv_from_xml,columns_and_datatype_not_explicitly_set,67
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\AntonMu\TrainYourOwnYOLO\Utils\Convert_Format.py,csv_from_xml,columns_and_datatype_not_explicitly_set,85
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\AntonMu\TrainYourOwnYOLO\Utils\Convert_Format.py,crop_and_save,columns_and_datatype_not_explicitly_set,179
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\AntonMu\TrainYourOwnYOLO\Utils\Convert_Format.py,csv_from_xml,columns_and_datatype_not_explicitly_set,40
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\AntonMu\TrainYourOwnYOLO\Utils\Convert_Format.py,csv_from_xml,columns_and_datatype_not_explicitly_set,59

@@ -1,0 +1,12 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DSE-MSU\DeepRobust\deeprobust\image\attack\BPDA.py,BPDA_attack,gradients_not_cleared_before_backward_propagation,80
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DSE-MSU\DeepRobust\deeprobust\image\attack\deepfool.py,deepfool,gradients_not_cleared_before_backward_propagation,110
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DSE-MSU\DeepRobust\deeprobust\image\attack\deepfool.py,deepfool,gradients_not_cleared_before_backward_propagation,116
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DSE-MSU\DeepRobust\deeprobust\image\attack\deepfool.py,deepfool,gradients_not_cleared_before_backward_propagation,116
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DSE-MSU\DeepRobust\deeprobust\image\attack\pgd.py,pgd_attack,gradients_not_cleared_before_backward_propagation,118
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DSE-MSU\DeepRobust\deeprobust\image\attack\pgd.py,pgd_attack,gradients_not_cleared_before_backward_propagation,141
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DSE-MSU\DeepRobust\deeprobust\image\defense\YOPO.py,train_one_epoch,gradients_not_cleared_before_backward_propagation,381
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DSE-MSU\DeepRobust\deeprobust\image\attack\deepfool.py,deepfool,gradients_not_cleared_before_backward_propagation,93
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DSE-MSU\DeepRobust\deeprobust\image\attack\deepfool.py,deepfool,gradients_not_cleared_before_backward_propagation,97
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DSE-MSU\DeepRobust\deeprobust\image\attack\deepfool.py,deepfool,gradients_not_cleared_before_backward_propagation,97
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DSE-MSU\DeepRobust\deeprobust\image\defense\YOPO.py,train_one_epoch,gradients_not_cleared_before_backward_propagation,338

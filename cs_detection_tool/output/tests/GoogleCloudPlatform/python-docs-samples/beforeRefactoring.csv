@@ -1,0 +1,5 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GoogleCloudPlatform\python-docs-samples\composer\2022_airflow_summit\data_analytics_process_expansion.py,phx_dw_compute,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GoogleCloudPlatform\python-docs-samples\generative_ai\gemini_rapid_evaluation.py,create_evaluation_task,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GoogleCloudPlatform\python-docs-samples\people-and-planet-ai\timeseries-classification\data_utils.py,read_labels,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GoogleCloudPlatform\python-docs-samples\people-and-planet-ai\timeseries-classification\data_utils.py,with_fixed_time_steps,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

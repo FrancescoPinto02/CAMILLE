@@ -1,0 +1,4 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mozilla\TTS\TTS\speaker_encoder\utils\prepare_voxceleb.py,convert_audio_and_make_label,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mozilla\TTS\TTS\vocoder\models\parallel_wavegan_generator.py,inference,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mozilla\TTS\TTS\vocoder\models\wavegrad.py,inference,1,pytorch_call_method_misused,is recommended to use self.net()

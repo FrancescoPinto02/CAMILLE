@@ -1,0 +1,7 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ConvLab\ConvLab\convlab\modules\usr\multiwoz\vhus_usr\usermodule.py,select_action,pytorch_call_method_misused,107
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ConvLab\ConvLab\convlab\modules\word_policy\multiwoz\hdsa\transformer\Transformer.py,translate_batch,pytorch_call_method_misused,511
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ConvLab\ConvLab\convlab\modules\word_policy\multiwoz\hdsa\transformer\Transformer.py,translate_batch,pytorch_call_method_misused,705
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ConvLab\ConvLab\convlab\modules\word_policy\multiwoz\hdsa\transformer\Transformer.py,beam_decode_step,pytorch_call_method_misused,511
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ConvLab\ConvLab\convlab\modules\word_policy\multiwoz\hdsa\transformer\Transformer.py,beam_decode_step,pytorch_call_method_misused,705
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ConvLab\ConvLab\convlab\modules\word_policy\multiwoz\mdrg\model\model.py,train,pytorch_call_method_misused,337

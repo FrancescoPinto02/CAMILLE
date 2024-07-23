@@ -1,0 +1,12 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\moses\baselines\combinatorial.py,fit,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\moses\char_rnn\model.py,sample,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\moses\dataset\dataset.py,get_dataset,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\moses\latentgan\trainer.py,_get_dataset_info,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\moses\script_utils.py,read_smiles_csv,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\moses\utils.py,append,1,in_place_apis_misused,We suggest developers check whether the result of the operation is assigned to a variable or the in-place parameter is set in the API. Some developers hold the view that the in-place operation will save memory
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\moses\utils.py,save,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\scripts\prepare_dataset.py,filter_lines,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\scripts\run.py,main,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\scripts\sample.py,main,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\scripts\split_dataset.py,main,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

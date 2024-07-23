@@ -1,0 +1,1 @@
+Error in file C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NVIDIA\TRTorch\examples\custom_converters\elu_converter\setup.py: invalid syntax (<unknown>, line 10)Error in file C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NVIDIA\TRTorch\examples\custom_converters\elu_converter\setup.py: invalid syntax (<unknown>, line 10)

@@ -1,0 +1,4 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\QData\TextAttack\textattack\loggers\csv_logger.py,__init__,columns_and_datatype_not_explicitly_set,24
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\QData\TextAttack\textattack\models\wrappers\sklearn_model_wrapper.py,__call__,columns_and_datatype_not_explicitly_set,25
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\QData\TextAttack\textattack\transformations\word_swaps\chn_transformations\chinese_homophone_character_swap.py,__init__,columns_and_datatype_not_explicitly_set,25

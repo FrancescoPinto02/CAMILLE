@@ -1,0 +1,6 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\CrypTen\crypten\cryptensor.py,backward,gradients_not_cleared_before_backward_propagation,268
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\CrypTen\crypten\nn\privacy\dp_split.py,_compute_model_jacobians,gradients_not_cleared_before_backward_propagation,384
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\CrypTen\test\test_optim.py,test_sgd,gradients_not_cleared_before_backward_propagation,90
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\CrypTen\test\test_optim.py,test_sgd,gradients_not_cleared_before_backward_propagation,94
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\CrypTen\crypten\cryptensor.py,backward,gradients_not_cleared_before_backward_propagation,189

@@ -1,0 +1,4 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nanoporetech\medaka\medaka\vcf.py,get_homozygous_regions,1,in_place_apis_misused,We suggest developers check whether the result of the operation is assigned to a variable or the in-place parameter is set in the API. Some developers hold the view that the in-place operation will save memory
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nanoporetech\medaka\medaka\vcf.py,meta_info,2,in_place_apis_misused,We suggest developers check whether the result of the operation is assigned to a variable or the in-place parameter is set in the API. Some developers hold the view that the in-place operation will save memory
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nanoporetech\medaka\medaka\vcf.py,vcf2tsv,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

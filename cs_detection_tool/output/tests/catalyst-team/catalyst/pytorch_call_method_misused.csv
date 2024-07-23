@@ -1,0 +1,5 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\catalyst-team\catalyst\catalyst\runners\supervised.py,handle_batch,pytorch_call_method_misused,160
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\catalyst-team\catalyst\catalyst\runners\supervised.py,predict_batch,pytorch_call_method_misused,226
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\catalyst-team\catalyst\examples\self_supervised\src\runner.py,handle_batch,pytorch_call_method_misused,258
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\catalyst-team\catalyst\examples\self_supervised\src\runner.py,predict_batch,pytorch_call_method_misused,410

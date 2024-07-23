@@ -1,0 +1,7 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mdeff\fma\creation.py,download_data,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mdeff\fma\creation.py,trim_audio,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mdeff\fma\utils.py,_load,1,in_place_apis_misused,We suggest developers check whether the result of the operation is assigned to a variable or the in-place parameter is set in the API. Some developers hold the view that the in-place operation will save memory
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mdeff\fma\utils.py,get_all,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mdeff\fma\utils.py,get_all_genres,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mdeff\fma\utils.py,load,4,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

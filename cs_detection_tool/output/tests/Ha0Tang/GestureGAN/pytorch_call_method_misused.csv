@@ -1,0 +1,6 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\GestureGAN\models\base_model.py,test,pytorch_call_method_misused,57
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\GestureGAN\models\gesturegan_onecycle_model.py,optimize_parameters,pytorch_call_method_misused,156
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\GestureGAN\models\gesturegan_twocycle_model.py,optimize_parameters,pytorch_call_method_misused,203
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\GestureGAN\models\gesturegan_onecycle_model.py,optimize_parameters,pytorch_call_method_misused,138
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\GestureGAN\models\gesturegan_twocycle_model.py,optimize_parameters,pytorch_call_method_misused,197

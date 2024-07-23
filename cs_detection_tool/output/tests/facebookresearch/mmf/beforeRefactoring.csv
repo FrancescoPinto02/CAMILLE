@@ -1,0 +1,5 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\mmf\mmf\datasets\builders\charades\_utils.py,make_charades_df,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\mmf\mmf\datasets\builders\retrieval\datasets.py,_load_annotation_db,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\mmf\mmf\models\vilbert.py,forward_no_grad,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\mmf\mmf\models\vilbert.py,forward_no_grad,1,pytorch_call_method_misused,is recommended to use self.net()

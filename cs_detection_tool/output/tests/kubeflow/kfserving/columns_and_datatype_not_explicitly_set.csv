@@ -1,0 +1,14 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\docs\samples\explanation\alibi\alibi_helper.py,getFeatures,columns_and_datatype_not_explicitly_set,9
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\docs\samples\explanation\alibi\alibi_helper.py,show_examples,columns_and_datatype_not_explicitly_set,87
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\docs\samples\explanation\alibi\alibi_helper.py,show_examples,columns_and_datatype_not_explicitly_set,91
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\docs\samples\explanation\alibi\alibi_helper.py,show_row,columns_and_datatype_not_explicitly_set,99
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\docs\samples\v1beta1\sklearn\v1\sklearn-mixedtype-model\custom_transformer.py,transform,columns_and_datatype_not_explicitly_set,8
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\python\aiffairness\aifserver\model.py,explain,columns_and_datatype_not_explicitly_set,65
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\python\kserve\kserve\protocol\infer_type.py,as_dataframe,columns_and_datatype_not_explicitly_set,531
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\python\kserve\kserve\utils\utils.py,get_predict_input,columns_and_datatype_not_explicitly_set,163
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\python\lgbserver\lgbserver\test_model.py,test_model,columns_and_datatype_not_explicitly_set,32
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\python\pmmlserver\pmmlserver\model.py,predict,columns_and_datatype_not_explicitly_set,73
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\python\sklearnserver\custom_transformer\custom_transformer.py,transform,columns_and_datatype_not_explicitly_set,22
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\docs\samples\explanation\alibi\alibi_helper.py,show_row,columns_and_datatype_not_explicitly_set,79
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\python\pmmlserver\pmmlserver\model.py,predict,columns_and_datatype_not_explicitly_set,53

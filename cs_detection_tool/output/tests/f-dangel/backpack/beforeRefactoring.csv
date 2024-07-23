@@ -1,0 +1,6 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\f-dangel\backpack\docs_src\examples\use_cases\example_retain_graph.py,diag_ggn_multiple_passes,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\f-dangel\backpack\test\linear_test.py,test_grad,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\f-dangel\backpack\test\linear_test.py,test_grad_batch,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\f-dangel\backpack\test\test_retain_graph.py,test_for_loop_replace,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\f-dangel\backpack\test\test_retain_graph.py,test_retain_graph,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().

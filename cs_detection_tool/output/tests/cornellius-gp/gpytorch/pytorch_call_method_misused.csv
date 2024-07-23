@@ -1,0 +1,11 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\gpytorch\module.py,__call__,pytorch_call_method_misused,31
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\gpytorch\likelihoods\likelihood.py,_draw_likelihood_samples,pytorch_call_method_misused,42
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\gpytorch\likelihoods\likelihood.py,expected_log_prob,pytorch_call_method_misused,413
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\gpytorch\likelihoods\likelihood.py,log_marginal,pytorch_call_method_misused,422
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\gpytorch\likelihoods\likelihood.py,_draw_likelihood_samples,pytorch_call_method_misused,169
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\gpytorch\variational\nearest_neighbor_variational_strategy.py,__call__,pytorch_call_method_misused,145
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\gpytorch\variational\nearest_neighbor_variational_strategy.py,__call__,pytorch_call_method_misused,151
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\gpytorch\variational\_variational_distribution.py,__call__,pytorch_call_method_misused,59
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\gpytorch\variational\nearest_neighbor_variational_strategy.py,__call__,pytorch_call_method_misused,119
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cornellius-gp\gpytorch\gpytorch\variational\nearest_neighbor_variational_strategy.py,__call__,pytorch_call_method_misused,123

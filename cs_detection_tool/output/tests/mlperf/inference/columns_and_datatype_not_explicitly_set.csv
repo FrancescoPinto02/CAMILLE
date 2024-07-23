@@ -1,0 +1,16 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\inference\text_to_image\coco.py,__init__,columns_and_datatype_not_explicitly_set,41
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\inference\text_to_image\tools\accuracy_coco.py,main,columns_and_datatype_not_explicitly_set,53
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\inference\tools\submission\generate_final_report.py,main,columns_and_datatype_not_explicitly_set,26
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\inference\vision\classification_and_detection\tools\openimages.py,export_to_coco,columns_and_datatype_not_explicitly_set,126
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\inference\vision\classification_and_detection\tools\openimages.py,export_to_coco,columns_and_datatype_not_explicitly_set,137
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\inference\vision\classification_and_detection\tools\openimages.py,download_all_images,columns_and_datatype_not_explicitly_set,268
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\inference\vision\classification_and_detection\tools\openimages.py,download_all_images,columns_and_datatype_not_explicitly_set,276
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\inference\vision\classification_and_detection\tools\openimages_calibration.py,export_to_coco,columns_and_datatype_not_explicitly_set,103
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\inference\vision\classification_and_detection\tools\openimages_calibration.py,download_all_images,columns_and_datatype_not_explicitly_set,231
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\inference\vision\classification_and_detection\tools\openimages_calibration.py,download_all_images,columns_and_datatype_not_explicitly_set,239
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\inference\vision\medical_imaging\3d-unet-kits19\accuracy_kits.py,save_evaluation_summary,columns_and_datatype_not_explicitly_set,185
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\inference\vision\medical_imaging\3d-unet-kits19\accuracy_kits.py,main,columns_and_datatype_not_explicitly_set,309
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\inference\vision\classification_and_detection\tools\openimages.py,export_to_coco,columns_and_datatype_not_explicitly_set,72
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\inference\vision\classification_and_detection\tools\openimages.py,export_to_coco,columns_and_datatype_not_explicitly_set,77
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\inference\vision\medical_imaging\3d-unet-kits19\accuracy_kits.py,save_evaluation_summary,columns_and_datatype_not_explicitly_set,125

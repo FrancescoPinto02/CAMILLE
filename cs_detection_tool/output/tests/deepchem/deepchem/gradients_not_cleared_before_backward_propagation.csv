@@ -1,0 +1,7 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepchem\deepchem\deepchem\models\torch_models\ferminet.py,train,gradients_not_cleared_before_backward_propagation,656
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepchem\deepchem\deepchem\models\torch_models\torch_model.py,compute_saliency,gradients_not_cleared_before_backward_propagation,912
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepchem\deepchem\deepchem\models\torch_models\torch_model.py,compute_saliency,gradients_not_cleared_before_backward_propagation,912
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepchem\deepchem\deepchem\models\torch_models\ferminet.py,train,gradients_not_cleared_before_backward_propagation,527
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepchem\deepchem\deepchem\models\torch_models\torch_model.py,compute_saliency,gradients_not_cleared_before_backward_propagation,790
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepchem\deepchem\deepchem\models\torch_models\torch_model.py,compute_saliency,gradients_not_cleared_before_backward_propagation,790

@@ -1,0 +1,8 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\person_transfer\data\keypoint.py,init_categories,columns_and_datatype_not_explicitly_set,24
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\person_transfer\tool\generate_pose_map_fashion.py,compute_pose,columns_and_datatype_not_explicitly_set,28
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\person_transfer\tool\generate_pose_map_market.py,compute_pose,columns_and_datatype_not_explicitly_set,27
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\person_transfer\tool\getMetrics_fashion.py,create_masked_image,columns_and_datatype_not_explicitly_set,44
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\person_transfer\tool\getMetrics_market.py,create_masked_image,columns_and_datatype_not_explicitly_set,42
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\person_transfer\tool\resize_fashion.py,resize_annotations,columns_and_datatype_not_explicitly_set,26
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\person_transfer\data\keypoint.py,init_categories,columns_and_datatype_not_explicitly_set,24

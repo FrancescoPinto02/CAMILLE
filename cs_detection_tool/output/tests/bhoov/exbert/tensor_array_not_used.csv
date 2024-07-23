@@ -1,0 +1,10 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\bhoov\exbert\server\transformers\src\transformers\modeling_tf_xlm.py,dummy_inputs,tensor_array_not_used,479
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\bhoov\exbert\server\transformers\src\transformers\modeling_tf_xlm.py,dummy_inputs,tensor_array_not_used,480
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\bhoov\exbert\server\transformers\src\transformers\modeling_tf_xlm.py,dummy_inputs,tensor_array_not_used,482
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\bhoov\exbert\server\transformers\src\transformers\tokenization_utils.py,prepare_for_model,tensor_array_not_used,1982
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\bhoov\exbert\server\transformers\src\transformers\tokenization_utils.py,prepare_for_model,tensor_array_not_used,1985
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\bhoov\exbert\server\transformers\src\transformers\tokenization_utils.py,prepare_for_model,tensor_array_not_used,1988
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\bhoov\exbert\server\transformers\src\transformers\tokenization_utils.py,prepare_for_model,tensor_array_not_used,1729
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\bhoov\exbert\server\transformers\src\transformers\tokenization_utils.py,prepare_for_model,tensor_array_not_used,1732
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\bhoov\exbert\server\transformers\src\transformers\tokenization_utils.py,prepare_for_model,tensor_array_not_used,1735

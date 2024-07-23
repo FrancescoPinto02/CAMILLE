@@ -1,0 +1,3 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\docs\samples\explanation\alibi\alibi_helper.py,show_row,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\python\pmmlserver\pmmlserver\model.py,predict,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

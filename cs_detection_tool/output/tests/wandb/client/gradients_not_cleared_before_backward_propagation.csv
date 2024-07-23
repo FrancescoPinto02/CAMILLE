@@ -1,0 +1,3 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\wandb\client\tests\standalone_tests\pytorch_tensorboard.py,main,gradients_not_cleared_before_backward_propagation,35
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\wandb\client\tests\standalone_tests\pytorch_tensorboardX.py,main,gradients_not_cleared_before_backward_propagation,35

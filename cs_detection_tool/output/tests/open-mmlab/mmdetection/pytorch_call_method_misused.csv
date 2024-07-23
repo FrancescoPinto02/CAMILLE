@@ -1,0 +1,12 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\open-mmlab\mmdetection\mmdet\apis\det_inferencer.py,__call__,pytorch_call_method_misused,403
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\open-mmlab\mmdetection\mmdet\models\dense_heads\base_dense_head.py,aug_test,pytorch_call_method_misused,546
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\open-mmlab\mmdetection\mmdet\models\dense_heads\dense_test_mixins.py,simple_test_bboxes,pytorch_call_method_misused,48
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\open-mmlab\mmdetection\mmdet\models\dense_heads\dense_test_mixins.py,aug_test_bboxes,pytorch_call_method_misused,94
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\open-mmlab\mmdetection\mmdet\models\seg_heads\base_semantic_head.py,predict,pytorch_call_method_misused,89
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\open-mmlab\mmdetection\projects\CO-DETR\codetr\co_dino_head.py,predict,pytorch_call_method_misused,193
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\open-mmlab\mmdetection\projects\XDecoder\xdecoder\inference\image_caption.py,__call__,pytorch_call_method_misused,268
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\open-mmlab\mmdetection\projects\XDecoder\xdecoder\inference\image_caption.py,__call__,pytorch_call_method_misused,281
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\open-mmlab\mmdetection\projects\XDecoder\xdecoder\inference\texttoimage_regionretrieval_inferencer.py,__call__,pytorch_call_method_misused,203
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\open-mmlab\mmdetection\projects\XDecoder\xdecoder\inference\texttoimage_regionretrieval_inferencer.py,__call__,pytorch_call_method_misused,177
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\open-mmlab\mmdetection\mmdet\apis\det_inferencer.py,__call__,pytorch_call_method_misused,284

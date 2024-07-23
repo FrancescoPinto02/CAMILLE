@@ -1,0 +1,9 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\MAIF\melusine\docs\docs_src\BasicClassification\tutorial001.py,create_dataset,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\MAIF\melusine\docs\docs_src\MelusineDetectors\tutorial001.py,run,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\MAIF\melusine\docs\docs_src\MelusineDetectors\tutorial002.py,run,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\MAIF\melusine\docs\docs_src\MelusineDetectors\tutorial003.py,run,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\MAIF\melusine\docs\docs_src\MelusineDetectors\tutorial004.py,run,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\MAIF\melusine\melusine\connectors\exchange.py,get_corrections,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\MAIF\melusine\melusine\connectors\exchange.py,get_emails,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\MAIF\melusine\tests\base\test_melusine_detectors.py,test_detector_transform_dataframe_wise,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

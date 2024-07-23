@@ -1,0 +1,5 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ironmussa\Optimus\optimus\engines\base\columns.py,bag_of_words,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ironmussa\Optimus\optimus\engines\dask\io\load.py,zip,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ironmussa\Optimus\optimus\engines\pandas\io\json.py,to_pandas,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ironmussa\Optimus\optimus\engines\pandas\ml\models.py,pca,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

@@ -1,0 +1,7 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\aisolab\nlp_classification\A_Structured_Self-attentive_Sentence_Embedding_cls\model\data.py,__init__,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\aisolab\nlp_classification\A_Structured_Self-attentive_Sentence_Embedding_ptc\model\data.py,__init__,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\aisolab\nlp_classification\BERT_pairwise_text_classification\model\data.py,__init__,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\aisolab\nlp_classification\BERT_single_sentence_classification\model\data.py,__init__,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\aisolab\nlp_classification\Character-level_Convolutional_Networks_for_Text_Classification\model\data.py,__init__,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\aisolab\nlp_classification\Convolutional_Neural_Networks_for_Sentence_Classification\model\data.py,__init__,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

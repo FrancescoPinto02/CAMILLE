@@ -1,0 +1,12 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ironmussa\Optimus\optimus\engines\base\columns.py,tf_idf,columns_and_datatype_not_explicitly_set,5393
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ironmussa\Optimus\optimus\engines\base\columns.py,bag_of_words,columns_and_datatype_not_explicitly_set,5417
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ironmussa\Optimus\optimus\engines\dask\io\load.py,zip,columns_and_datatype_not_explicitly_set,143
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ironmussa\Optimus\optimus\engines\pandas\io\json.py,freq,columns_and_datatype_not_explicitly_set,93
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ironmussa\Optimus\optimus\engines\pandas\io\json.py,to_pandas,columns_and_datatype_not_explicitly_set,137
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ironmussa\Optimus\optimus\engines\pandas\ml\models.py,pca,columns_and_datatype_not_explicitly_set,437
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ironmussa\Optimus\optimus\plots\functions.py,plot_correlation,columns_and_datatype_not_explicitly_set,185
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ironmussa\Optimus\optimus\engines\base\columns.py,bag_of_words,columns_and_datatype_not_explicitly_set,5191
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ironmussa\Optimus\optimus\engines\dask\io\load.py,zip,columns_and_datatype_not_explicitly_set,121
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ironmussa\Optimus\optimus\engines\pandas\io\json.py,to_pandas,columns_and_datatype_not_explicitly_set,121
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ironmussa\Optimus\optimus\engines\pandas\ml\models.py,pca,columns_and_datatype_not_explicitly_set,328

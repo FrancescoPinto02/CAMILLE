@@ -1,0 +1,4 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\richzhang\colorization-pytorch\models\base_model.py,test,pytorch_call_method_misused,56
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\richzhang\colorization-pytorch\models\pix2pix_model.py,optimize_parameters,pytorch_call_method_misused,193
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\richzhang\colorization-pytorch\models\pix2pix_model.py,optimize_parameters,pytorch_call_method_misused,158

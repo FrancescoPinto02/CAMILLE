@@ -1,0 +1,3 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\sql-machine-learning\elasticdl\elasticdl\python\data\recordio_gen\census_recordio_gen.py,load_raw_data,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\sql-machine-learning\elasticdl\elasticdl\python\data\recordio_gen\heart_recordio_gen.py,load_raw_data,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

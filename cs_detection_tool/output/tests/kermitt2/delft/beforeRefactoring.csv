@@ -1,0 +1,6 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kermitt2\delft\delft\textClassification\reader.py,load_dataseer_corpus_csv,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kermitt2\delft\delft\textClassification\reader.py,load_texts_and_classes_pandas,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kermitt2\delft\delft\textClassification\reader.py,load_texts_and_classes_pandas_no_id,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kermitt2\delft\delft\textClassification\reader.py,load_texts_pandas,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kermitt2\delft\delft\utilities\Utilities.py,generateOOVEmbeddings,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

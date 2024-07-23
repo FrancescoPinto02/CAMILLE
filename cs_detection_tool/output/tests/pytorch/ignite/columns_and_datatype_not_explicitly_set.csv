@@ -1,0 +1,5 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\ignite\examples\gan\dcgan.py,main,columns_and_datatype_not_explicitly_set,373
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\ignite\examples\gan\dcgan.py,create_plots,columns_and_datatype_not_explicitly_set,373
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\ignite\ignite\handlers\time_profilers.py,write_results,columns_and_datatype_not_explicitly_set,335
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pytorch\ignite\ignite\handlers\time_profilers.py,write_results,columns_and_datatype_not_explicitly_set,689

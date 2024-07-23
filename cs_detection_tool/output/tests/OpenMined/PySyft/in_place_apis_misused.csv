@@ -1,0 +1,12 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\OpenMined\PySyft\packages\syft\src\syft\service\action\action_service.py,delete,in_place_apis_misused,957
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\OpenMined\PySyft\packages\syft\src\syft\service\action\action_service.py,delete,in_place_apis_misused,965
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\OpenMined\PySyft\packages\syft\src\syft\service\dataset\dataset.py,add_data_subject,in_place_apis_misused,368
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\OpenMined\PySyft\packages\syft\src\syft\service\dataset\dataset.py,add_asset,in_place_apis_misused,712
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\OpenMined\PySyft\packages\syft\src\syft\service\sync\diff_state.py,_get_visual_hierarchy,in_place_apis_misused,939
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\OpenMined\PySyft\packages\syft\src\syft\service\sync\diff_state.py,add_unignored,in_place_apis_misused,1629
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\OpenMined\PySyft\packages\syft\src\syft\service\sync\diff_state.py,_build_hierarchy_helper,in_place_apis_misused,789
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\OpenMined\PySyft\packages\syft\src\syft\service\action\action_service.py,delete,in_place_apis_misused,674
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\OpenMined\PySyft\packages\syft\src\syft\service\action\action_service.py,delete,in_place_apis_misused,679
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\OpenMined\PySyft\packages\syft\src\syft\service\dataset\dataset.py,add_asset,in_place_apis_misused,583
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\OpenMined\PySyft\packages\syft\src\syft\service\sync\diff_state.py,_build_hierarchy_helper,in_place_apis_misused,637

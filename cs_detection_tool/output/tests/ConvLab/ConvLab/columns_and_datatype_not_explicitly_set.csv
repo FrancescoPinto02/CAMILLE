@@ -1,0 +1,4 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ConvLab\ConvLab\convlab\agent\__init__.py,__init__,columns_and_datatype_not_explicitly_set,274
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ConvLab\ConvLab\convlab\experiment\analysis.py,calc_experiment_df,columns_and_datatype_not_explicitly_set,154
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ConvLab\ConvLab\convlab\experiment\analysis.py,calc_experiment_df,columns_and_datatype_not_explicitly_set,128

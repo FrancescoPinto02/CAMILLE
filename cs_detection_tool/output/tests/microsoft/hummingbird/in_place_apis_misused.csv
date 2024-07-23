@@ -1,0 +1,5 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\hummingbird\hummingbird\ml\_utils.py,from_strings_to_ints,in_place_apis_misused,240
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\hummingbird\tests\test_backends.py,test_pytorch_save_load_more_versions,in_place_apis_misused,241
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\hummingbird\hummingbird\ml\_utils.py,from_strings_to_ints,in_place_apis_misused,216
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\hummingbird\tests\test_backends.py,test_pytorch_save_load_more_versions,in_place_apis_misused,200

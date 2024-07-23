@@ -1,0 +1,6 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\jeongyoonlee\Kaggler\kaggler\metrics\plot.py,plot_curve,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\jeongyoonlee\Kaggler\kaggler\model\automl.py,select_features,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\jeongyoonlee\Kaggler\kaggler\preprocessing\categorical.py,_get_target_encoder,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\jeongyoonlee\Kaggler\tests\metrics\test_plot.py,test_plot_curve,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\jeongyoonlee\Kaggler\tests\preprocessing\test_lbe.py,test,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

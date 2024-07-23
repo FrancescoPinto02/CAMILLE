@@ -1,0 +1,6 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\geyang\ml_logger\ml_logger\helpers\__init__.py,load_pickle_as_dataframe,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\geyang\ml_logger\ml_logger\helpers\__init__.py,regularize_for_json,1,in_place_apis_misused,We suggest developers check whether the result of the operation is assigned to a variable or the in-place parameter is set in the API. Some developers hold the view that the in-place operation will save memory
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\geyang\ml_logger\ml_logger\ml_logger.py,get_exps,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\geyang\ml_logger\ml_logger\ml_logger.py,load_csv,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\geyang\ml_logger\ml_logger\ml_logger.py,read_metrics,4,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

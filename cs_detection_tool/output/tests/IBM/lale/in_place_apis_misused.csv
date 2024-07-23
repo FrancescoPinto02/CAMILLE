@@ -1,0 +1,12 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\lale\lale\operators.py,dfs,in_place_apis_misused,3996
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\lale\lale\datasets\multitable\fetch_datasets.py,fetch_creditg_multitable_dataset,in_place_apis_misused,244
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\lale\lale\datasets\multitable\fetch_datasets.py,fetch_creditg_multitable_dataset,in_place_apis_misused,253
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\lale\lale\datasets\multitable\fetch_datasets.py,fetch_creditg_multitable_dataset,in_place_apis_misused,271
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\lale\test\test_core_transformers.py,test_feature_preprocessor,in_place_apis_misused,84
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\lale\test\test_type_checking.py,test_disable_schema_validation_individual_op,in_place_apis_misused,1465
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\lale\lale\operators.py,dfs,in_place_apis_misused,3419
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\lale\lale\datasets\multitable\fetch_datasets.py,fetch_creditg_multitable_dataset,in_place_apis_misused,173
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\lale\lale\datasets\multitable\fetch_datasets.py,fetch_creditg_multitable_dataset,in_place_apis_misused,180
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\lale\lale\datasets\multitable\fetch_datasets.py,fetch_creditg_multitable_dataset,in_place_apis_misused,191
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\lale\test\test_core_transformers.py,test_feature_preprocessor,in_place_apis_misused,51

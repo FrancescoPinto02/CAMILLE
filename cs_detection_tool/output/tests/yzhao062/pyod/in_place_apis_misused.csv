@@ -1,0 +1,9 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\yzhao062\pyod\pyod\models\alad.py,train_step,in_place_apis_misused,435
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\yzhao062\pyod\pyod\models\alad.py,train_step,in_place_apis_misused,436
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\yzhao062\pyod\pyod\models\anogan.py,train_step,in_place_apis_misused,286
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\yzhao062\pyod\pyod\models\anogan.py,train_step,in_place_apis_misused,288
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\yzhao062\pyod\pyod\models\alad.py,train_step,in_place_apis_misused,346
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\yzhao062\pyod\pyod\models\alad.py,train_step,in_place_apis_misused,347
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\yzhao062\pyod\pyod\models\anogan.py,train_step,in_place_apis_misused,232
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\yzhao062\pyod\pyod\models\anogan.py,train_step,in_place_apis_misused,234

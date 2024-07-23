@@ -1,0 +1,6 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ddbourgin\numpy-ml\numpy_ml\rl_models\rl_utils.py,get_gym_stats,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ddbourgin\numpy-ml\numpy_ml\tests\test_nn.py,test_Conv2D,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ddbourgin\numpy-ml\numpy_ml\tests\test_nn.py,test_LSTMCell,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ddbourgin\numpy-ml\numpy_ml\tests\test_nn.py,test_Pool2D,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ddbourgin\numpy-ml\numpy_ml\tests\test_nn.py,test_RNNCell,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().

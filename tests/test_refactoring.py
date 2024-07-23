@@ -108,4 +108,4 @@ def clean_python_script(script):
 
 
 if __name__ == "__main__":
-    run_test(10)
+    run_test(100)

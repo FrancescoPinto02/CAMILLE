@@ -1,0 +1,7 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NervanaSystems\nlp-architect\nlp_architect\models\transformers\base_model.py,_train,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NervanaSystems\nlp-architect\solutions\InterpreT\application\appConfiguration.py,configureApp,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NervanaSystems\nlp-architect\solutions\InterpreT\application\appConfiguration.py,save_tsne_map_click,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NervanaSystems\nlp-architect\solutions\InterpreT\application\appConfiguration.py,save_tsne_map_selection,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NervanaSystems\nlp-architect\solutions\absa_solution\ui.py,_create_ui_components,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NervanaSystems\nlp-architect\solutions\absa_solution\ui.py,infer_file_callback,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

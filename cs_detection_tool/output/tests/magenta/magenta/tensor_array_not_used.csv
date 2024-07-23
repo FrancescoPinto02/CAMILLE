@@ -1,0 +1,12 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\magenta\magenta\magenta\models\image_stylization\image_utils.py,center_crop_resize_image,tensor_array_not_used,736
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\magenta\magenta\magenta\models\image_stylization\vgg.py,vgg_16,tensor_array_not_used,66
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\magenta\magenta\magenta\models\music_vae\lstm_utils_test.py,testMaybeSplitSequenceLengths,tensor_array_not_used,71
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\magenta\magenta\magenta\models\music_vae\lstm_utils_test.py,testMaybeSplitSequenceLengths,tensor_array_not_used,91
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\magenta\magenta\magenta\models\onsets_frames_transcription\data_test.py,testCombineTensorBatch,tensor_array_not_used,307
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\magenta\magenta\magenta\models\onsets_frames_transcription\data_test.py,testCombineTensorBatch,tensor_array_not_used,308
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\magenta\magenta\magenta\models\svg_vae\svg_decoder_loss.py,real_svg_loss,tensor_array_not_used,71
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\magenta\magenta\magenta\models\music_vae\lstm_utils_test.py,testMaybeSplitSequenceLengths,tensor_array_not_used,41
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\magenta\magenta\magenta\models\music_vae\lstm_utils_test.py,testMaybeSplitSequenceLengths,tensor_array_not_used,55
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\magenta\magenta\magenta\models\onsets_frames_transcription\data_test.py,testCombineTensorBatch,tensor_array_not_used,189
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\magenta\magenta\magenta\models\onsets_frames_transcription\data_test.py,testCombineTensorBatch,tensor_array_not_used,190

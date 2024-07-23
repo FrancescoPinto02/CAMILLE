@@ -1,0 +1,14 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\onnx\onnxmltools\tests\sparkml\sparkml_test_utils.py,save_data_models,in_place_apis_misused,76
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\onnx\onnxmltools\tests\sparkml\sparkml_test_utils.py,dump_data_and_sparkml_model,in_place_apis_misused,281
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\onnx\onnxmltools\tests\sparkml\sparkml_test_utils.py,dump_data_and_sparkml_model,in_place_apis_misused,286
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\onnx\onnxmltools\tests\sparkml\sparkml_test_utils.py,dump_data_and_sparkml_model,in_place_apis_misused,291
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\onnx\onnxmltools\tests\sparkml\sparkml_test_utils.py,dump_data_and_sparkml_model,in_place_apis_misused,295
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\onnx\onnxmltools\tests\sparkml\test_pipeline.py,test_model_pipeline_4_stage,in_place_apis_misused,63
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\onnx\onnxmltools\tests\sparkml\test_pipeline.py,test_model_pipeline_4_stage,in_place_apis_misused,66
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\onnx\onnxmltools\tests\sparkml\test_pipeline.py,test_model_pipeline_4_stage,in_place_apis_misused,69
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\onnx\onnxmltools\tests\sparkml\test_pipeline.py,test_model_pipeline_3_stage,in_place_apis_misused,145
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\onnx\onnxmltools\tests\sparkml\test_pipeline.py,test_model_pipeline_4_stage,in_place_apis_misused,37
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\onnx\onnxmltools\tests\sparkml\test_pipeline.py,test_model_pipeline_4_stage,in_place_apis_misused,39
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\onnx\onnxmltools\tests\sparkml\test_pipeline.py,test_model_pipeline_4_stage,in_place_apis_misused,41
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\onnx\onnxmltools\tests\sparkml\test_pipeline.py,test_model_pipeline_3_stage,in_place_apis_misused,84

@@ -1,0 +1,14 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apple\turicreate\src\python\turicreate\test\test_graph.py,test_gframe,in_place_apis_misused,457
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apple\turicreate\src\python\turicreate\test\test_sarray.py,test_nonzero,in_place_apis_misused,898
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apple\turicreate\src\python\turicreate\test\test_sframe.py,test_stack_dict,in_place_apis_misused,3453
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apple\turicreate\src\python\turicreate\test\test_sframe.py,test_stack_list,in_place_apis_misused,3515
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apple\turicreate\src\python\turicreate\test\test_sframe.py,test_stack_vector,in_place_apis_misused,3573
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apple\turicreate\src\python\turicreate\test\test_sframe.py,test_empty_argmax_does_not_fail,in_place_apis_misused,4194
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apple\turicreate\src\python\turicreate\test\test_sframe.py,__build_data_list_with_none,in_place_apis_misused,2501
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apple\turicreate\src\python\turicreate\test\test_graph.py,test_gframe,in_place_apis_misused,314
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apple\turicreate\src\python\turicreate\test\test_sarray.py,test_nonzero,in_place_apis_misused,690
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apple\turicreate\src\python\turicreate\test\test_sframe.py,test_stack_dict,in_place_apis_misused,2382
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apple\turicreate\src\python\turicreate\test\test_sframe.py,test_stack_list,in_place_apis_misused,2434
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apple\turicreate\src\python\turicreate\test\test_sframe.py,test_stack_vector,in_place_apis_misused,2481
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\apple\turicreate\src\python\turicreate\test\test_sframe.py,__build_data_list_with_none,in_place_apis_misused,1768

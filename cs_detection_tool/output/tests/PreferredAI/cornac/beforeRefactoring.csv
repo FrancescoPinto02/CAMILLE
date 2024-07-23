@@ -1,0 +1,5 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PreferredAI\cornac\cornac\models\amr\recom_amr.py,_fit_torch,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PreferredAI\cornac\cornac\models\hypar\recom_hypar.py,_fit,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PreferredAI\cornac\cornac\models\ncf\backend_pt.py,__call__,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PreferredAI\cornac\cornac\models\recvae\recom_recvae.py,run,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().

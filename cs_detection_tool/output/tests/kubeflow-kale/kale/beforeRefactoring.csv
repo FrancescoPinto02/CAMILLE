@@ -1,0 +1,5 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow-kale\kale\examples\sdk\quantile-regression\init.py,init,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow-kale\kale\examples\sdk\quantile-regression\postprocess.py,postprocess,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow-kale\kale\examples\sdk\titanic\loaddata.py,loaddata,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow-kale\kale\examples\sdk\titanic\results.py,results,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

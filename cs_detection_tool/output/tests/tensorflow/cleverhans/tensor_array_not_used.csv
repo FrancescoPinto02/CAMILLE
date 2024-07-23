@@ -1,0 +1,13 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\tensorflow\cleverhans\cleverhans_v3.1.0\tests_tf\test_picklable_model.py,test_no_drop,tensor_array_not_used,65
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\tensorflow\cleverhans\cleverhans_v3.1.0\tests_tf\test_picklable_model.py,test_drop,tensor_array_not_used,85
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\tensorflow\cleverhans\cleverhans_v3.1.0\tests_tf\test_picklable_model.py,test_override,tensor_array_not_used,106
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\tensorflow\cleverhans\cleverhans_v3.1.0\tests_tf\test_utils_tf.py,test_clip_eta_goldilocks,tensor_array_not_used,79
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\tensorflow\cleverhans\cleverhans_v3.1.0\tests_tf\test_utils_tf.py,test_zero_out_clipped_grads,tensor_array_not_used,110
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\tensorflow\cleverhans\cleverhans_v3.1.0\tests_tf\test_utils_tf.py,test_zero_out_clipped_grads,tensor_array_not_used,111
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\tensorflow\cleverhans\cleverhans_v3.1.0\tests_tf\test_picklable_model.py,test_no_drop,tensor_array_not_used,57
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\tensorflow\cleverhans\cleverhans_v3.1.0\tests_tf\test_picklable_model.py,test_drop,tensor_array_not_used,68
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\tensorflow\cleverhans\cleverhans_v3.1.0\tests_tf\test_picklable_model.py,test_override,tensor_array_not_used,76
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\tensorflow\cleverhans\cleverhans_v3.1.0\tests_tf\test_utils_tf.py,test_clip_eta_goldilocks,tensor_array_not_used,70
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\tensorflow\cleverhans\cleverhans_v3.1.0\tests_tf\test_utils_tf.py,test_zero_out_clipped_grads,tensor_array_not_used,90
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\tensorflow\cleverhans\cleverhans_v3.1.0\tests_tf\test_utils_tf.py,test_zero_out_clipped_grads,tensor_array_not_used,92

@@ -1,0 +1,6 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NVIDIA\TRTorch\examples\fx\hugging_face_torchdynamo_example.py,run_all_eval,columns_and_datatype_not_explicitly_set,378
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NVIDIA\TRTorch\examples\fx\hugging_face_torchdynamo_example.py,run_all_eval,columns_and_datatype_not_explicitly_set,375
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NVIDIA\TRTorch\tools\perf\accumulate_results.py,concat_all_results,columns_and_datatype_not_explicitly_set,12
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NVIDIA\TRTorch\examples\fx\hugging_face_torchdynamo_example.py,run_all_eval,columns_and_datatype_not_explicitly_set,239
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\NVIDIA\TRTorch\examples\fx\hugging_face_torchdynamo_example.py,run_all_eval,columns_and_datatype_not_explicitly_set,236

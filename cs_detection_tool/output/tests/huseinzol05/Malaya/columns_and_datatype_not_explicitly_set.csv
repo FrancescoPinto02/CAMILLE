@@ -1,0 +1,6 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\huseinzol05\Malaya\malaya\torch_model\huggingface.py,generate,columns_and_datatype_not_explicitly_set,1092
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\huseinzol05\Malaya\session\constituency\deprecated\src\viz.py,viz_attention,columns_and_datatype_not_explicitly_set,50
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\huseinzol05\Malaya\session\constituency\deprecated\src\viz.py,viz_attention,columns_and_datatype_not_explicitly_set,50
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\huseinzol05\Malaya\session\llama3\eval_needle.py,main,columns_and_datatype_not_explicitly_set,214
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\huseinzol05\Malaya\session\llama3\eval_needle.py,main,columns_and_datatype_not_explicitly_set,151

@@ -1,0 +1,3 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cgre-aachen\gempy\gempy\core\data\DEP_xsolution.py,extract_each_surface_representations,unnecessary_iteration,100
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cgre-aachen\gempy\gempy\core\data\DEP_xsolution.py,extract_each_surface_representations,unnecessary_iteration,100

@@ -1,0 +1,7 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\alibi\alibi\datasets\default.py,fetch_adult,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\alibi\alibi\explainers\ale.py,ale_num,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\alibi\alibi\explainers\backends\cfrl_tabular.py,apply_category_mapping,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\alibi\alibi\models\pytorch\model.py,test_step,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\alibi\alibi\models\pytorch\model.py,train_step,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\alibi\alibi\utils\data.py,gen_category_map,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

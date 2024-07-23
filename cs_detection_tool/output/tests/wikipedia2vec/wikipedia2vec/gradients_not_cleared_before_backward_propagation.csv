@@ -1,0 +1,3 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\wikipedia2vec\wikipedia2vec\examples\text_classification\train.py,train,gradients_not_cleared_before_backward_propagation,62
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\wikipedia2vec\wikipedia2vec\examples\text_classification\train.py,train,gradients_not_cleared_before_backward_propagation,62

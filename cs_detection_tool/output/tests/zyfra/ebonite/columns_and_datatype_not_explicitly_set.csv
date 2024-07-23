@@ -1,0 +1,6 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\zyfra\ebonite\examples\custom_code\model_create.py,main,columns_and_datatype_not_explicitly_set,15
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\zyfra\ebonite\examples\evaluation\train_and_eval.py,get_data,columns_and_datatype_not_explicitly_set,12
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\zyfra\ebonite\examples\sklearn_model\model_train.py,train_model,columns_and_datatype_not_explicitly_set,14
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\zyfra\ebonite\examples\sklearn_model\smart_client.py,main,columns_and_datatype_not_explicitly_set,16
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\zyfra\ebonite\examples\custom_code\model_create.py,main,columns_and_datatype_not_explicitly_set,9

@@ -1,0 +1,10 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\pipelines\components\PyTorch\pytorch-kfp-components\tests\iris\iris_classification.py,training_step,pytorch_call_method_misused,73
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\pipelines\components\PyTorch\pytorch-kfp-components\tests\iris\iris_classification.py,validation_step,pytorch_call_method_misused,88
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\pipelines\components\PyTorch\pytorch-kfp-components\tests\iris\iris_classification.py,test_step,pytorch_call_method_misused,97
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\pipelines\samples\contrib\pytorch-samples\bert\bert_train.py,training_step,pytorch_call_method_misused,145
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\pipelines\samples\contrib\pytorch-samples\bert\bert_train.py,test_step,pytorch_call_method_misused,166
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\pipelines\samples\contrib\pytorch-samples\bert\bert_train.py,validation_step,pytorch_call_method_misused,189
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\pipelines\samples\contrib\pytorch-samples\cifar10\cifar10_train.py,training_step,pytorch_call_method_misused,70
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\pipelines\samples\contrib\pytorch-samples\cifar10\cifar10_train.py,test_step,pytorch_call_method_misused,88
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\pipelines\samples\contrib\pytorch-samples\cifar10\cifar10_train.py,validation_step,pytorch_call_method_misused,114

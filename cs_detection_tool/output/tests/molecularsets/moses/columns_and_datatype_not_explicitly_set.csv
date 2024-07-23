@@ -1,0 +1,12 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\moses\script_utils.py,read_smiles_csv,columns_and_datatype_not_explicitly_set,101
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\moses\utils.py,save,columns_and_datatype_not_explicitly_set,155
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\moses\baselines\combinatorial.py,fit,columns_and_datatype_not_explicitly_set,65
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\moses\dataset\dataset.py,get_dataset,columns_and_datatype_not_explicitly_set,31
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\moses\latentgan\trainer.py,_get_dataset_info,columns_and_datatype_not_explicitly_set,150
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\scripts\prepare_dataset.py,filter_lines,columns_and_datatype_not_explicitly_set,77
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\scripts\run.py,main,columns_and_datatype_not_explicitly_set,207
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\scripts\sample.py,main,columns_and_datatype_not_explicitly_set,54
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\scripts\split_dataset.py,main,columns_and_datatype_not_explicitly_set,55
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\moses\utils.py,save,columns_and_datatype_not_explicitly_set,147
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\molecularsets\moses\moses\baselines\combinatorial.py,fit,columns_and_datatype_not_explicitly_set,53

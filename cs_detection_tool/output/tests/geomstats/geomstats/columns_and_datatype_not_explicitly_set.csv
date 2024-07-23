@@ -1,0 +1,11 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\geomstats\geomstats\benchmarks\generate_benchmark_params.py,generate_benchmark_params,columns_and_datatype_not_explicitly_set,499
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\geomstats\geomstats\geomstats\datasets\utils.py,load_leaves,columns_and_datatype_not_explicitly_set,202
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\geomstats\geomstats\geomstats\datasets\utils.py,load_emg,columns_and_datatype_not_explicitly_set,217
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\geomstats\geomstats\geomstats\datasets\utils.py,load_optical_nerves,columns_and_datatype_not_explicitly_set,259
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\geomstats\geomstats\geomstats\datasets\utils.py,load_hands,columns_and_datatype_not_explicitly_set,304
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\geomstats\geomstats\geomstats\datasets\utils.py,load_hands,columns_and_datatype_not_explicitly_set,308
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\geomstats\geomstats\geomstats\datasets\utils.py,load_sao_paulo,columns_and_datatype_not_explicitly_set,408
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\geomstats\geomstats\geomstats\datasets\utils.py,load_sao_paulo,columns_and_datatype_not_explicitly_set,400
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\geomstats\geomstats\geomstats\datasets\utils.py,load_sao_paulo,columns_and_datatype_not_explicitly_set,403
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\geomstats\geomstats\geomstats\datasets\utils.py,load_sao_paulo,columns_and_datatype_not_explicitly_set,269

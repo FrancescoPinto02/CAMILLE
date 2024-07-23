@@ -1,0 +1,14 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fastnlp\fastNLP\tests\core\dataset\test_dataset.py,test_apply,in_place_apis_misused,181
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fastnlp\fastNLP\tests\core\dataset\test_dataset.py,test_apply,in_place_apis_misused,185
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fastnlp\fastNLP\tests\core\dataset\test_dataset.py,test_apply,in_place_apis_misused,192
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fastnlp\fastNLP\tests\core\dataset\test_dataset.py,test_apply_progress_bar,in_place_apis_misused,202
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fastnlp\fastNLP\tests\core\dataset\test_dataset.py,test_apply_cannot_modify_instance,in_place_apis_misused,211
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fastnlp\fastNLP\tests\core\dataset\test_dataset.py,test_init_v4,in_place_apis_misused,422
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fastnlp\fastNLP\tests\core\dataset\test_dataset.py,test_init_v5,in_place_apis_misused,428
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fastnlp\fastNLP\tests\core\dataset\test_dataset.py,test_init_v6,in_place_apis_misused,434
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fastnlp\fastNLP\tests\core\dataset\test_dataset.py,test_init_v8,in_place_apis_misused,444
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fastnlp\fastNLP\tests\core\dataset\test_dataset.py,test_main,in_place_apis_misused,451
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fastnlp\fastNLP\tests\core\dataset\test_dataset.py,test_append,in_place_apis_misused,482
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fastnlp\fastNLP\tests\core\dataset\test_dataset.py,test_append,in_place_apis_misused,48
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\fastnlp\fastNLP\tests\core\dataset\test_dataset.py,test_append,in_place_apis_misused,416

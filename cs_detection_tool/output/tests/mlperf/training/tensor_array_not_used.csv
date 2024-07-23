@@ -1,0 +1,11 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\training\retired_benchmarks\resnet-tf1\official\resnet\imagenet_preprocessing.py,_decode_crop_and_flip,tensor_array_not_used,92
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\training\retired_benchmarks\transformer\tensorflow\bert\optimization_test.py,test_adam,tensor_array_not_used,31
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\training\retired_benchmarks\transformer\tensorflow\transformer\model\beam_search.py,_create_initial_state,tensor_array_not_used,118
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\training\retired_benchmarks\transformer\tensorflow\transformer\model\model_utils_test.py,test_get_padding,tensor_array_not_used,31
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\training\retired_benchmarks\transformer\tensorflow\transformer\model\model_utils_test.py,test_get_padding_bias,tensor_array_not_used,40
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\training\retired_benchmarks\resnet-tf1\official\resnet\imagenet_preprocessing.py,_decode_crop_and_flip,tensor_array_not_used,45
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\training\retired_benchmarks\transformer\tensorflow\bert\optimization_test.py,test_adam,tensor_array_not_used,14
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\training\retired_benchmarks\transformer\tensorflow\transformer\model\beam_search.py,_create_initial_state,tensor_array_not_used,58
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\training\retired_benchmarks\transformer\tensorflow\transformer\model\model_utils_test.py,test_get_padding,tensor_array_not_used,13
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\mlperf\training\retired_benchmarks\transformer\tensorflow\transformer\model\model_utils_test.py,test_get_padding_bias,tensor_array_not_used,21

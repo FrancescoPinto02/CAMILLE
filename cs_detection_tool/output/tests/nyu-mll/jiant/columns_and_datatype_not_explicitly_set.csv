@@ -1,0 +1,8 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nyu-mll\jiant\jiant\scripts\download_data\dl_datasets\files_tasks.py,download_newsqa_data_and_write_config,columns_and_datatype_not_explicitly_set,825
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nyu-mll\jiant\jiant\scripts\download_data\dl_datasets\files_tasks.py,download_newsqa_data_and_write_config,columns_and_datatype_not_explicitly_set,828
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nyu-mll\jiant\jiant\scripts\download_data\dl_datasets\files_tasks.py,download_newsqa_data_and_write_config,columns_and_datatype_not_explicitly_set,831
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nyu-mll\jiant\jiant\tasks\evaluate\core.py,compute_metrics_from_preds_and_labels,columns_and_datatype_not_explicitly_set,479
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nyu-mll\jiant\jiant\scripts\download_data\dl_datasets\files_tasks.py,download_newsqa_data_and_write_config,columns_and_datatype_not_explicitly_set,540
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nyu-mll\jiant\jiant\scripts\download_data\dl_datasets\files_tasks.py,download_newsqa_data_and_write_config,columns_and_datatype_not_explicitly_set,542
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\nyu-mll\jiant\jiant\scripts\download_data\dl_datasets\files_tasks.py,download_newsqa_data_and_write_config,columns_and_datatype_not_explicitly_set,544

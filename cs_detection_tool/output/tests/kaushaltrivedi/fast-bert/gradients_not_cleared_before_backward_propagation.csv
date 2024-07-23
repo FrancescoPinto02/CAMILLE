@@ -1,0 +1,9 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\learner_cls copy.py,_train_batch,gradients_not_cleared_before_backward_propagation,834
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\learner_cls copy.py,_train_batch,gradients_not_cleared_before_backward_propagation,836
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\learner_cls.py,_train_batch,gradients_not_cleared_before_backward_propagation,927
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\learner_cls.py,_train_batch,gradients_not_cleared_before_backward_propagation,929
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\learner_qa.py,fit,gradients_not_cleared_before_backward_propagation,150
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\learner_qa.py,fit,gradients_not_cleared_before_backward_propagation,150
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\learner_cls copy.py,_train_batch,gradients_not_cleared_before_backward_propagation,485
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kaushaltrivedi\fast-bert\fast_bert\learner_cls copy.py,_train_batch,gradients_not_cleared_before_backward_propagation,487

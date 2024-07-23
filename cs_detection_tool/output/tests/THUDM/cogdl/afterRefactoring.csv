@@ -1,0 +1,6 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\datasets\stgat_data.py,raw_data_processByNumNodes,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\datasets\stgcn_data.py,raw_data_processByNumNodes,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\wrappers\model_wrapper\traffic_prediction\stgat_mw.py,test_step,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\cogdl\wrappers\model_wrapper\traffic_prediction\stgcn_mw.py,test_step,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\THUDM\cogdl\examples\dgraph\gnn.py,main,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

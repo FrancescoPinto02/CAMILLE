@@ -1,0 +1,11 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\docs\samples\explanation\alibi\alibi_helper.py,getFeatures,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\docs\samples\explanation\alibi\alibi_helper.py,show_examples,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\docs\samples\explanation\alibi\alibi_helper.py,show_row,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\docs\samples\v1beta1\sklearn\v1\sklearn-mixedtype-model\custom_transformer.py,transform,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\python\aiffairness\aifserver\model.py,explain,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\python\kserve\kserve\protocol\infer_type.py,as_dataframe,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\python\kserve\kserve\utils\utils.py,get_predict_input,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\python\lgbserver\lgbserver\test_model.py,test_model,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\python\pmmlserver\pmmlserver\model.py,predict,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\kubeflow\kfserving\python\sklearnserver\custom_transformer\custom_transformer.py,transform,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

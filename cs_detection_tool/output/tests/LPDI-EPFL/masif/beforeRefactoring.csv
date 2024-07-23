@@ -1,0 +1,2 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\LPDI-EPFL\masif\comparison\masif_ligand\Kripo\similarity_results\generate_ROCs.py,get_df,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

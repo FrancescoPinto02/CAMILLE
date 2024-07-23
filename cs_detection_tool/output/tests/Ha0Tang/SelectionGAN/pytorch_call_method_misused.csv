@@ -1,0 +1,9 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\person_transfer\models\PATN.py,optimize_parameters,pytorch_call_method_misused,252
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\selectiongan_v1\models\base_model.py,test,pytorch_call_method_misused,57
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\selectiongan_v1\models\selectiongan_model.py,optimize_parameters,pytorch_call_method_misused,169
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\selectiongan_v2\models\base_model.py,test,pytorch_call_method_misused,57
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\selectiongan_v2\models\selectiongan_model.py,optimize_parameters,pytorch_call_method_misused,169
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\person_transfer\models\PATN.py,optimize_parameters,pytorch_call_method_misused,217
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\selectiongan_v1\models\selectiongan_model.py,optimize_parameters,pytorch_call_method_misused,144
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\Ha0Tang\SelectionGAN\selectiongan_v2\models\selectiongan_model.py,optimize_parameters,pytorch_call_method_misused,144

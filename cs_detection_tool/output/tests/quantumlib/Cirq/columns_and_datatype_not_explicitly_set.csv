@@ -1,0 +1,15 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\experiments\t2_decay_experiment.py,_expectation,columns_and_datatype_not_explicitly_set,335
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\experiments\t2_decay_experiment.py,_expectation,columns_and_datatype_not_explicitly_set,332
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\experiments\xeb_sampling.py,sample_2q_xeb_circuits,columns_and_datatype_not_explicitly_set,366
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\experiments\xeb_simulation.py,simulate_2q_xeb_circuits,columns_and_datatype_not_explicitly_set,129
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\work\observable_measurement.py,measure_observables_df,columns_and_datatype_not_explicitly_set,700
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\work\sampler.py,sample,columns_and_datatype_not_explicitly_set,175
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-ionq\cirq_ionq\sampler_test.py,test_sampler_qpu,columns_and_datatype_not_explicitly_set,43
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-ionq\cirq_ionq\sampler_test.py,test_sampler_simulator,columns_and_datatype_not_explicitly_set,67
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-ionq\cirq_ionq\sampler_test.py,test_sampler_multiple_jobs,columns_and_datatype_not_explicitly_set,107
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\experiments\xeb_simulation.py,simulate_2q_xeb_circuits,columns_and_datatype_not_explicitly_set,70
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\work\observable_measurement.py,measure_observables_df,columns_and_datatype_not_explicitly_set,554
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-ionq\cirq_ionq\sampler_test.py,test_sampler_qpu,columns_and_datatype_not_explicitly_set,19
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-ionq\cirq_ionq\sampler_test.py,test_sampler_simulator,columns_and_datatype_not_explicitly_set,38
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-ionq\cirq_ionq\sampler_test.py,test_sampler_multiple_jobs,columns_and_datatype_not_explicitly_set,63

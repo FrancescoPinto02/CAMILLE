@@ -1,0 +1,8 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ria-com\nomeroff-net\nomeroff_net\nnmodels\fraud_numberpate_model.py,step,pytorch_call_method_misused,98
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ria-com\nomeroff-net\nomeroff_net\nnmodels\numberplate_inverse_model.py,step,pytorch_call_method_misused,74
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ria-com\nomeroff-net\nomeroff_net\nnmodels\numberplate_options_model.py,step,pytorch_call_method_misused,144
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ria-com\nomeroff-net\nomeroff_net\nnmodels\ocr_model.py,step,pytorch_call_method_misused,167
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ria-com\nomeroff-net\nomeroff_net\pipes\number_plate_keypoints_detectors\bbox_np_points.py,forward_batch,pytorch_call_method_misused,163
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ria-com\nomeroff-net\nomeroff_net\pipes\number_plate_localizators\yolox_detector.py,detect_bbox,pytorch_call_method_misused,129
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ria-com\nomeroff-net\nomeroff_net\pipes\number_plate_localizators\yolox_detector.py,detect,pytorch_call_method_misused,136

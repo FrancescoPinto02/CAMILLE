@@ -1,0 +1,3 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepmedic\deepmedic\deepmedic\frontEnd\configParsing\testSessionParams.py,__init__,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\deepmedic\deepmedic\deepmedic\frontEnd\configParsing\trainSessionParams.py,__init__,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

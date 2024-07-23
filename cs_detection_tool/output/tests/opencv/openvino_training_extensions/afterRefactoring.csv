@@ -1,0 +1,7 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\src\otx\core\model\detection.py,predict_step,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\src\otx\core\model\detection.py,test_step,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\src\otx\core\model\instance_segmentation.py,forward_tiles,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\tests\perf\history\summary.py,average,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\tests\perf\history\summary.py,load,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\tests\perf\history\summary.py,summarize,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

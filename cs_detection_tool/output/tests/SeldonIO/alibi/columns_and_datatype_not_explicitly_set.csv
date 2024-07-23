@@ -1,0 +1,7 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\alibi\alibi\datasets\default.py,fetch_adult,columns_and_datatype_not_explicitly_set,255
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\alibi\alibi\explainers\ale.py,ale_num,columns_and_datatype_not_explicitly_set,524
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\alibi\alibi\explainers\backends\cfrl_tabular.py,apply_category_mapping,columns_and_datatype_not_explicitly_set,874
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\alibi\alibi\utils\data.py,gen_category_map,columns_and_datatype_not_explicitly_set,61
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\alibi\alibi\explainers\ale.py,ale_num,columns_and_datatype_not_explicitly_set,397
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\alibi\alibi\explainers\backends\cfrl_tabular.py,apply_category_mapping,columns_and_datatype_not_explicitly_set,698

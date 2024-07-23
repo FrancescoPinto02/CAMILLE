@@ -1,0 +1,12 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\vaexio\vaex\packages\vaex-core\vaex\cpu.py,reduce,in_place_apis_misused,372
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\vaexio\vaex\packages\vaex-core\vaex\dataframe.py,stat_1d,in_place_apis_misused,119
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\vaexio\vaex\packages\vaex-core\vaex\dataframe.py,_as_table,in_place_apis_misused,4079
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\vaexio\vaex\packages\vaex-core\vaex\dataframe.py,_selection,in_place_apis_misused,5278
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\vaexio\vaex\packages\vaex-core\vaex\dataframe.py,ordinal_encode,in_place_apis_misused,5957
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\vaexio\vaex\packages\vaex-core\vaex\expression.py,__init__,in_place_apis_misused,402
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\vaexio\vaex\packages\vaex-core\vaex\test\dataset.py,test_rename_column,in_place_apis_misused,371
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\vaexio\vaex\packages\vaex-core\vaex\dataframe.py,_as_table,in_place_apis_misused,4252
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\vaexio\vaex\packages\vaex-core\vaex\dataframe.py,_selection,in_place_apis_misused,5425
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\vaexio\vaex\packages\vaex-core\vaex\dataframe.py,ordinal_encode,in_place_apis_misused,6113
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\vaexio\vaex\packages\vaex-core\vaex\dataframe.py,_selection,in_place_apis_misused,7377

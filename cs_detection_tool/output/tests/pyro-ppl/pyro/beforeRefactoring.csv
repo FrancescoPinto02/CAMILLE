@@ -1,0 +1,17 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\examples\baseball.py,get_summary_table,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\examples\baseball.py,main,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\examples\contrib\timeseries\gp_models.py,main,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\examples\cvae\util.py,generate_table,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\examples\mixed_hmm\seal_data.py,prepare_seal,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\examples\sparse_regression.py,main,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\examples\vae\utils\vae_plots.py,plot_llk,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\pyro\contrib\examples\finance.py,load_snp500,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\pyro\contrib\forecast\forecaster.py,forward,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\pyro\contrib\forecast\forecaster.py,forward,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\pyro\contrib\oed\eig.py,opt_eig_ape_loss,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\pyro\infer\predictive.py,call,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\pyro\infer\predictive.py,call,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\pyro\infer\predictive.py,get_samples,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\pyro\infer\trace_elbo.py,loss_and_grads,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyro-ppl\pyro\pyro\infer\traceenum_elbo.py,loss_and_grads,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().

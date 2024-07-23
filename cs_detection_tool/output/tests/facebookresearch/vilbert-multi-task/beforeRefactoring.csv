@@ -1,0 +1,3 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\vilbert-multi-task\train_concap.py,main,4,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\vilbert-multi-task\train_tasks.py,main,3,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().

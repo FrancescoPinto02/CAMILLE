@@ -1,0 +1,7 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PyTorchLightning\pytorch-lightning\examples\fabric\language_model\train.py,train_epoch,gradients_not_cleared_before_backward_propagation,40
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PyTorchLightning\pytorch-lightning\examples\fabric\meta_learning\train_fabric.py,main,gradients_not_cleared_before_backward_propagation,111
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PyTorchLightning\pytorch-lightning\examples\fabric\meta_learning\train_torch.py,main,gradients_not_cleared_before_backward_propagation,126
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PyTorchLightning\pytorch-lightning\tests\tests_pytorch\demos\transformer.py,test_compile_transformer,gradients_not_cleared_before_backward_propagation,25
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PyTorchLightning\pytorch-lightning\examples\fabric\meta_learning\train_fabric.py,main,gradients_not_cleared_before_backward_propagation,73
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PyTorchLightning\pytorch-lightning\examples\fabric\meta_learning\train_torch.py,main,gradients_not_cleared_before_backward_propagation,89

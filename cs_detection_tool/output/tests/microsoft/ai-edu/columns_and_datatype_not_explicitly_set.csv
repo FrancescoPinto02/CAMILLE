@@ -1,0 +1,5 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\ai-edu\实践案例\B15-基于深度学习的代码搜索案例\src\2PreProcessData\codenn-step1-clean.py,main,columns_and_datatype_not_explicitly_set,29
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\ai-edu\实践案例\B15-基于深度学习的代码搜索案例\src\2PreProcessData\codenn-step2-split.py,main,columns_and_datatype_not_explicitly_set,21
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\ai-edu\实践案例\B15-基于深度学习的代码搜索案例\src\2PreProcessData\codenn-step3-convert.py,main,columns_and_datatype_not_explicitly_set,21
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\microsoft\ai-edu\实践案例\B15-基于深度学习的代码搜索案例\src\helper\vocabulary.py,heuristic_sequence_length,columns_and_datatype_not_explicitly_set,77

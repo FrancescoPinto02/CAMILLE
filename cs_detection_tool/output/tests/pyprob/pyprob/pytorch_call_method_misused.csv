@@ -1,0 +1,2 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\pyprob\pyprob\pyprob\model.py,_trace_generator,pytorch_call_method_misused,43

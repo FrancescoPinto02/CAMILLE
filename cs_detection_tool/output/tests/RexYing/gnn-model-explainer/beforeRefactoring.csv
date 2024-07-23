@@ -1,0 +1,4 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\RexYing\gnn-model-explainer\utils\io_utils.py,build_aromaticity_dataset,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\RexYing\gnn-model-explainer\utils\io_utils.py,read_biosnap,3,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\RexYing\gnn-model-explainer\utils\io_utils.py,read_biosnap,3,dataframe_conversion_api_misused,Please consider to use numpy instead values to convert dataframe. The function 'values' is deprecated.The value return of this function is unclear.

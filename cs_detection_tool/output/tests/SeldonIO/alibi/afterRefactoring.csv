@@ -1,0 +1,3 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\alibi\alibi\explainers\ale.py,ale_num,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\SeldonIO\alibi\alibi\explainers\backends\cfrl_tabular.py,apply_category_mapping,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

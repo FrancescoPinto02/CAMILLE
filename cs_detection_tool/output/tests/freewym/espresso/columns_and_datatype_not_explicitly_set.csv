@@ -1,0 +1,7 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\freewym\espresso\examples\MMPT\mmpt\processors\dsprocessor.py,__init__,columns_and_datatype_not_explicitly_set,128
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\freewym\espresso\examples\MMPT\mmpt\processors\dsprocessor.py,__init__,columns_and_datatype_not_explicitly_set,134
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\freewym\espresso\examples\MMPT\mmpt\processors\dsprocessor.py,__init__,columns_and_datatype_not_explicitly_set,135
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\freewym\espresso\examples\MMPT\mmpt\processors\dsprocessor.py,__init__,columns_and_datatype_not_explicitly_set,207
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\freewym\espresso\examples\MMPT\scripts\video_feature_extractor\videoreader.py,__init__,columns_and_datatype_not_explicitly_set,29
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\freewym\espresso\examples\speech_to_text\data_utils.py,load_df_from_tsv,columns_and_datatype_not_explicitly_set,207

@@ -1,0 +1,6 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\r9y9\nnsvs\nnsvs\model.py,inference,pytorch_call_method_misused,450
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\r9y9\nnsvs\nnsvs\model.py,inference,pytorch_call_method_misused,536
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\r9y9\nnsvs\nnsvs\model.py,inference,pytorch_call_method_misused,619
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\r9y9\nnsvs\nnsvs\model.py,inference,pytorch_call_method_misused,699
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\r9y9\nnsvs\nnsvs\model.py,inference,pytorch_call_method_misused,769

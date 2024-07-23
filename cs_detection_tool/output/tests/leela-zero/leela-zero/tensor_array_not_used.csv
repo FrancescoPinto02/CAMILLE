@@ -1,0 +1,2 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\leela-zero\leela-zero\training\minigo\convert_minigo.py,getMinigoWeightsV2,tensor_array_not_used,70

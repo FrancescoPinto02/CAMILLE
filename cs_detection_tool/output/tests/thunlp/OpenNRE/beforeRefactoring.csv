@@ -1,0 +1,7 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\thunlp\OpenNRE\opennre\framework\bag_re.py,train_model,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\thunlp\OpenNRE\opennre\framework\multi_label_sentence_re.py,train_model,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\thunlp\OpenNRE\opennre\framework\sentence_re.py,train_model,2,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\thunlp\OpenNRE\opennre\model\bag_attention.py,infer,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\thunlp\OpenNRE\opennre\model\bag_one.py,infer,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\thunlp\OpenNRE\opennre\model\softmax_nn.py,infer,1,pytorch_call_method_misused,is recommended to use self.net()

@@ -1,0 +1,1 @@
+Error in file C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\veaba\ncov\ai\split-chinese\python-parser-covid-19-china-report.py: invalid syntax (<unknown>, line 4)Error in file C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\veaba\ncov\ai\split-chinese\python-parser-covid-19-china-report.py: invalid syntax (<unknown>, line 4)

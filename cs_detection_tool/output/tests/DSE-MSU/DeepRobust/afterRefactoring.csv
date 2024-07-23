@@ -1,0 +1,8 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DSE-MSU\DeepRobust\deeprobust\graph\defense\simpgcn.py,_train_without_val,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DSE-MSU\DeepRobust\deeprobust\graph\targeted_attack\ugba.py,test,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DSE-MSU\DeepRobust\deeprobust\graph\targeted_attack\ugba.py,test,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DSE-MSU\DeepRobust\deeprobust\graph\targeted_attack\ugba.py,test_with_correct_nodes,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DSE-MSU\DeepRobust\deeprobust\graph\targeted_attack\ugba.py,test_with_correct_nodes,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DSE-MSU\DeepRobust\deeprobust\image\attack\deepfool.py,deepfool,3,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\DSE-MSU\DeepRobust\deeprobust\image\defense\YOPO.py,train_one_epoch,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().

@@ -1,0 +1,8 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\anil_fc100.py,main,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\anilkfo_cifarfs.py,main,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\distributed_maml.py,main,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\maml_miniimagenet.py,main,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\maml_omniglot.py,main,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\mamlpp\maml++_miniimagenet.py,train,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\learnables\learn2learn\examples\vision\metacurvature_fc100.py,main,1,gradients_not_cleared_before_backward_propagation,Please consider to use zero_grad() before backward().

@@ -1,0 +1,5 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\junyanz\pytorch-CycleGAN-and-pix2pix\models\base_model.py,test,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\junyanz\pytorch-CycleGAN-and-pix2pix\models\cycle_gan_model.py,optimize_parameters,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\junyanz\pytorch-CycleGAN-and-pix2pix\models\pix2pix_model.py,optimize_parameters,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\junyanz\pytorch-CycleGAN-and-pix2pix\models\template_model.py,optimize_parameters,1,pytorch_call_method_misused,is recommended to use self.net()

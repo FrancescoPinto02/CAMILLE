@@ -1,0 +1,2 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\open_model_zoo\tools\accuracy_checker\accuracy_checker\annotation_converters\electricity_time_series_forecasting.py,aggregating_to_hourly_data,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

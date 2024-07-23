@@ -1,0 +1,7 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\activations\density\fit_density.py,main,in_place_apis_misused,343
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\activations\tsne\fit_model.py,main,in_place_apis_misused,172
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\activations\tsne\visualize.py,main,in_place_apis_misused,234
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\visualize\noisy_observations.py,main,in_place_apis_misused,187
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\visualize\scores.py,main,in_place_apis_misused,212
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\visualize\training.py,main,in_place_apis_misused,523

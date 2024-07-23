@@ -1,0 +1,10 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\pytext\pytext\models\seq_models\mask_generator.py,generate_hypo,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\pytext\pytext\torchscript\module.py,make_prediction,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\pytext\pytext\torchscript\module.py,make_prediction,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\pytext\pytext\torchscript\module.py,make_prediction,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\pytext\pytext\torchscript\module.py,make_prediction,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\pytext\pytext\torchscript\module.py,make_prediction,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\pytext\pytext\torchscript\module.py,make_prediction,1,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\pytext\pytext\torchscript\module.py,make_prediction,2,pytorch_call_method_misused,is recommended to use self.net()
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\pytext\pytext\torchscript\seq2seq\scripted_seq2seq_generator.py,generate_hypo,1,pytorch_call_method_misused,is recommended to use self.net()

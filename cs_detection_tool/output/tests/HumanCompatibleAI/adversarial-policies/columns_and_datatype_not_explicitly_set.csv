@@ -1,0 +1,17 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\experiments\planning\common.py,multi_evaluate,columns_and_datatype_not_explicitly_set,94
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\activations\density\fit_density.py,_load_and_reshape_single_file,columns_and_datatype_not_explicitly_set,162
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\activations\density\visualize.py,load_metadata,columns_and_datatype_not_explicitly_set,69
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\activations\density\visualize.py,heatmap_plot,columns_and_datatype_not_explicitly_set,155
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\activations\tsne\fit_model.py,_load_and_reshape_single_file,columns_and_datatype_not_explicitly_set,60
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\activations\tsne\visualize.py,_visualize_helper,columns_and_datatype_not_explicitly_set,187
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\visualize\noisy_observations.py,generate_plots,columns_and_datatype_not_explicitly_set,137
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\visualize\noisy_observations.py,generate_plots,columns_and_datatype_not_explicitly_set,143
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\visualize\training.py,_aggregate_data,columns_and_datatype_not_explicitly_set,42
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\visualize\util.py,load_scores,columns_and_datatype_not_explicitly_set,48
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\visualize\util.py,apply_per_env,columns_and_datatype_not_explicitly_set,196
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\visualize\util.py,_pretty_heatmap,columns_and_datatype_not_explicitly_set,312
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\activations\density\fit_density.py,_load_and_reshape_single_file,columns_and_datatype_not_explicitly_set,143
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\activations\density\visualize.py,heatmap_plot,columns_and_datatype_not_explicitly_set,116
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\activations\tsne\fit_model.py,_load_and_reshape_single_file,columns_and_datatype_not_explicitly_set,56
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\HumanCompatibleAI\adversarial-policies\src\aprl\visualize\util.py,load_scores,columns_and_datatype_not_explicitly_set,40

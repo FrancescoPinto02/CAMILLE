@@ -1,0 +1,2 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\YosefLab\scVI\src\scvi\model\_scanvi.py,_get_fields_for_adata_minification,in_place_apis_misused,502

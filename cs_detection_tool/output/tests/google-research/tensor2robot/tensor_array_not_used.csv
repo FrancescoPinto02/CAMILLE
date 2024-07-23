@@ -1,0 +1,5 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\google-research\tensor2robot\preprocessors\image_transformations_test.py,testCustomCrop,tensor_array_not_used,275
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\google-research\tensor2robot\utils\tensorspec_utils_test.py,test_pad_or_clip_tensor_to_spec_shape,tensor_array_not_used,708
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\google-research\tensor2robot\preprocessors\image_transformations_test.py,testCustomCrop,tensor_array_not_used,227
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\google-research\tensor2robot\utils\tensorspec_utils_test.py,test_pad_or_clip_tensor_to_spec_shape,tensor_array_not_used,536

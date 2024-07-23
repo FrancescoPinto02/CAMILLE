@@ -1,0 +1,12 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\hunglc007\tensorflow-yolov4-tflite\detect.py,main,tensor_array_not_used,59
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\hunglc007\tensorflow-yolov4-tflite\detect.py,main,tensor_array_not_used,61
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\hunglc007\tensorflow-yolov4-tflite\detectvideo.py,main,tensor_array_not_used,84
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\hunglc007\tensorflow-yolov4-tflite\detectvideo.py,main,tensor_array_not_used,87
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\hunglc007\tensorflow-yolov4-tflite\save_model.py,save_tf,tensor_array_not_used,46
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\hunglc007\tensorflow-yolov4-tflite\core\yolov4.py,filter_boxes,tensor_array_not_used,292
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\hunglc007\tensorflow-yolov4-tflite\detect.py,main,tensor_array_not_used,52
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\hunglc007\tensorflow-yolov4-tflite\detect.py,main,tensor_array_not_used,56
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\hunglc007\tensorflow-yolov4-tflite\detectvideo.py,main,tensor_array_not_used,81
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\hunglc007\tensorflow-yolov4-tflite\detectvideo.py,main,tensor_array_not_used,85
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\hunglc007\tensorflow-yolov4-tflite\save_model.py,save_tf,tensor_array_not_used,57

@@ -1,0 +1,7 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\_compat.py,deprecated_submodule,1,in_place_apis_misused,We suggest developers check whether the result of the operation is assigned to a variable or the in-place parameter is set in the API. Some developers hold the view that the in-place operation will save memory
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\experiments\xeb_simulation.py,simulate_2q_xeb_circuits,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-core\cirq\work\observable_measurement.py,measure_observables_df,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-ionq\cirq_ionq\sampler_test.py,test_sampler_multiple_jobs,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-ionq\cirq_ionq\sampler_test.py,test_sampler_qpu,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\quantumlib\Cirq\cirq-ionq\cirq_ionq\sampler_test.py,test_sampler_simulator,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

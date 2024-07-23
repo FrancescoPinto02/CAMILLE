@@ -1,0 +1,3 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\zalandoresearch\pytorch-ts\pts\modules\flows.py,log_prob,pytorch_call_method_misused,300
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\zalandoresearch\pytorch-ts\pts\modules\flows.py,log_prob,pytorch_call_method_misused,340

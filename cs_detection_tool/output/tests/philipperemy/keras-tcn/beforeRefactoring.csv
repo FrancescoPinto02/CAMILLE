@@ -1,0 +1,2 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\philipperemy\keras-tcn\tasks\word_ptb\plot.py,keras_output_to_data_frame,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

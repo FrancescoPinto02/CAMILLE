@@ -1,0 +1,6 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ray-project\ray\python\ray\data\tests\test_consumption.py,test_iter_tf_batches,dataframe_conversion_api_misused,1288
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ray-project\ray\python\ray\data\tests\test_torch.py,test_to_torch,dataframe_conversion_api_misused,31
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ray-project\ray\python\ray\data\tests\test_torch.py,test_iter_torch_batches,dataframe_conversion_api_misused,288
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ray-project\ray\python\ray\serve\tests\test_regression.py,test_fastapi_serialization,dataframe_conversion_api_misused,49
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\ray-project\ray\python\ray\serve\tests\test_regression.py,_deduplicate,dataframe_conversion_api_misused,49

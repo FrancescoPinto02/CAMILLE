@@ -1,0 +1,7 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GoogleCloudPlatform\python-docs-samples\composer\2022_airflow_summit\data_analytics_process_expansion.py,phx_dw_compute,columns_and_datatype_not_explicitly_set,145
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GoogleCloudPlatform\python-docs-samples\generative_ai\gemini_rapid_evaluation.py,create_evaluation_task,columns_and_datatype_not_explicitly_set,31
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GoogleCloudPlatform\python-docs-samples\people-and-planet-ai\timeseries-classification\data_utils.py,with_fixed_time_steps,columns_and_datatype_not_explicitly_set,41
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GoogleCloudPlatform\python-docs-samples\people-and-planet-ai\timeseries-classification\data_utils.py,read_labels,columns_and_datatype_not_explicitly_set,62
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GoogleCloudPlatform\python-docs-samples\composer\2022_airflow_summit\data_analytics_process_expansion.py,phx_dw_compute,columns_and_datatype_not_explicitly_set,51
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GoogleCloudPlatform\python-docs-samples\generative_ai\gemini_rapid_evaluation.py,create_evaluation_task,columns_and_datatype_not_explicitly_set,10

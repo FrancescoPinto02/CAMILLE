@@ -1,0 +1,16 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\src\otx\algo\anomaly\openvino_model.py,test_step,pytorch_call_method_misused,203
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\src\otx\algo\anomaly\openvino_model.py,predict_step,pytorch_call_method_misused,207
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\src\otx\core\model\base.py,training_step,pytorch_call_method_misused,137
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\src\otx\core\model\base.py,validation_step,pytorch_call_method_misused,177
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\src\otx\core\model\base.py,test_step,pytorch_call_method_misused,202
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\src\otx\core\model\base.py,predict_step,pytorch_call_method_misused,230
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\src\otx\core\model\detection.py,test_step,pytorch_call_method_misused,55
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\src\otx\core\model\detection.py,predict_step,pytorch_call_method_misused,83
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\src\otx\core\model\detection.py,forward_tiles,pytorch_call_method_misused,243
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\src\otx\core\model\instance_segmentation.py,forward_tiles,pytorch_call_method_misused,221
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\src\otx\core\model\visual_prompting.py,training_step,pytorch_call_method_misused,386
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\src\otx\core\model\visual_prompting.py,training_step,pytorch_call_method_misused,1279
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\src\otx\core\model\detection.py,test_step,pytorch_call_method_misused,40
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\src\otx\core\model\detection.py,predict_step,pytorch_call_method_misused,60
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\opencv\openvino_training_extensions\src\otx\core\model\instance_segmentation.py,forward_tiles,pytorch_call_method_misused,167

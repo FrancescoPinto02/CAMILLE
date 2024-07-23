@@ -1,0 +1,3 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\mmf\mmf\datasets\builders\charades\_utils.py,make_charades_df,columns_and_datatype_not_explicitly_set,17
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\facebookresearch\mmf\mmf\datasets\builders\retrieval\datasets.py,_load_annotation_db,columns_and_datatype_not_explicitly_set,101

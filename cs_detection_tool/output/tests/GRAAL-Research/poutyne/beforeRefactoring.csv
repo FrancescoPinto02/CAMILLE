@@ -1,0 +1,4 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GRAAL-Research\poutyne\poutyne\framework\model_bundle.py,_test,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GRAAL-Research\poutyne\poutyne\framework\model_bundle.py,get_stats,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\GRAAL-Research\poutyne\tests\framework\experiment\test_experiment.py,_test_train_integration,2,columns_and_datatype_not_explicitly_set,columns and datatype not explicit

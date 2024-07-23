@@ -1,0 +1,8 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cisco\mindmeld\mindmeld\models\nn_utils\classification.py,fit,pytorch_call_method_misused,247
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cisco\mindmeld\mindmeld\models\nn_utils\sequence_classification.py,_forward_with_batching_and_no_grad,pytorch_call_method_misused,147
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cisco\mindmeld\mindmeld\models\nn_utils\token_classification.py,predict,pytorch_call_method_misused,162
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cisco\mindmeld\mindmeld\models\nn_utils\token_classification.py,predict_proba,pytorch_call_method_misused,199
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cisco\mindmeld\mindmeld\models\taggers\pytorch_crf.py,train_one_epoch,pytorch_call_method_misused,636
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cisco\mindmeld\mindmeld\models\taggers\pytorch_crf.py,run_predictions,pytorch_call_method_misused,673
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cisco\mindmeld\mindmeld\models\taggers\pytorch_crf.py,closure,pytorch_call_method_misused,636

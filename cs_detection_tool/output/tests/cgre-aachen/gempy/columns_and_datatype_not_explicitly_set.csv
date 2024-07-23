@@ -1,0 +1,5 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cgre-aachen\gempy\examples\integrations\gempy_subsurface.py,get_interface_coord_from_surfaces,columns_and_datatype_not_explicitly_set,99
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cgre-aachen\gempy\gempy\core\data\DEP_xsolution.py,set_meshes,columns_and_datatype_not_explicitly_set,92
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cgre-aachen\gempy\examples\integrations\gempy_subsurface.py,get_interface_coord_from_surfaces,columns_and_datatype_not_explicitly_set,45
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\cgre-aachen\gempy\gempy\core\data\DEP_xsolution.py,set_meshes,columns_and_datatype_not_explicitly_set,74

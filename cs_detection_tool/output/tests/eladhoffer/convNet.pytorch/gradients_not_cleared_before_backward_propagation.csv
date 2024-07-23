@@ -1,0 +1,4 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\eladhoffer\convNet.pytorch\trainer.py,_grad_norm,gradients_not_cleared_before_backward_propagation,102
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\eladhoffer\convNet.pytorch\trainer.py,_step,gradients_not_cleared_before_backward_propagation,162
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\eladhoffer\convNet.pytorch\trainer.py,_step,gradients_not_cleared_before_backward_propagation,144

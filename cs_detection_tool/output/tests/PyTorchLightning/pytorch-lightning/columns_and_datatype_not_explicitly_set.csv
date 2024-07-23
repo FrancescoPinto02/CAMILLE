@@ -1,0 +1,4 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PyTorchLightning\pytorch-lightning\tests\parity_pytorch\generate_comparison.py,_main,columns_and_datatype_not_explicitly_set,36
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PyTorchLightning\pytorch-lightning\tests\parity_pytorch\generate_comparison.py,_main,columns_and_datatype_not_explicitly_set,42
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\PyTorchLightning\pytorch-lightning\tests\parity_pytorch\generate_comparison.py,_main,columns_and_datatype_not_explicitly_set,26

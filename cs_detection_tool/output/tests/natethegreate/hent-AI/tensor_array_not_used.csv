@@ -1,0 +1,5 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\natethegreate\hent-AI\mrcnn\model.py,detection_targets_graph,tensor_array_not_used,568
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\natethegreate\hent-AI\mrcnn\model.py,norm_boxes_graph,tensor_array_not_used,2857
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\natethegreate\hent-AI\mrcnn\model.py,denorm_boxes_graph,tensor_array_not_used,2874
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\natethegreate\hent-AI\mrcnn\model.py,detection_targets_graph,tensor_array_not_used,422

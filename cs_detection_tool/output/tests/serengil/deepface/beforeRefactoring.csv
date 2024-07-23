@@ -1,0 +1,5 @@
+filename,function_name,smell,name_smell,message
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\serengil\deepface\deepface\detectors\Ssd.py,detect_faces,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\serengil\deepface\deepface\modules\recognition.py,find,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\serengil\deepface\deepface\modules\streaming.py,overlay_emotion,1,columns_and_datatype_not_explicitly_set,columns and datatype not explicit
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\serengil\deepface\deepface\modules\streaming.py,overlay_emotion,1,unnecessary_iteration,"Iterating through pandas objects is generally slow. In many cases, iterating manually over the rows is not needed and can be avoided Pandas’ built-in methods (e.g., join, groupby) are vectorized. It is therefore recommended to use Pandas built-in methods as an alternative to loops."

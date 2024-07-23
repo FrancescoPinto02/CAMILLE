@@ -1,0 +1,8 @@
+filename,function_name,smell_name,line
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\AIX360\aix360\algorithms\gce\gce.py,explain_instance,dataframe_conversion_api_misused,288
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\AIX360\aix360\algorithms\gce\gce.py,explain_instance,dataframe_conversion_api_misused,302
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\AIX360\aix360\algorithms\gce\gce.py,explain_instance,dataframe_conversion_api_misused,323
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\AIX360\aix360\algorithms\nncontrastive\embedding.py,preprocess,dataframe_conversion_api_misused,200
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\AIX360\tests\tsice\test_tsice.py,_series_to_supervised,dataframe_conversion_api_misused,44
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\AIX360\tests\tslime\test_tslime.py,_series_to_supervised,dataframe_conversion_api_misused,42
+C:\Users\Francesco\PycharmProjects\CAMILLE\cs_detection_tool\input\tests\IBM\AIX360\tests\tssaliency\test_tssaliency.py,_series_to_supervised,dataframe_conversion_api_misused,42
